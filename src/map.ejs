@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<%
+config  = {
+  directory_pos : "./",
+  page_id : "map",
+  gnav_set : "map",
+  page_class: "lower ",
+  url : "map.html",
+  title: "現地案内図｜【公式】ザ・四条烏丸レジデンス｜四条烏丸のマンション｜住友不動産",
+  keywords: "現地案内図,ザ・四条烏丸レジデンス,四条烏丸 マンション,四条烏丸 新築マンション,四条烏丸,烏丸駅,阪急京都線,下京区油小路,マンション,新築マンション,分譲マンション,住友不動産",
+  description: "現地案内図ページ。阪急京都線「烏丸駅」まで徒歩7分。住友不動産の新築マンションが四条烏丸に誕生。【すみふ四条烏丸】下京区油小路のマンションなら住友不動産。",
+  add_stylesheet: ["static/css/lower.css"],
+  foot_annotaion: "※掲載の現地案内図は一部道路・施設等を抜粋して表記しています。",
+  add_script:  []
+};
+%><%-  include("_header",{ config:config});  %>
+<main>
+
+  <div class="content-inner">
+    <h2 class="page-title js-scroll"><span class="font-size400">MAP</span>現地案内図</h2>
+
+    <div class="map-image">
+      <div class="image js-scroll swipe-img"><img src="./static/images/map/map.jpg" alt="現地案内図"></div>
+      <p class="swipe"><img src="./static/images/common/icon_swipe.svg" alt="左右にスワイプできます。"></p>
+      <p class="text01 js-scroll">京都市下京区油小路通四条下る石井筒町536番1（地番）</p>
+      <!--<p class="annotation js-scroll">※掲載の現地案内図は一部道路・施設等を抜粋して表記しています。</p>-->
+    </div><!-- map-image -->
+
+    <ul class="link-buttons js-scroll">
+      <li class="link"><a href="https://goo.gl/maps/Shc84Cpzgks2mBMP7" target="_blank">Google Mapsで見る</a></li>
+      <li class="link02 pc"><a href="#" class="print">印刷する</a></li>
+    </ul>
+  </div>
+
+
+  <p class="page-annotation js-scroll wrap"><%- config.foot_annotaion %></p>
+</main>
+
+<%-  include("_footer",{config:config}); %>
+
+</body>
+</html>
