@@ -1,0 +1,556 @@
+@charset "utf-8";
+/* 
+  css設定 @charsetが消されるsass仕様へのハック用コメントです。削除しないでください。新規作成時も必須！
+ */
+@import "inc/mixin.scss";
+@import "inc/functions.scss";
+@import "inc/param.scss";
+
+.location01 {
+
+  main img {
+    max-width: 100%;
+  }
+
+  main {
+    font-family: 'RyuminPro', serif;
+  }
+  .page-annotation {
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+  .main-visual {
+    position: relative;
+    line-height: 0;
+    border: none;
+    .page-lead {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      text-align: center;
+      color: #fff;
+      font-size: 54px;
+      width: 90%;
+    }
+  }
+  .sections {
+    background-color: #B4A064;
+    line-height: 0;
+    .section-img {
+      position: relative;
+      .annotation {
+        bottom: -12px;
+        color: #fff;
+      }
+    }
+    .section-title {
+      font-size: 27px;
+      padding-top: 95px;
+      position: relative;
+      margin-bottom: 80px;
+      &::after {
+        content: "";
+        display: block;
+        width: 125px;
+        height: 125px;
+        background-color: #0E3521;
+        position: absolute;
+        top: 0;
+        right: 100%;
+        margin-right: 20px;
+      }
+    }
+    .inner {
+      margin: 0 auto;
+      width: 90%;
+      max-width: 690px;
+    }
+    .lead {
+      font-size: 57px;
+      padding-bottom: 65px;
+      line-height: 1.5;
+      color: #fff;
+    }
+    .lead02 {
+      font-size: 35px;
+      padding-bottom: 45px;
+      line-height: 1.8;
+      color: #fff;
+      .mini {
+        font-size: 70%;
+      }
+    }
+    .text {
+      font-size: 24px;
+      line-height: 2.1;
+      color: #fff;
+    }
+    .img {
+      padding-top: 45px;
+      padding-bottom: 8px;
+    }
+    .annotation {
+      font-size: 10px;
+      text-align: right;
+    }
+  }//sections
+
+  .intro {
+    padding-bottom: 180px;
+    .lead {
+      font-size: 83px;
+      line-height: 1.5;
+    }
+  }//intro
+  main {
+    padding-bottom: 140px;
+  }
+  .valuable {
+    .imgs-lists {
+      padding-top: 45px;
+      display: flex;
+      align-items: flex-end;
+      li {
+        position: relative;
+      }
+      .img {
+        padding: 0;
+      }
+      .cond01 {
+        width: 70%;
+        .annotation {
+          bottom: -12px;
+          color: #fff;
+        }
+      }
+      .cond02 {
+        width: 25%;
+        padding-left: 5%;
+      }
+    }//imgs-lists
+    .wrap.cond01 {
+      padding-bottom: 190px;
+    }
+    .wrap.cond02 {
+      padding-bottom: 190px;
+      .imgs-lists {
+        align-items: center;
+        .cond01 {
+          width: 45%;
+        }
+        .cond02 {
+          width: 52%;
+          padding-left: 3%;
+        }
+      }
+    }
+  }//valuable
+  .reborn {
+    .img {
+      position: relative;
+      .annotation {
+        color: #fff;
+      }
+    }
+    .image01 {
+      margin-bottom : 65px;
+    }
+    .stations {
+      display: flex;
+      align-items: stretch;
+      background-color: #E2DBC5;
+      .txt01 {
+        text-align: center;
+        padding-bottom: 12px;
+        color: #C30D75;
+        font-size: 30px;
+        border-bottom: 1px solid #000000;
+        margin-bottom: 18px;
+      }
+      .txt02 {
+        margin: 0 auto;
+        width: 80%;
+        font-size: 20px;
+      }
+      .imgs {
+        padding: 0;
+        width: 60%;
+      }
+      .texts {
+        margin: 0 auto;
+        width: 90%;
+      }
+      .text-box {
+        width: 40%;
+        position: relative;
+        p {
+          line-height: 1.5;
+        }
+        .img {
+          position: absolute;
+          padding: 15px 0 0;
+          bottom: 0;
+        }
+      }
+    }
+    .station01 {
+      margin-bottom: 75px;
+      .text-box {
+        padding-top: 25px;
+        order: 1;
+      }
+      .imgs {
+        order: 2;
+      }
+    }
+    .station02 {
+      margin-bottom: 75px;
+      .text-box {
+        display: flex;
+        align-items: center;
+      }
+    }
+    .lists-wrap {
+      padding-bottom: 180px;
+      .list-annotation {
+        width: 66%;
+        padding-top: 20px;
+        font-size: 10px;
+        text-align: right;
+        color: #fff;
+        margin: 0 auto;
+      }
+      .lists {
+         text-align: center;
+         font-size: 0;
+      }
+      li {
+        width: 32%;
+        display: inline-block;
+        margin-right: 2%;
+        margin-bottom: 45px;
+        &:nth-child(3n){
+          margin-right: auto;
+        }
+        &:last-child {
+          margin-right: auto;
+        }
+      }
+      .list02 {
+        li {
+          margin-bottom: 2px;
+        }
+      }
+      .img {
+        padding: 0 ;
+      }
+      .name {
+        text-align: center;
+        padding: 20px 5px;
+        line-height: 1.5;
+        background-color: #fff;
+        color: #C30D75;
+        font-size: 24px;
+      }
+    }
+  }//REBORN
+  .planning {
+    padding-bottom: 110px;
+    margin-bottom: 120px;
+    .img {
+      position: relative;
+      .annotation {
+        color: #fff;
+      }
+    }
+    .points {
+      padding-top: 65px;
+      counter-reset: count;
+      li {
+        counter-increment: count;
+        line-height: 1.8;
+        position: relative;
+        margin-left: 35px;
+        margin-bottom: 14px;
+        padding: 5px 15px;
+        color: #0E3521;
+        font-size: 24px;
+        border-top: 1px solid #0E3521;
+        border-left: 1px solid #0E3521;
+        &::after {
+          position: absolute;
+          content: counter(count);
+          display: block;
+          top: 50%;
+          right: 100%;
+          margin-right: 15px;
+          font-size: 20px;
+          transform: translateY(-50%);
+        }
+      }
+    }
+    .points-annotation {
+      line-height: 1.9;
+      color: #fff;
+      text-align: right;
+      font-size: 10px;
+    }
+    .imgs-lists {
+      padding-top: 45px;
+      display: flex;
+      align-items: flex-end;
+      li {
+        position: relative;
+      }
+      .img {
+        padding: 0;
+      }
+      .cond01 {
+        width: 72%;
+        .annotation {
+          bottom: -12px;
+          color: #fff;
+        }
+      }
+      .cond02 {
+        width: 25%;
+        padding-left: 3%;
+      }
+    }//imgs-lists
+  }//planning
+  @media screen and (max-width: 1300px) {
+  }
+  @media screen and (max-width: 1024px) {
+      
+    .reborn {
+      .image01 {
+        margin-bottom : 65px;
+      }
+      .stations {
+        display: block;
+        .txt01 {
+          padding-bottom: 12px;
+          font-size: 30px;
+          margin-bottom: 18px;
+        }
+        .txt02 {
+          width: auto;
+          font-size: 20px;
+        }
+        .imgs {
+          width: auto;
+        }
+        .texts {
+          margin: 30px auto;
+          width: 90%;
+        }
+        .text-box {
+          width: auto;
+        }
+      }
+      .station01 {
+        margin-bottom: 75px;
+        .text-box {
+          padding-top: 0;
+          .img {
+            position: static;
+          }
+        }
+      }
+      .station02 {
+        margin-bottom: 75px;
+        padding-bottom: 35px;
+        .text-box {
+          display: block;
+        }
+      }
+      .lists-wrap {
+        .list-annotation {
+          width: 80%;
+          margin: 0 auto;
+        }
+        .lists {
+        }
+        li {
+          margin:  0 auto;
+          width: 80%;
+          display: block;
+          margin-right: auto;
+          margin-bottom: 35px;
+        }
+        .list02 {
+          li {
+            margin-bottom: 35px;
+          }
+        }
+      }
+    }//REBORN
+  }
+  @media screen and (max-width: 768px) {
+
+    .main-visual {
+      .page-lead {
+        font-size: 30px;
+      }
+    }
+    .sections {
+      .section-title {
+        font-size: 20px;
+        padding-top: 45px;
+        margin-bottom: 30px;
+        &::after {
+          width: 45px;
+          height: 45px;
+          margin-right: 10px;
+        }
+      }
+      .inner {
+        margin: 0 auto;
+        width: 70%;
+      }
+      .lead {
+        font-size: 30px;
+        padding-bottom: 35px;
+      }
+      .lead02 {
+        font-size: 20px;
+        padding-bottom: 25px;
+      }
+      .text {
+        font-size: 17px;
+      }
+      .img {
+        padding-top: 25px;
+        padding-bottom: 6px;
+      }
+    }//sections
+
+    .intro {
+      padding-bottom: 100px;
+      .section-title {
+        margin-bottom: 40px;
+      }
+      .lead {
+        font-size: 30px;
+        padding-bottom: 30px;
+      }
+    }//intro
+    main {
+      padding-bottom: 100px;
+    }
+  .valuable {
+    .imgs-lists {
+      padding-top: 45px;
+      display: block;
+      width: 100%;
+      .cond01 {
+        margin-bottom: 30px;
+        width: auto;
+      }
+      .cond02 {
+        width: 45%;
+        padding-left: 0;
+      }
+    }//imgs-lists
+    .wrap.cond01 {
+      padding-bottom: 60px;
+    }
+    .wrap.cond02 {
+      padding-bottom: 110px;
+      .imgs-lists {
+        .cond01 {
+          margin-bottom: 50px;
+          width: auto;
+        }
+        .cond02 {
+          width: auto;
+          padding-left: 0;
+        }
+      }
+    }
+  }//valuable
+  .reborn {
+    .image01 {
+      margin-bottom : 65px;
+    }
+    .stations {
+      .txt01 {
+        padding-bottom: 12px;
+        font-size: 30px;
+      }
+      .txt02 {
+        width: 80%;
+        font-size: 20px;
+      }
+      .texts {
+        margin: 0 auto;
+        width: 90%;
+      }
+    }
+    .station01 {
+      margin-bottom: 75px;
+      .text-box {
+        padding-top: 25px;
+        order: 1;
+      }
+      .imgs {
+        order: 2;
+      }
+    }
+    .station02 {
+      margin-bottom: 75px;
+      .text-box {
+        padding-top: 25px;
+      }
+    }
+    .lists-wrap {
+      padding-bottom: 100px;
+      .list-annotation {
+        font-size: 10px;
+      }
+      li {
+        margin-bottom: 35px;
+      }
+      .name {
+        padding: 20px 5px;
+        font-size: 17px;
+      }
+    }
+  }//REBORN
+  .planning {
+    padding-bottom: 70px;
+    margin-bottom: 80px;
+    .points {
+      padding-top: 25px;
+      li {
+        line-height: 1.8;
+        margin-left: 25px;
+        margin-bottom: 14px;
+        padding: 5px 15px;
+        font-size: 13px;
+        &::after {
+          font-size: 13px;
+        }
+      }
+    }
+    .points-annotation {
+      line-height: 1.9;
+      color: #fff;
+      text-align: right;
+      font-size: 10px;
+    }
+    .imgs-lists {
+      padding-top: 45px;
+      display: block;
+      .cond01 {
+        width: auto;
+      }
+      .cond02 {
+        padding-top: 25px;
+        width: 55%;
+        padding-left: 0;
+      }
+    }//imgs-lists
+  }//planning
+  }
+}

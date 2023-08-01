@@ -1,0 +1,766 @@
+@charset "utf-8";
+/* 
+  css設定 @charsetが消されるsass仕様へのハック用コメントです。削除しないでください。新規作成時も必須！
+ */
+@import "inc/mixin.scss";
+@import "inc/functions.scss";
+@import "inc/param.scss";
+#adtag {
+  opacity: 0;
+}
+#access {
+
+  .blk {
+    color:#000;
+  }
+  main img {
+    max-width: 100%;
+  }
+  .img {
+    position: relative;
+  }
+
+  main {
+    font-family: 'RyuminPro', serif;
+  }
+  .page-annotation {
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+  .main-visual {
+    position: relative;
+    line-height: 0;
+    border: none;
+    .page-lead {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      text-align: center;
+      color: #fff;
+      font-size: 54px;
+      width: 90%;
+    }
+  }
+  .taxi-access,
+  .car-access,
+  .lines {
+    background-color: #B4A064;
+    color: #fff;
+  }
+  .sections {
+    background-color: #B4A064;
+    line-height: 0;
+    .section-title {
+      font-size: 27px;
+      padding-top: 95px;
+      position: relative;
+      margin-bottom: 70px;
+      &::after {
+        content: "";
+        display: block;
+        width: 125px;
+        height: 125px;
+        background-color: #0E3521;
+        position: absolute;
+        top: 0;
+        right: 100%;
+        margin-right: 20px;
+      }
+    }
+    .inner {
+      margin: 0 auto;
+      width: 90%;
+      max-width: 690px;
+    }
+    .lead {
+      font-size: 70px;
+      padding-bottom: 65px;
+      line-height: 1.5;
+      color: #fff;
+    }
+    .lead02 {
+      font-size: 38px;
+      padding-bottom: 45px;
+      line-height: 1.8;
+      color: #fff;
+    }
+    .text {
+      font-size: 22px;
+      line-height: 2.1;
+      color: #fff;
+    }
+    .img {
+      padding-top: 45px;
+      padding-bottom: 8px;
+    }
+    .annotation {
+      font-size: 10px;
+      text-align: right;
+    }
+  }//sections
+  .intro {
+    padding-bottom: 99px;
+    .lead {
+      line-height: 1.5;
+    }
+    .image01 {
+      margin-bottom: 99px;
+      .annotation {
+        bottom: -10px;
+      }
+    }
+  }//intro
+  .station-annotation {
+    font-size: 15px;
+    line-height: 1.4;
+  }
+  .station-lists {
+    li {
+      float: left;
+      line-height: 0;
+      width: 50%;
+      position: relative;
+      &:nth-child(2n+1){
+        clear: both;
+      }
+      .station-text {
+        color: #fff;
+        line-height: 1.7;
+        font-size: 22px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 90%;
+        text-align: center;
+        text-shadow: 0px 0px 8px #000,0px 0px 8px #000,0px 0px 8px #000,0px 0px 8px #000;
+        transform: translate(-50%,-50%);
+        .big {
+          font-size: 130%;
+        }
+      }
+    }
+  }//station-lists
+  .lines-title {
+    font-size: 27px;
+    padding-bottom: 45px;
+    color: #0E3521;
+  }
+  .line-name {
+    font-size: 24px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 40px;
+  }
+  .lines.line01 {
+    .station-lists {
+      padding-bottom: 50px;
+    }
+    .roots-wrap {
+      padding-bottom: 200px;
+      li {
+        margin-bottom: 55px;
+      }
+      dl {
+        position: relative;
+        overflow: hidden;
+        &::after {
+          content: "";
+          position: absolute;
+          display: block;
+          top: 50%;
+          left: 0;
+          width: 100%;
+          height: 1px;
+          background-color: #fff;
+        }
+        dt,dd {
+          background-color: #B4A064;
+          position: relative;
+          z-index: 1;
+          font-size: 22px;
+          .big {
+            font-size: 170%;
+          }
+        }
+        dt {
+          float: left;
+          padding-right: 10px;
+        }
+        dd {
+          float: right;
+          padding-left: 10px;
+        }
+      }
+      .cap {
+        font-size: 15px;
+        padding-top: 8px;
+      }
+    }
+  }
+  .lines {
+    .lead {
+      font-size: 39px;
+      line-height: 1.4;
+      padding-bottom: 60px;
+    }
+    .text {
+      font-size: 24px;
+      line-height: 1.9;
+      padding-bottom: 38px;
+    }
+    .roots-wrap {
+      li {
+        float: left;
+        width: 49%;
+        &:nth-child(2n){
+          float: right;
+        }
+        &:nth-child(2n+1){
+          clear: both;
+        }
+      }
+    }
+  }//lines
+  .lines.line02 {
+    padding-bottom: 180px;
+    .station-lists {
+      padding-bottom: 30px;
+    }
+    .station-annotation {
+      padding-bottom: 50px;
+    }
+    .img01 {
+      margin-bottom: 50px;
+      .annotation {
+        bottom: -15px;
+      }
+    }
+    .timetable {
+      background-color: #C0BBAC;
+      position: relative;
+      padding: 40px 35px;
+      .point {
+        position: absolute;
+        top: -20px;
+        left: -20px;
+        width: 198px;
+      }
+      .text01 {
+        font-size: 27px;
+        line-height: 1.7;
+        padding: 0 0 30px 180px;
+        color: #000;
+      }
+    }//timetable
+    .timetable-annotation {
+      padding-top: 6px;
+      text-align: right;
+      font-size: 15px;
+      span {
+        display: inline-block;
+        margin: 0 0px 0 15px;
+      }
+      .sub01 {
+        color: #006934;
+      }
+      .sub02 {
+        background-color: #A38A77;
+        padding: 0 5px;
+      }
+      .sub03 {
+        color: #036EB7;
+      }
+      .sub04 {
+        color: #000;
+      }
+    }//timetable-annotation
+  }//line02
+  .line03 {
+    .big-images {
+      margin-bottom: 77px;
+      .annotation {
+        bottom: -12px;
+      }
+    }
+    .img-annotation {
+      font-size: 15px;
+      line-height: 1.5;
+      padding-bottom: 99px;
+    }//img-annotation
+    .spot-wrap {
+      padding-bottom: 20px;
+      li {
+        float: left;
+        width: 32%;
+        margin-right: 2%;
+        position: relative;
+        &:nth-child(3n) {
+          margin-right: auto;
+        }
+        &:nth-child(3n+1) {
+          clear: both;
+        }
+      }
+      .spot-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        width: 80%;
+        font-size: 22px;
+        text-shadow: 0px 0px 8px #000,0px 0px 8px #000,0px 0px 8px #000,0px 0px 8px #000;
+      }
+      .big01 {
+        font-size: 180%;
+      }
+      .big02 {
+        font-size: 140%;
+      }
+    }//spot-wrap
+    .spot-annotation {
+      font-size: 15px;
+      line-height: 1.8;
+      padding-bottom: 35px;
+    }
+  }//line03
+  .lines.line04 {
+    padding-bottom: 200px;
+  }
+  .big-images {
+    position: relative;
+  }
+
+  .car-access {
+    padding-bottom: 203px;
+    .section-title {
+      padding-top: 50px;
+      font-size: 27px;
+      padding-bottom: 47px;
+      color: #0E3521;
+    }
+    .lead {
+      padding-bottom: 50px;
+      line-height: 1.5;
+      font-size: 40px;
+    }
+    .text {
+      line-height: 1.9;
+      font-size: 24px;
+      padding-bottom: 90px;
+    }
+    .img01 {
+      margin-bottom: 90px;
+    }
+    .car-roots {
+      padding-bottom: 40px;
+      .car-title {
+        font-size: 24px;
+        padding-bottom: 50px;
+      }
+      li {
+        float: left;
+        width: 49%;
+        margin-bottom: 35px;
+        &:nth-child(2n){
+          float: right;
+        }
+        &:nth-child(2n+1){
+          clear: both;
+        }
+      }
+      dl {
+        overflow: hidden;
+        border-bottom: 1px solid #fff;
+      }
+      dt {
+        float: left;
+        font-size: 19px;
+        position: relative;
+        padding-top: 16px;
+        .mini {
+          font-size: 12px;
+          position: absolute;
+          top: 0;
+          left: 4px;
+        }
+      }
+      dd {
+        float: right;
+        font-size: 22px;
+      }
+      .img {
+        margin-top: 20px;
+      }
+  }//car-roots
+  }//.car-access
+
+  .taxi-access {
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+    .big-images {
+      position: relative;
+    }
+    .section-title {
+      padding-top: 50px;
+      font-size: 27px;
+      padding-bottom: 47px;
+      color: #0E3521;
+    }
+    .lead {
+      padding-bottom: 50px;
+      line-height: 1.5;
+      font-size: 40px;
+    }
+    .taxi-title {
+      padding-bottom: 19px;
+      font-size: 14px;
+    }
+    .examples {
+
+      li {
+        float: left;
+        width: 49%;
+        &:nth-child(2n){
+          float: right;
+        }
+        &:nth-child(2n+1){
+          clear: both;
+        }
+      }
+      dl {
+        display: flex;
+        align-items: stretch;
+        text-align: center;
+        border: 1px solid #3E3A39;
+        background-color: #fff;
+        .inner {
+          width: 100%;
+        }
+      }
+      dt {
+        background: #3E3A39;
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        width: 40%;
+        font-size: 38px;
+        .big {
+          font-size: 140%;
+        }
+      }
+      dd {
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        color: #000;
+        width: 60%;
+        .text01 {
+          font-size: 32px;
+          padding-bottom: 8px;
+          margin-bottom: 8px;
+          border-bottom: 1px solid #000;
+          .big {
+            font-size: 130%;
+          }
+        }
+        .text02 {
+          font-size: 32px;
+          .big {
+            font-size: 130%;
+          }
+        }
+      }
+    }
+  }//taxi-access
+
+  main {
+    padding-bottom: 140px;
+  }
+  @media screen and (max-width: 1300px) {
+  }
+  @media screen and (max-width: 1024px) {
+  }
+  @media screen and (max-width: 768px) {
+
+    .main-visual {
+      .page-lead {
+        font-size: 24px;
+        line-height: 1.5;
+      }
+    }
+    .sections {
+      .section-title {
+        font-size: 20px;
+        padding-top: 45px;
+        margin-bottom: 30px;
+        &::after {
+          width: 45px;
+          height: 45px;
+          margin-right: 10px;
+        }
+      }
+      .inner {
+        margin: 0 auto;
+        width: 70%;
+      }
+      .lead {
+        font-size: 30px;
+        padding-bottom: 35px;
+      }
+      .lead02 {
+        font-size: 20px;
+        padding-bottom: 25px;
+      }
+      .text {
+        font-size: 17px;
+      }
+      .img {
+        padding-top: 25px;
+        padding-bottom: 6px;
+      }
+    }//sections
+  .intro {
+    padding-bottom: 70px;
+    .lead {
+      line-height: 1.5;
+    }
+    .image01 {
+      margin-bottom: 40px;
+    }
+  }//intro
+  .station-annotation {
+    font-size: 15px;
+    line-height: 1.4;
+  }
+  .station-lists {
+    li {
+      float: none;
+      width: 100%;
+      .station-text {
+        font-size: 15px;
+        width: 90%;
+      }
+    }
+  }//station-lists
+  .lines-title {
+    font-size: 18px;
+    padding-bottom: 45px;
+  }
+  .line-name {
+    font-size: 18px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+  }
+  .lines.line01 {
+    .station-lists {
+      padding-bottom: 25px;
+    }
+    .roots-wrap {
+      padding-bottom: 90px;
+      li {
+        float: none;
+        width: 100%;
+        &:nth-child(2n) {
+          float: none;
+        }
+        margin-bottom: 25px;
+      }
+      dl {
+        dt,dd {
+          font-size: 12px;
+        }
+        dt {
+          padding-right: 10px;
+        }
+        dd {
+          padding-left: 10px;
+        }
+      }
+      .cap {
+        font-size: 15px;
+        padding-top: 8px;
+      }
+    }
+  }
+  .lines {
+    .lead {
+      font-size: 24px;
+      line-height: 1.4;
+      padding-bottom: 25px;
+    }
+    .text {
+      font-size: 16px;
+      line-height: 1.9;
+      padding-bottom: 38px;
+    }
+  }//lines
+  .lines.line02 {
+    padding-bottom: 80px;
+    .station-lists {
+      padding-bottom: 15px;
+    }
+    .station-annotation {
+      padding-bottom: 25px;
+    }
+    .img01 {
+      margin-bottom: 35px;
+    }
+    .timetable {
+      padding: 40px 10px;
+      .point {
+        position: static;
+        width: 140px;
+        margin: 0 auto 20px;
+      }
+      .text01 {
+        font-size: 15px;
+        padding: 30px 0;
+        color: #000;
+        br {
+          display: none;
+        }
+      }
+    }//timetable
+    .timetable-annotation {
+      font-size: 11px;
+      span {
+        margin: 0 0px 0 7px;
+      }
+    }//timetable-annotation
+  }//line02
+  .line03 {
+    .big-images {
+      margin-bottom: 27px;
+    }
+    .img-annotation {
+      padding-top: 9px;
+      font-size: 12px;
+      padding-bottom: 99px;
+    }//img-annotation
+    .spot-wrap {
+      padding-bottom: 20px;
+      li {
+        float: none;
+        width: auto;
+        margin-right: auto;
+        line-height: 0;
+        p {
+          line-height: 1.7;
+        }
+      }
+      .spot-text {
+        font-size: 15px;
+      }
+    }//spot-wrap
+    .spot-annotation {
+      font-size: 12px;
+      line-height: 1.8;
+      padding-bottom: 35px;
+    }
+  }//line03
+  .lines.line04 {
+    padding-bottom: 80px;
+  }
+  .big-images {
+    position: relative;
+  }
+
+  .car-access {
+    padding-bottom: 100px;
+    .section-title {
+      padding-top: 25px;
+      font-size: 18px;
+      padding-bottom: 27px;
+    }
+    .lead {
+      padding-bottom: 25px;
+      font-size: 20px;
+    }
+    .text {
+      font-size: 18px;
+      padding-bottom: 50px;
+    }
+    .img01 {
+      margin-bottom: 45px;
+    }
+    .car-roots {
+      padding-bottom: 20px;
+      .car-title {
+        font-size: 18px;
+        padding-bottom: 25px;
+      }
+      li {
+        float: none;
+        width: auto;
+        margin-bottom: 20px;
+        &:nth-child(2n){
+          float: none;
+        }
+        .img {
+          margin-top: 12px;
+        }
+      }
+      dt {
+        float: left;
+        font-size: 12px;
+      }
+      dd {
+        float: right;
+        font-size: 12px;
+      }
+    }//car-roots
+  }//.car-access
+
+  .taxi-access {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    .section-title {
+      padding-top: 25px;
+      font-size: 17px;
+      padding-bottom: 23px;
+    }
+    .lead {
+      padding-bottom: 25px;
+      font-size: 20px;
+    }
+    .taxi-title {
+      padding-bottom: 11px;
+      font-size: 12px;
+    }
+    .examples {
+      li {
+        float: none;
+        width: auto;
+        margin-bottom: 15px;
+        &:nth-child(2n){
+          float: none;
+        }
+        &:nth-child(2n+1){
+          clear: both;
+        }
+      }
+      dt {
+        padding: 5px;
+        width: 40%;
+        font-size: 14px;
+      }
+      dd {
+        padding: 5px;
+        width: 60%;
+        .text01 {
+          font-size: 14px;
+        }
+        .text02 {
+          font-size: 14px;
+        }
+      }
+    }
+  }//taxi-access
+    
+    main {
+      padding-bottom: 100px;
+    }
+   
+  }
+}

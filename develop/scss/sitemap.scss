@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* 
+  css設定 @charsetが消されるsass仕様へのハック用コメントです。削除しないでください。新規作成時も必須！
+ */
+@import "inc/mixin.scss";
+@import "inc/functions.scss";
+@import "inc/param.scss";
+#sitemap {
+  main {
+    font-family: "RyuminPro", serif;
+  }
+  .content {
+    margin-bottom: 40px;
+    .title {
+      margin: 90px 0 40px;
+      font-size: 40px;
+      font-weight: normal;
+    }
+    li {
+      line-height: 1.4;
+      font-size: 16px;
+      &.disble {
+        opacity: 0.8;
+      }
+      a {
+        color: #444;
+        text-decoration: underline;
+        &:hover {
+          opacity: 1 !important;
+        }
+        &.disable {
+          text-decoration: none;
+          opacity: 0.5;
+        }
+      }
+    }
+  }
+  @media (max-width: $breakpoint_sp) {
+    .content {
+      .title {
+        font-size: 40px;
+        margin: 90px 0 40px 0;
+      }
+    }
+  }
+} //sitemap
