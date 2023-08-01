@@ -7,7 +7,7 @@
 <?php
 $site_setting = array(
   "area" => "shuto",
-  "prop" => "sakurajosui",
+  "prop" => "ct-noborito",
   "tel_link" => "tel:0120112507",
   "meta_link" => "https://www.sumitomo-rd-mansion.jp/gallery/",
   "requested_only" => "#requested_only",
@@ -24,7 +24,7 @@ $folder_name = $site_setting["area"]."/".$site_setting["prop"]."/";
 <meta property="og:type" content="article">
 <meta property="og:title" content="<?= $page_settings["title"] ?>">
 <meta property="og:description" content="<?= $page_settings["description"] ?>">
-<meta property="og:site_name" content="【公式】シティテラス桜上水">
+<meta property="og:site_name" content="【公式】シティテラス登戸">
 <meta property="og:image" content="<?= $page_settings["directory_pos"] ?>images/top/ogp.jpg" />
 
 
@@ -76,7 +76,7 @@ $folder_name = $site_setting["area"]."/".$site_setting["prop"]."/";
   <div class="header-wrapper d-flex align-items-center justify-content-between">
     <h1 class="header-logo">
       <a href="index.html">
-        <figure><img src="<?= $page_settings["directory_pos"]  ?>images/common/logo.svg" alt=""></figure>
+        <figure><img src="<?= $page_settings["directory_pos"]  ?>images/common/logo.jpg" alt=""></figure>
         <p><?= $page_settings["logo_text"]  ?></p>
       </a>
     </h1><!-- header-logo -->
@@ -120,7 +120,7 @@ $folder_name = $site_setting["area"]."/".$site_setting["prop"]."/";
           <li>
             <p><span class="f-en">PLAN</span><br>間取り</p>
           </li>
-          <li>
+          <li>?
             <p><span class="f-en">EQUIPMENT ・QUALITY</span><br>設備・仕様</p>
           </li>
           <li>
@@ -130,8 +130,8 @@ $folder_name = $site_setting["area"]."/".$site_setting["prop"]."/";
             <!--<p><span class="f-en">LOCATION</span><br>ロケーション</p>-->
             <p class="active"><span class="f-en">LOCATION</span><br>ロケーション</p>
             <div class="sub-menu">
-              <a href="<?= $page_settings["directory_pos"]  ?>location01.html">上質な住環境が広がる桜上水</a>
-              <a href="<?= $page_settings["directory_pos"]  ?>location02.html" class="finish">家族の憩いの場が広がる桜上水</a>
+              <a href="<?= $page_settings["directory_pos"]  ?>location01.html">上質な住環境が広がる登戸</a>
+              <a href="<?= $page_settings["directory_pos"]  ?>location02.html" class="finish">家族の憩いの場が広がる登戸</a>
             </div>
           </li>
           <li>

@@ -7,7 +7,7 @@
     <p class="about-colona js-scroll"><a href="#colona">新型コロナウイルス感染防止対策について</a></p>
     <p class="about-tel js-scroll">お問い合わせは<br class="sp">住友不動産「リモート販売センター品川」</p>
      <p class="tel-link-wrap js-scroll"><a href="<?= $site_setting["tel_link"]?>">0120-112-507</a></p>
-    <p class="mail js-scroll"><a href="mailto:sakurajosui@j.sumitomo-rd.co.jp" class="disabled">sakurajosui@j.sumitomo-rd.co.jp</a></p>
+    <p class="mail js-scroll"><a href="mailto:ct-noborito@j.sumitomo-rd.co.jp" class="disabled">ct-noborito@j.sumitomo-rd.co.jp</a></p>
     <p class="bussiness-hour js-scroll">営業時間／10：00&#x301c;18：00<br class="sp">（火・水曜定休（祝日除く）、年末年始は休業）<br>※携帯電話・PHSからもご利用になれます。</p>
   </div> -->
   <div class="entry">      
@@ -20,7 +20,7 @@
       <div class="entry-tel">
         <p>お問い合わせは<br class="sp">住友不動産「リモート販売センター品川」</p>
         <a href="tel:<?= $site_setting["tel_link"]?>" class="entry-tel__num"><img src="./images/common/icn_entry-tel.png" alt=""><span class="f-en">0120-112-507</span></a><br>
-        <a href="mailto:sakurajosui@j.sumitomo-rd.co.jp" class="disabled">sakurajosui@j.sumitomo-rd.co.jp</a>
+        <a href="mailto:ct-noborito@j.sumitomo-rd.co.jp" class="disabled">ct-noborito@j.sumitomo-rd.co.jp</a>
       </div>
       <p class="entry-info">営業時間／10：00&#x301c;18：00<br class="sp">（火・水曜定休（祝日除く）、年末年始は休業）</p>
     </div>
@@ -54,14 +54,11 @@
   <div class="footer-recommend">
     <div class="container">
       <ul class="footer-recommend__menu f-min">
-        <li>桜上水 新築マンション</li>
-        <li>シティテラス桜上水</li>
-        <li>東京都世田谷区上北沢</li>
-        <li>京王電鉄京王線</li>
-        <li>桜上水駅</li>
-        <li>新築分譲マンション</li>
+        <li>登戸駅 徒歩11分</li>
+        <li>シティテラス登戸</li>
+        <li>登戸 新築分譲マンション</li>
+        <li>すみふ登戸</li>
         <li>住友不動産</li>
-        <li>すみふ桜上水</li>
       </ul>
 
       <!-- おススメ物件 -->

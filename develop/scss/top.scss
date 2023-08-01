@@ -111,11 +111,12 @@
   }
   .apeal {
     line-height: 0;
-    background-color: #000;
+    background-color: #f1e9dc;
     padding: 20px 0 25px;
     text-align: center;
+    border-bottom: 1px solid #cfc8b8;
     .wrap {
-      max-width: 960px;
+      max-width: 696px;
     }
   }
   .points {
@@ -154,16 +155,13 @@
       }
      }
      .list01 {
-      width: 19%;
+      width: 25%;
      }
      .list02 {
-      width:20%;
+      width:48%;
      }
      .list03 {
-      width: 28%;
-     }
-     .list04 {
-      width: 35%;
+      width: 27%;
       &::after {
         display: none;
       }
