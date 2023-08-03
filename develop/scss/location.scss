@@ -24,7 +24,7 @@
   padding: 10px 2.5vw;
   font-size: 1.8rem;
   font-weight: 300;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   background-color: #fefcf7;
   border-left: 1px solid #f1e9dc;
   border-bottom: 1px solid #f1e9dc;
@@ -51,11 +51,11 @@
 }
 
 .location-link a::before {
-  content: '\f105';
+  content: "\f105";
   position: absolute;
   left: calc(2.5vw - 15px);
   top: 50%;
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 600;
   color: #808081;
   transform: translateY(-50%);
@@ -84,46 +84,45 @@
 .location-link a::before {
   display: none;
 }
-.caption{
-font-family: 'Noto Sans JP', sans-serif;
-font-size:10px;
+.caption {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 10px;
 }
 @media screen and (max-width: 1400px) {
   .location-link a {
-      font-size: 1.28vw;
+    font-size: 1.28vw;
   }
 }
 
 @media screen and (max-width: 768px) {
   .location-link a {
-      padding: 10px 25px;
-      font-size: 1.75vw;
+    padding: 10px 25px;
+    font-size: 1.75vw;
   }
   .location-link--4 a {
-      width: 50%;
+    width: 50%;
   }
   .location-link--5 a {
-      width: 33.33%;
+    width: 33.33%;
   }
   .location-link a::before {
-      left: 10px;
+    left: 10px;
   }
 }
 
 @media screen and (max-width: 639px) {
   .location-link a {
-      width: 100% !important;
-      height: 13.33vw;
-      font-size: 4vw;
+    width: 100% !important;
+    height: 13.33vw;
+    font-size: 4vw;
   }
   .location-link a::before {
-      left: 6vw;
+    left: 6vw;
   }
   .location-link a:after {
     left: 6vw;
   }
-.caption{
-max-width: 100%;
-}
-
+  .caption {
+    max-width: 100%;
+  }
 }

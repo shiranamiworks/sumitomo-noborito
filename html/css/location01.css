@@ -1,0 +1,366 @@
+@charset "UTF-8";
+/* 
+  css設定 @charsetが消されるsass仕様へのハック用コメントです。削除しないでください。新規作成時も必須！
+ */
+.location01 main img {
+  max-width: 100%;
+}
+.location01 .img {
+  position: relative;
+}
+.location01 main {
+  font-family: "RyuminPro", serif;
+}
+.location01 .page-annotation {
+  font-family: "Noto Sans JP", sans-serif;
+}
+.location01 .main-visual {
+  position: relative;
+  line-height: 0;
+  border: none;
+}
+.location01 .main-visual .page-lead {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 54px;
+  width: 90%;
+}
+.location01 .sections {
+  line-height: 1;
+}
+.location01 .sections .section-img {
+  position: relative;
+}
+.location01 .sections .section-title {
+  font-size: 27px;
+  padding-top: 155px;
+  position: relative;
+  color: #afa471;
+  letter-spacing: 0.2em;
+  margin-bottom: 140px;
+}
+.location01 .sections .section-title::after {
+  content: "";
+  display: block;
+  width: 45px;
+  height: 170px;
+  background: url(../images/common/intro.jpg) bottom;
+  position: absolute;
+  top: 0;
+  right: 100%;
+  margin-right: 20px;
+}
+.location01 .sections .inner {
+  margin: 0 auto;
+  width: 70%;
+  max-width: 1030px;
+}
+.location01 .sections .box-tit {
+  text-align: center;
+  background: #b6aa74;
+  font-size: 27px;
+  color: #fff;
+  padding: 10px 0;
+  letter-spacing: 0.3em;
+  margin-bottom: 20px;
+}
+.location01 .sections .annotation {
+  font-size: 10px;
+  text-align: right;
+}
+.location01 .intro .lead {
+  text-align: center;
+  font-size: 54px;
+  padding-bottom: 200px;
+  line-height: 1.5;
+}
+.location01 main {
+  padding-bottom: 140px;
+}
+.location01 .history {
+  margin-bottom: 100px;
+}
+.location01 .history .text {
+  font-size: 36px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+.location01 .history .img01 {
+  margin-bottom: 40px;
+}
+.location01 .history .mini {
+  text-align: right;
+  font-size: 15px;
+  line-height: 1.4;
+  margin-top: 10px;
+}
+.location01 .history .texts {
+  margin-top: 60px;
+}
+.location01 .history .texts .tit {
+  font-size: 32px;
+  line-height: 1.5;
+  color: #b6aa74;
+  margin-bottom: 20px;
+  border-bottom: 0.5px solid #b6aa74;
+}
+.location01 .history .texts .lead {
+  font-size: 22px;
+  line-height: 2;
+}
+.location01 .history .texts li {
+  vertical-align: top;
+  display: inline-block;
+  width: 48%;
+  margin-right: 2%;
+}
+.location01 .history .texts li:last-child {
+  margin-right: auto;
+}
+.location01 .redevelopment {
+  margin-bottom: 100px;
+}
+.location01 .redevelopment .tit {
+  font-size: 36px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #b6aa74;
+  border-left: 8px solid #b6aa74;
+  padding-left: 20px;
+}
+.location01 .redevelopment .text {
+  font-size: 36px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+.location01 .redevelopment .lead {
+  font-size: 24px;
+  line-height: 1.8;
+  margin-bottom: 10px;
+}
+.location01 .redevelopment .mini {
+  font-size: 15px;
+  line-height: 1.5;
+}
+.location01 .redevelopment .caps {
+  text-align: right;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.location01 .redevelopment .list01 li {
+  vertical-align: top;
+  display: inline-block;
+  width: 64%;
+  margin-right: 1%;
+}
+.location01 .redevelopment .list01 li:last-child {
+  width: 34%;
+  margin-right: auto;
+}
+.location01 .redevelopment .img05 {
+  margin-top: -10%;
+}
+.location01 .redevelopment .policy {
+  margin-top: -10%;
+  margin-bottom: 100px;
+}
+.location01 .redevelopment .policy .txt01 {
+  max-width: 370px;
+  font-size: 28px;
+  background-image: linear-gradient(90deg, #b6aa74, #fff);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% 40%;
+  margin-bottom: 20px;
+}
+.location01 .redevelopment .policy .points li {
+  vertical-align: top;
+  display: inline-block;
+  width: 31%;
+  margin-right: 2%;
+  margin-bottom: 50px;
+}
+.location01 .redevelopment .policy .points li:nth-child(3n) {
+  margin-right: auto;
+}
+.location01 .redevelopment .policy .points .txt02 {
+  font-size: 22px;
+  color: #96365c;
+  padding: 0 0 6px 10px;
+  box-sizing: border-box;
+  border-left: 1px solid #96365c;
+  border-bottom: 1px solid #96365c;
+  margin-bottom: 10px;
+}
+.location01 .redevelopment .policy .points .txt02 span {
+  color: #fff;
+  background: #96365c;
+  padding: 2px 8px;
+  margin-right: 6px;
+}
+.location01 .redevelopment .policy .points .txt03 {
+  font-size: 20px;
+  line-height: 1.6;
+}
+.location01 .redevelopment .policy .points .point02 .txt02 {
+  color: #983505;
+  border-left: 1px solid #983505;
+  border-bottom: 1px solid #983505;
+}
+.location01 .redevelopment .policy .points .point02 .txt02 span {
+  background: #983505;
+}
+.location01 .redevelopment .policy .points .point03 .txt02 {
+  color: #501a5a;
+  border-left: 1px solid #501a5a;
+  border-bottom: 1px solid #501a5a;
+}
+.location01 .redevelopment .policy .points .point03 .txt02 span {
+  background: #501a5a;
+}
+.location01 .redevelopment .policy .points .point04 .txt02 {
+  color: #294040;
+  border-left: 1px solid #294040;
+  border-bottom: 1px solid #294040;
+}
+.location01 .redevelopment .policy .points .point04 .txt02 span {
+  background: #294040;
+}
+.location01 .redevelopment .policy .points .point05 .txt02 {
+  color: #50428f;
+  border-left: 1px solid #50428f;
+  border-bottom: 1px solid #50428f;
+}
+.location01 .redevelopment .policy .points .point05 .txt02 span {
+  background: #50428f;
+}
+.location01 .redevelopment .policy .points .point06 .txt02 {
+  color: #5a441a;
+  border-left: 1px solid #5a441a;
+  border-bottom: 1px solid #5a441a;
+}
+.location01 .redevelopment .policy .points .point06 .txt02 span {
+  background: #5a441a;
+}
+.location01 .redevelopment .list02 li {
+  vertical-align: top;
+  display: inline-block;
+  width: 64%;
+  margin-right: 1%;
+}
+.location01 .redevelopment .list02 li:last-child {
+  width: 34%;
+  margin-right: auto;
+}
+@media screen and (max-width: 1024px) {
+  .location01 .sections .box-tit {
+    font-size: 20px;
+    letter-spacing: 0.15em;
+  }
+  .location01 .intro .lead {
+    text-align: left;
+    font-size: 30px;
+    padding-bottom: 40px;
+  }
+  .location01 .history {
+    margin-bottom: 60px;
+  }
+  .location01 .history .text {
+    font-size: 24px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  .location01 .history .img01 {
+    margin-bottom: 20px;
+  }
+  .location01 .history .texts {
+    margin-top: 40px;
+  }
+  .location01 .history .texts .tit {
+    font-size: 24px;
+  }
+  .location01 .history .texts .lead {
+    font-size: 17px;
+  }
+  .location01 .redevelopment {
+    margin-bottom: 60px;
+  }
+  .location01 .redevelopment .tit {
+    font-size: 24px;
+  }
+  .location01 .redevelopment .text {
+    font-size: 20px;
+  }
+  .location01 .redevelopment .lead {
+    font-size: 17px;
+  }
+  .location01 .redevelopment .policy {
+    margin-bottom: 60px;
+  }
+  .location01 .redevelopment .policy .txt01 {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  .location01 .redevelopment .policy .points li {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .location01 .redevelopment .policy .points .txt02 {
+    font-size: 20px;
+  }
+  .location01 .redevelopment .policy .points .txt03 {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .location01 .sections .section-title {
+    font-size: 20px;
+    padding-top: 90px;
+    margin-bottom: 60px;
+  }
+  .location01 .sections .section-title::after {
+    width: 40px;
+    height: 100px;
+    margin-right: 10px;
+  }
+  .location01 .sections .inner {
+    margin: 0 auto;
+    width: 70%;
+  }
+  .location01 .history .texts li {
+    display: block;
+    width: 100%;
+  }
+  .location01 .history .texts li:last-child {
+    margin-top: 20px;
+  }
+  .location01 .redevelopment .list01 li {
+    display: block;
+    width: 100%;
+  }
+  .location01 .redevelopment .list01 li:last-child {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .location01 .redevelopment .img05 {
+    margin-top: -5%;
+  }
+  .location01 .redevelopment .policy {
+    margin-top: -5%;
+  }
+  .location01 .redevelopment .policy .points .txt02 {
+    font-size: 18px;
+  }
+  .location01 .redevelopment .list02 li {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .location01 .redevelopment .list02 li:last-child {
+    width: 100%;
+  }
+}/*# sourceMappingURL=location01.css.map */

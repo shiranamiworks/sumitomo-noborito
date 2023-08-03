@@ -7,16 +7,17 @@
 @import "inc/param.scss";
 
 .location01 {
-
   main img {
     max-width: 100%;
   }
-
+  .img {
+    position: relative;
+  }
   main {
-    font-family: 'RyuminPro', serif;
+    font-family: "RyuminPro", serif;
   }
   .page-annotation {
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: "Noto Sans JP", sans-serif;
   }
   .main-visual {
     position: relative;
@@ -26,34 +27,30 @@
       position: absolute;
       top: 50%;
       left: 50%;
-      transform: translate(-50%,-50%);
+      transform: translate(-50%, -50%);
       text-align: center;
-      color: #fff;
       font-size: 54px;
       width: 90%;
     }
   }
   .sections {
-    background-color: #B4A064;
-    line-height: 0;
+    line-height: 1;
     .section-img {
       position: relative;
-      .annotation {
-        bottom: -12px;
-        color: #fff;
-      }
     }
     .section-title {
       font-size: 27px;
-      padding-top: 95px;
+      padding-top: 155px;
       position: relative;
-      margin-bottom: 80px;
+      color: #afa471;
+      letter-spacing: 0.2em;
+      margin-bottom: 140px;
       &::after {
         content: "";
         display: block;
-        width: 125px;
-        height: 125px;
-        background-color: #0E3521;
+        width: 45px;
+        height: 170px;
+        background: url(../images/common/intro.jpg) bottom;
         position: absolute;
         top: 0;
         right: 100%;
@@ -62,345 +59,308 @@
     }
     .inner {
       margin: 0 auto;
-      width: 90%;
-      max-width: 690px;
+      width: 70%;
+      max-width: 1030px;
     }
-    .lead {
-      font-size: 57px;
-      padding-bottom: 65px;
-      line-height: 1.5;
+    .box-tit {
+      text-align: center;
+      background: #b6aa74;
+      font-size: 27px;
       color: #fff;
-    }
-    .lead02 {
-      font-size: 35px;
-      padding-bottom: 45px;
-      line-height: 1.8;
-      color: #fff;
-      .mini {
-        font-size: 70%;
-      }
-    }
-    .text {
-      font-size: 24px;
-      line-height: 2.1;
-      color: #fff;
-    }
-    .img {
-      padding-top: 45px;
-      padding-bottom: 8px;
+      padding: 10px 0;
+      letter-spacing: 0.3em;
+      margin-bottom: 20px;
     }
     .annotation {
       font-size: 10px;
       text-align: right;
     }
-  }//sections
+  } //sections
 
   .intro {
-    padding-bottom: 180px;
     .lead {
-      font-size: 83px;
+      text-align: center;
+      font-size: 54px;
+      padding-bottom: 200px;
       line-height: 1.5;
     }
-  }//intro
+  } //intro
   main {
     padding-bottom: 140px;
   }
-  .valuable {
-    .imgs-lists {
-      padding-top: 45px;
-      display: flex;
-      align-items: flex-end;
-      li {
-        position: relative;
-      }
-      .img {
-        padding: 0;
-      }
-      .cond01 {
-        width: 70%;
-        .annotation {
-          bottom: -12px;
-          color: #fff;
-        }
-      }
-      .cond02 {
-        width: 25%;
-        padding-left: 5%;
-      }
-    }//imgs-lists
-    .wrap.cond01 {
-      padding-bottom: 190px;
+
+  .history {
+    margin-bottom: 100px;
+    .text {
+      font-size: 36px;
+      line-height: 1.6;
+      margin-bottom: 20px;
     }
-    .wrap.cond02 {
-      padding-bottom: 190px;
-      .imgs-lists {
-        align-items: center;
-        .cond01 {
-          width: 45%;
-        }
-        .cond02 {
-          width: 52%;
-          padding-left: 3%;
-        }
-      }
+    .img01 {
+      margin-bottom: 40px;
     }
-  }//valuable
-  .reborn {
-    .img {
-      position: relative;
-      .annotation {
-        color: #fff;
-      }
-    }
-    .image01 {
-      margin-bottom : 65px;
-    }
-    .stations {
-      display: flex;
-      align-items: stretch;
-      background-color: #E2DBC5;
-      .txt01 {
-        text-align: center;
-        padding-bottom: 12px;
-        color: #C30D75;
-        font-size: 30px;
-        border-bottom: 1px solid #000000;
-        margin-bottom: 18px;
-      }
-      .txt02 {
-        margin: 0 auto;
-        width: 80%;
-        font-size: 20px;
-      }
-      .imgs {
-        padding: 0;
-        width: 60%;
-      }
-      .texts {
-        margin: 0 auto;
-        width: 90%;
-      }
-      .text-box {
-        width: 40%;
-        position: relative;
-        p {
-          line-height: 1.5;
-        }
-        .img {
-          position: absolute;
-          padding: 15px 0 0;
-          bottom: 0;
-        }
-      }
-    }
-    .station01 {
-      margin-bottom: 75px;
-      .text-box {
-        padding-top: 25px;
-        order: 1;
-      }
-      .imgs {
-        order: 2;
-      }
-    }
-    .station02 {
-      margin-bottom: 75px;
-      .text-box {
-        display: flex;
-        align-items: center;
-      }
-    }
-    .lists-wrap {
-      padding-bottom: 180px;
-      .list-annotation {
-        width: 66%;
-        padding-top: 20px;
-        font-size: 10px;
-        text-align: right;
-        color: #fff;
-        margin: 0 auto;
-      }
-      .lists {
-         text-align: center;
-         font-size: 0;
-      }
-      li {
-        width: 32%;
-        display: inline-block;
-        margin-right: 2%;
-        margin-bottom: 45px;
-        &:nth-child(3n){
-          margin-right: auto;
-        }
-        &:last-child {
-          margin-right: auto;
-        }
-      }
-      .list02 {
-        li {
-          margin-bottom: 2px;
-        }
-      }
-      .img {
-        padding: 0 ;
-      }
-      .name {
-        text-align: center;
-        padding: 20px 5px;
-        line-height: 1.5;
-        background-color: #fff;
-        color: #C30D75;
-        font-size: 24px;
-      }
-    }
-  }//REBORN
-  .planning {
-    padding-bottom: 110px;
-    margin-bottom: 120px;
-    .img {
-      position: relative;
-      .annotation {
-        color: #fff;
-      }
-    }
-    .points {
-      padding-top: 65px;
-      counter-reset: count;
-      li {
-        counter-increment: count;
-        line-height: 1.8;
-        position: relative;
-        margin-left: 35px;
-        margin-bottom: 14px;
-        padding: 5px 15px;
-        color: #0E3521;
-        font-size: 24px;
-        border-top: 1px solid #0E3521;
-        border-left: 1px solid #0E3521;
-        &::after {
-          position: absolute;
-          content: counter(count);
-          display: block;
-          top: 50%;
-          right: 100%;
-          margin-right: 15px;
-          font-size: 20px;
-          transform: translateY(-50%);
-        }
-      }
-    }
-    .points-annotation {
-      line-height: 1.9;
-      color: #fff;
+    .mini {
       text-align: right;
-      font-size: 10px;
+      font-size: 15px;
+      line-height: 1.4;
+      margin-top: 10px;
     }
-    .imgs-lists {
-      padding-top: 45px;
-      display: flex;
-      align-items: flex-end;
+    .texts {
+      margin-top: 60px;
+      .tit {
+        font-size: 32px;
+        line-height: 1.5;
+        color: #b6aa74;
+        margin-bottom: 20px;
+        border-bottom: 0.5px solid #b6aa74;
+      }
+      .lead {
+        font-size: 22px;
+        line-height: 2;
+      }
       li {
-        position: relative;
+        vertical-align: top;
+        display: inline-block;
+        width: 48%;
+        margin-right: 2%;
       }
-      .img {
-        padding: 0;
+      li:last-child {
+        margin-right: auto;
       }
-      .cond01 {
-        width: 72%;
-        .annotation {
-          bottom: -12px;
-          color: #fff;
+    }
+  } //history
+
+  .redevelopment {
+    margin-bottom: 100px;
+    .tit {
+      font-size: 36px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+      color: #b6aa74;
+      border-left: 8px solid #b6aa74;
+      padding-left: 20px;
+    }
+    .text {
+      font-size: 36px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+    .lead {
+      font-size: 24px;
+      line-height: 1.8;
+      margin-bottom: 10px;
+    }
+    .mini {
+      font-size: 15px;
+      line-height: 1.5;
+    }
+    .caps {
+      text-align: right;
+      font-size: 15px;
+      line-height: 1.5;
+    }
+    .list01 {
+      li {
+        vertical-align: top;
+        display: inline-block;
+        width: 64%;
+        margin-right: 1%;
+      }
+      li:last-child {
+        width: 34%;
+        margin-right: auto;
+      }
+    }
+    .img05 {
+      margin-top: -10%;
+    }
+    .policy {
+      margin-top: -10%;
+      margin-bottom: 100px;
+      .txt01 {
+        max-width: 370px;
+        font-size: 28px;
+        background-image: linear-gradient(90deg, #b6aa74, #fff);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: 100% 40%;
+        margin-bottom: 20px;
+      }
+      .points {
+        li {
+          vertical-align: top;
+          display: inline-block;
+          width: 31%;
+          margin-right: 2%;
+          margin-bottom: 50px;
         }
+        li:nth-child(3n) {
+          margin-right: auto;
+        }
+        .txt02 {
+          font-size: 22px;
+          color: #96365c;
+          padding: 0 0 6px 10px;
+          box-sizing: border-box;
+          border-left: 1px solid #96365c;
+          border-bottom: 1px solid #96365c;
+          margin-bottom: 10px;
+          span {
+            color: #fff;
+            background: #96365c;
+            padding: 2px 8px;
+            margin-right: 6px;
+          }
+        }
+        .txt03 {
+          font-size: 20px;
+          line-height: 1.6;
+        }
+        .point02 {
+          .txt02 {
+            color: #983505;
+            border-left: 1px solid #983505;
+            border-bottom: 1px solid #983505;
+            span {
+              background: #983505;
+            }
+          }
+        } //point02
+        .point03 {
+          .txt02 {
+            color: #501a5a;
+            border-left: 1px solid #501a5a;
+            border-bottom: 1px solid #501a5a;
+            span {
+              background: #501a5a;
+            }
+          }
+        } //point03
+        .point04 {
+          .txt02 {
+            color: #294040;
+            border-left: 1px solid #294040;
+            border-bottom: 1px solid #294040;
+            span {
+              background: #294040;
+            }
+          }
+        } //point04
+        .point05 {
+          .txt02 {
+            color: #50428f;
+            border-left: 1px solid #50428f;
+            border-bottom: 1px solid #50428f;
+            span {
+              background: #50428f;
+            }
+          }
+        } //point05
+        .point06 {
+          .txt02 {
+            color: #5a441a;
+            border-left: 1px solid #5a441a;
+            border-bottom: 1px solid #5a441a;
+            span {
+              background: #5a441a;
+            }
+          }
+        } //point06
+      } //points
+    } //policy
+    .list02 {
+      li {
+        vertical-align: top;
+        display: inline-block;
+        width: 64%;
+        margin-right: 1%;
       }
-      .cond02 {
-        width: 25%;
-        padding-left: 3%;
+      li:last-child {
+        width: 34%;
+        margin-right: auto;
       }
-    }//imgs-lists
-  }//planning
+    }
+  } //redevelopment
+
   @media screen and (max-width: 1300px) {
   }
   @media screen and (max-width: 1024px) {
-      
-    .reborn {
-      .image01 {
-        margin-bottom : 65px;
+    .sections {
+      .box-tit {
+        font-size: 20px;
+        letter-spacing: 0.15em;
       }
-      .stations {
-        display: block;
-        .txt01 {
-          padding-bottom: 12px;
-          font-size: 30px;
-          margin-bottom: 18px;
-        }
-        .txt02 {
-          width: auto;
-          font-size: 20px;
-        }
-        .imgs {
-          width: auto;
-        }
-        .texts {
-          margin: 30px auto;
-          width: 90%;
-        }
-        .text-box {
-          width: auto;
-        }
-      }
-      .station01 {
-        margin-bottom: 75px;
-        .text-box {
-          padding-top: 0;
-          .img {
-            position: static;
-          }
-        }
-      }
-      .station02 {
-        margin-bottom: 75px;
-        padding-bottom: 35px;
-        .text-box {
-          display: block;
-        }
-      }
-      .lists-wrap {
-        .list-annotation {
-          width: 80%;
-          margin: 0 auto;
-        }
-        .lists {
-        }
-        li {
-          margin:  0 auto;
-          width: 80%;
-          display: block;
-          margin-right: auto;
-          margin-bottom: 35px;
-        }
-        .list02 {
-          li {
-            margin-bottom: 35px;
-          }
-        }
-      }
-    }//REBORN
-  }
-  @media screen and (max-width: 768px) {
-
-    .main-visual {
-      .page-lead {
+    } //sections
+    .intro {
+      .lead {
+        text-align: left;
         font-size: 30px;
+        padding-bottom: 40px;
       }
-    }
+    } //intro
+    .history {
+      margin-bottom: 60px;
+      .text {
+        font-size: 24px;
+        line-height: 1.6;
+        margin-bottom: 20px;
+      }
+      .img01 {
+        margin-bottom: 20px;
+      }
+      .texts {
+        margin-top: 40px;
+        .tit {
+          font-size: 24px;
+        }
+        .lead {
+          font-size: 17px;
+        }
+      }
+    } //history
+
+    .redevelopment {
+      margin-bottom: 60px;
+      .tit {
+        font-size: 24px;
+      }
+      .text {
+        font-size: 20px;
+      }
+      .lead {
+        font-size: 17px;
+      }
+      .policy {
+        margin-bottom: 60px;
+        .txt01 {
+          font-size: 24px;
+          margin-bottom: 30px;
+        }
+        .points {
+          li {
+            display: block;
+            width: 100%;
+            margin-bottom: 30px;
+          }
+          .txt02 {
+            font-size: 20px;
+          }
+          .txt03 {
+            font-size: 17px;
+          }
+        } //points
+      } //policy
+    } //redevelopment
+  } //tb
+  @media screen and (max-width: 768px) {
     .sections {
       .section-title {
         font-size: 20px;
-        padding-top: 45px;
-        margin-bottom: 30px;
+        padding-top: 90px;
+        margin-bottom: 60px;
         &::after {
-          width: 45px;
-          height: 45px;
+          width: 40px;
+          height: 100px;
           margin-right: 10px;
         }
       }
@@ -408,149 +368,52 @@
         margin: 0 auto;
         width: 70%;
       }
-      .lead {
-        font-size: 30px;
-        padding-bottom: 35px;
-      }
-      .lead02 {
-        font-size: 20px;
-        padding-bottom: 25px;
-      }
-      .text {
-        font-size: 17px;
-      }
-      .img {
-        padding-top: 25px;
-        padding-bottom: 6px;
-      }
-    }//sections
+    } //sections
 
-    .intro {
-      padding-bottom: 100px;
-      .section-title {
-        margin-bottom: 40px;
-      }
-      .lead {
-        font-size: 30px;
-        padding-bottom: 30px;
-      }
-    }//intro
-    main {
-      padding-bottom: 100px;
-    }
-  .valuable {
-    .imgs-lists {
-      padding-top: 45px;
-      display: block;
-      width: 100%;
-      .cond01 {
-        margin-bottom: 30px;
-        width: auto;
-      }
-      .cond02 {
-        width: 45%;
-        padding-left: 0;
-      }
-    }//imgs-lists
-    .wrap.cond01 {
-      padding-bottom: 60px;
-    }
-    .wrap.cond02 {
-      padding-bottom: 110px;
-      .imgs-lists {
-        .cond01 {
-          margin-bottom: 50px;
-          width: auto;
-        }
-        .cond02 {
-          width: auto;
-          padding-left: 0;
-        }
-      }
-    }
-  }//valuable
-  .reborn {
-    .image01 {
-      margin-bottom : 65px;
-    }
-    .stations {
-      .txt01 {
-        padding-bottom: 12px;
-        font-size: 30px;
-      }
-      .txt02 {
-        width: 80%;
-        font-size: 20px;
-      }
+    .history {
       .texts {
-        margin: 0 auto;
-        width: 90%;
-      }
-    }
-    .station01 {
-      margin-bottom: 75px;
-      .text-box {
-        padding-top: 25px;
-        order: 1;
-      }
-      .imgs {
-        order: 2;
-      }
-    }
-    .station02 {
-      margin-bottom: 75px;
-      .text-box {
-        padding-top: 25px;
-      }
-    }
-    .lists-wrap {
-      padding-bottom: 100px;
-      .list-annotation {
-        font-size: 10px;
-      }
-      li {
-        margin-bottom: 35px;
-      }
-      .name {
-        padding: 20px 5px;
-        font-size: 17px;
-      }
-    }
-  }//REBORN
-  .planning {
-    padding-bottom: 70px;
-    margin-bottom: 80px;
-    .points {
-      padding-top: 25px;
-      li {
-        line-height: 1.8;
-        margin-left: 25px;
-        margin-bottom: 14px;
-        padding: 5px 15px;
-        font-size: 13px;
-        &::after {
-          font-size: 13px;
+        li {
+          display: block;
+          width: 100%;
+        }
+        li:last-child {
+          margin-top: 20px;
         }
       }
-    }
-    .points-annotation {
-      line-height: 1.9;
-      color: #fff;
-      text-align: right;
-      font-size: 10px;
-    }
-    .imgs-lists {
-      padding-top: 45px;
-      display: block;
-      .cond01 {
-        width: auto;
+    } //history
+
+    .redevelopment {
+      .list01 {
+        li {
+          display: block;
+          width: 100%;
+        }
+        li:last-child {
+          width: 100%;
+          margin-top: 20px;
+        }
       }
-      .cond02 {
-        padding-top: 25px;
-        width: 55%;
-        padding-left: 0;
+      .img05 {
+        margin-top: -5%;
       }
-    }//imgs-lists
-  }//planning
-  }
+      .policy {
+        margin-top: -5%;
+        .points {
+          .txt02 {
+            font-size: 18px;
+          }
+        } //points
+      } //policy
+      .list02 {
+        li {
+          display: block;
+          width: 100%;
+          margin-top: 20px;
+        }
+        li:last-child {
+          width: 100%;
+        }
+      }
+    } //redevelopment
+  } //sp
 }

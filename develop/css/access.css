@@ -1,0 +1,550 @@
+@charset "UTF-8";
+/* 
+  css設定 @charsetが消されるsass仕様へのハック用コメントです。削除しないでください。新規作成時も必須！
+ */
+#adtag {
+  opacity: 0;
+}
+
+#access main img {
+  max-width: 100%;
+}
+#access .img {
+  position: relative;
+}
+#access main {
+  font-family: "RyuminPro", serif;
+}
+#access .page-annotation {
+  font-family: "Noto Sans JP", sans-serif;
+}
+#access .main-visual {
+  position: relative;
+  line-height: 0;
+  border: none;
+}
+#access .main-visual .page-lead {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 54px;
+  width: 90%;
+}
+#access .sections {
+  line-height: 0;
+}
+#access .sections .section-title {
+  font-size: 27px;
+  padding-top: 155px;
+  position: relative;
+  color: #afa471;
+  letter-spacing: 0.2em;
+  margin-bottom: 140px;
+}
+#access .sections .section-title::after {
+  content: "";
+  display: block;
+  width: 45px;
+  height: 170px;
+  background: url(../images/common/intro.jpg) bottom;
+  position: absolute;
+  top: 0;
+  right: 100%;
+  margin-right: 20px;
+}
+#access .sections .inner {
+  margin: 0 auto;
+  width: 70%;
+  max-width: 1030px;
+}
+#access .sections .lead {
+  text-align: center;
+  font-size: 54px;
+  padding-bottom: 200px;
+  line-height: 1.5;
+}
+#access .sections .tit {
+  font-size: 36px;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  border-left: 15px solid #afa471;
+  padding-left: 10px;
+}
+#access .sections .tit span {
+  font-size: 27px;
+  color: #afa471;
+}
+#access .sections .text {
+  font-size: 22px;
+  line-height: 2.1;
+}
+#access .sections .img {
+  padding-top: 45px;
+  padding-bottom: 8px;
+}
+#access .sections .annotation {
+  font-size: 10px;
+  text-align: right;
+}
+#access .intro {
+  padding-bottom: 100px;
+}
+#access .intro .lead {
+  line-height: 1.5;
+}
+#access main {
+  padding-bottom: 140px;
+}
+#access .station-annotation {
+  font-size: 15px;
+  line-height: 1.4;
+}
+#access .station-lists .station-list {
+  position: relative;
+}
+#access .station-lists .station-list .station-text {
+  line-height: 1.2;
+  font-size: 28px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 90%;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 0px 8px #000, 0px 0px 8px #000, 0px 0px 8px #000, 0px 0px 8px #000;
+  transform: translate(-50%, -50%);
+}
+#access .station-lists .station-list .station-text .big {
+  font-size: 150%;
+}
+#access .station-lists .station-list .station-text .mini {
+  font-size: 80%;
+}
+#access .station-lists .station-list .mini {
+  margin-top: 6px;
+  font-size: 15px;
+  line-height: 1.4;
+}
+#access .station-lists li {
+  vertical-align: middle;
+  display: inline-block;
+  width: 57%;
+  margin-right: 2%;
+}
+#access .station-lists li:last-child {
+  width: 40%;
+  margin-right: auto;
+}
+#access .lines-title {
+  font-size: 22px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 0.5px solid;
+}
+#access .line-name {
+  font-size: 24px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #000;
+  margin-bottom: 40px;
+}
+#access .lines.line01 {
+  margin-bottom: 100px;
+}
+#access .lines.line01 .station-lists {
+  padding-bottom: 30px;
+}
+#access .lines .tit {
+  font-size: 36px;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  border-left: 15px solid #afa471;
+  padding-left: 10px;
+}
+#access .lines .tit span {
+  font-size: 27px;
+  color: #afa471;
+}
+#access .lines .lead {
+  font-size: 38px;
+  line-height: 1.4;
+  padding-bottom: 60px;
+}
+#access .lines .text {
+  font-size: 22px;
+  line-height: 1.9;
+  padding-bottom: 30px;
+}
+#access .lines .roots-wrap .mb {
+  margin-bottom: 30px;
+}
+#access .lines .roots-wrap li {
+  vertical-align: top;
+  display: inline-block;
+  width: 32%;
+  margin-right: 1%;
+}
+#access .lines .roots-wrap li:last-child {
+  margin-right: auto;
+}
+#access .lines .roots-wrap dl {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 6px;
+  border-bottom: 0.5px solid;
+}
+#access .lines .roots-wrap dl::after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+}
+#access .lines .roots-wrap dl dt,
+#access .lines .roots-wrap dl dd {
+  position: relative;
+  z-index: 1;
+  font-size: 18px;
+}
+#access .lines .roots-wrap dl dt .big,
+#access .lines .roots-wrap dl dd .big {
+  font-size: 160%;
+}
+#access .lines .roots-wrap dl dt {
+  float: left;
+  padding-right: 10px;
+  background: #fff;
+}
+#access .lines .roots-wrap dl dd {
+  float: right;
+  padding-left: 10px;
+  background: #fff;
+}
+#access .lines .roots-wrap .cap {
+  font-size: 15px;
+  padding-top: 6px;
+}
+#access .lines.line02 {
+  margin-bottom: 100px;
+}
+#access .lines.line02 .list li {
+  vertical-align: top;
+  display: inline-block;
+  width: 49%;
+  margin-right: 2%;
+}
+#access .lines.line02 .list li:last-child {
+  width: 48%;
+  margin-right: auto;
+}
+#access .lines.line02 .list .annotation {
+  bottom: -10px;
+}
+#access .line03 {
+  margin-bottom: 100px;
+}
+#access .line03 .lists li {
+  vertical-align: top;
+  display: inline-block;
+  width: 49%;
+  margin-right: 2%;
+}
+#access .line03 .lists li:last-child {
+  width: 48%;
+  margin-right: auto;
+}
+#access .line03 .lists .annotation {
+  bottom: -10px;
+}
+#access .line03 .bg {
+  background: #efece1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+#access .lines.line04 {
+  margin-bottom: 100px;
+}
+#access .lines.line04 .list01 {
+  margin-bottom: 30px;
+}
+#access .lines.line04 .list01 li {
+  vertical-align: top;
+  display: inline-block;
+  width: 32%;
+  margin-right: 1%;
+}
+#access .lines.line04 .list01 li:last-child {
+  width: 66%;
+  margin-right: auto;
+}
+#access .lines.line04 .list02 {
+  margin-bottom: 30px;
+}
+#access .lines.line04 .list02 li {
+  vertical-align: top;
+  display: inline-block;
+  width: 32.9%;
+}
+#access .lines.line05 {
+  margin-bottom: 100px;
+}
+#access .lines.line05 .caps {
+  margin-top: 10px;
+  text-align: right;
+  font-size: 15px;
+  line-height: 1.5;
+}
+#access .big-images {
+  position: relative;
+  margin-bottom: 100px;
+}
+#access .car-access {
+  margin-bottom: 200px;
+}
+#access .car-access .tit {
+  font-size: 32px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+#access .car-access .text {
+  line-height: 1.6;
+  font-size: 24px;
+  padding-bottom: 30px;
+}
+#access .car-access .img01 {
+  margin-bottom: 10px;
+}
+#access .car-access .list li {
+  vertical-align: top;
+  display: inline-block;
+  width: 24.5%;
+}
+#access .car-access .list .texts {
+  text-align: center;
+  border: 0.5px solid;
+  background: #f0ede3;
+  padding: 20px 0;
+}
+#access .car-access .list .texts .name {
+  font-size: 26px;
+}
+#access .car-access .list .texts .name.last {
+  letter-spacing: -0.2em;
+}
+#access .car-access .list .texts .doorway {
+  font-size: 18px;
+}
+#access .car-access .list .texts .min {
+  font-size: 20px;
+}
+#access .car-access .list .texts .min span {
+  font-size: 36px;
+}
+@media screen and (max-width: 1024px) {
+  #access .sections .lead {
+    text-align: left;
+    font-size: 30px;
+    padding-bottom: 40px;
+  }
+  #access .sections .tit {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  #access .sections .tit span {
+    font-size: 18px;
+  }
+  #access .sections .text {
+    font-size: 17px;
+  }
+  #access .sections .img {
+    padding-top: 25px;
+    padding-bottom: 6px;
+  }
+  #access .station-lists li {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #access .station-lists li:last-child {
+    width: 100%;
+    margin-bottom: auto;
+  }
+  #access .lines .tit {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  #access .lines .tit span {
+    font-size: 18px;
+  }
+  #access .lines .text {
+    font-size: 17px;
+    line-height: 1.9;
+    padding-bottom: 20px;
+  }
+  #access .lines .roots-wrap .mb {
+    margin-bottom: 0;
+  }
+  #access .lines .roots-wrap .roots {
+    margin-bottom: 20px;
+  }
+  #access .lines .roots-wrap li {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  #access .lines .roots-wrap li:last-child {
+    margin-bottom: auto;
+  }
+  #access .car-access {
+    margin-bottom: 80px;
+  }
+  #access .car-access .tit {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  #access .car-access .text {
+    font-size: 17px;
+    padding-bottom: 20px;
+  }
+  #access .car-access .list li {
+    width: 49%;
+    margin-right: 1%;
+    margin-bottom: 10px;
+  }
+  #access .car-access .list li:nth-child(2n) {
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  #access .sections .section-title {
+    font-size: 20px;
+    padding-top: 90px;
+    margin-bottom: 60px;
+  }
+  #access .sections .section-title::after {
+    width: 40px;
+    height: 100px;
+    margin-right: 10px;
+  }
+  #access .sections .inner {
+    margin: 0 auto;
+    width: 70%;
+  }
+  #access .intro {
+    padding-bottom: 60px;
+  }
+  #access .station-annotation {
+    font-size: 15px;
+    line-height: 1.4;
+  }
+  #access .lines-title {
+    font-size: 18px;
+  }
+  #access .line-name {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  #access .lines.line01 {
+    margin-bottom: 60px;
+  }
+  #access .lines.line01 .station-lists {
+    padding-bottom: 0;
+  }
+  #access .lines .lead {
+    font-size: 24px;
+    padding-bottom: 25px;
+  }
+  #access .lines .roots-wrap dl dt,
+  #access .lines .roots-wrap dl dd {
+    font-size: 12px;
+  }
+  #access .lines .roots-wrap dl dt {
+    padding-right: 10px;
+  }
+  #access .lines .roots-wrap dl dd {
+    padding-left: 10px;
+  }
+  #access .lines.line02 {
+    margin-bottom: 60px;
+  }
+  #access .lines.line02 .list li {
+    display: block;
+    width: 100%;
+    margin-bottom: 0;
+  }
+  #access .lines.line02 .list li:last-child {
+    width: 100%;
+  }
+  #access .line03 {
+    margin-bottom: 60px;
+  }
+  #access .line03 .lists li {
+    display: block;
+    width: 100%;
+  }
+  #access .line03 .lists li:last-child {
+    width: 100%;
+  }
+  #access .line03 .bg {
+    margin-top: 30px;
+    padding: 20px 10px;
+  }
+  #access .line03 .bg .list02 li:first-child {
+    margin-bottom: 20px;
+  }
+  #access .lines.line04 {
+    margin-bottom: 60px;
+  }
+  #access .lines.line04 .list01 {
+    margin-bottom: 10px;
+  }
+  #access .lines.line04 .list01 li {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #access .lines.line04 .list01 li:last-child {
+    width: 100%;
+    margin-bottom: auto;
+  }
+  #access .lines.line04 .list02 li {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  #access .lines.line05 {
+    margin-bottom: 60px;
+  }
+  #access .big-images {
+    margin-bottom: 40px;
+  }
+  #access .car-access {
+    margin-bottom: 100px;
+  }
+  #access .car-access .list li {
+    display: block;
+    width: 100%;
+  }
+  #access .car-access .list .texts .name {
+    font-size: 22px;
+  }
+  #access .car-access .list .texts .name.last {
+    letter-spacing: -0.1em;
+  }
+  #access .car-access .list .texts .doorway {
+    font-size: 16px;
+  }
+  #access .car-access .list .texts .min {
+    font-size: 18px;
+  }
+  #access .car-access .list .texts .min span {
+    font-size: 26px;
+  }
+  #access main {
+    padding-bottom: 100px;
+  }
+}/*# sourceMappingURL=access.css.map */
