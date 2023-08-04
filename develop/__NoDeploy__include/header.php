@@ -120,7 +120,7 @@ $folder_name = $site_setting["area"]."/".$site_setting["prop"]."/";
           <li>
             <p><span class="f-en">PLAN</span><br>間取り</p>
           </li>
-          <li>?
+          <li>
             <p><span class="f-en">EQUIPMENT ・QUALITY</span><br>設備・仕様</p>
           </li>
           <li>
