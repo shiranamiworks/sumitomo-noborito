@@ -2,18 +2,11 @@
 /* 
   css設定 @charsetが消されるsass仕様へのハック用コメントです。削除しないでください。新規作成時も必須！
  */
-.location02 .annotation.left {
-  left: 0;
-  right: auto;
-}
-.location02 .image {
-  position: relative;
-}
-.location02 .image .annotation {
-  bottom: -15px;
-}
 .location02 main img {
   max-width: 100%;
+}
+.location02 .img {
+  position: relative;
 }
 .location02 main {
   font-family: "RyuminPro", serif;
@@ -32,36 +25,29 @@
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: #fff;
   font-size: 54px;
   width: 90%;
-  z-index: 1;
 }
 .location02 .sections {
-  background-color: #b4a064;
-  line-height: 0;
-  color: #fff;
+  line-height: 1;
 }
 .location02 .sections .section-img {
   position: relative;
 }
-.location02 .sections .section-img .annotation {
-  bottom: -16px;
-  color: #fff;
-}
 .location02 .sections .section-title {
   font-size: 27px;
-  padding-top: 95px;
+  padding-top: 155px;
   position: relative;
-  margin-bottom: 80px;
-  color: #0e3521;
+  color: #afa471;
+  letter-spacing: 0.2em;
+  margin-bottom: 140px;
 }
 .location02 .sections .section-title::after {
   content: "";
   display: block;
-  width: 125px;
-  height: 125px;
-  background-color: #0e3521;
+  width: 45px;
+  height: 170px;
+  background: url(../images/common/intro.jpg) bottom;
   position: absolute;
   top: 0;
   right: 100%;
@@ -69,1114 +55,401 @@
 }
 .location02 .sections .inner {
   margin: 0 auto;
-  width: 90%;
-  max-width: 690px;
-}
-.location02 .sections .lead {
-  font-size: 57px;
-  padding-bottom: 65px;
-  line-height: 1.5;
-  color: #fff;
-}
-.location02 .sections .lead02 {
-  font-size: 35px;
-  padding-bottom: 45px;
-  line-height: 1.8;
-  color: #fff;
-}
-.location02 .sections .lead02 .mini {
-  font-size: 70%;
-}
-.location02 .sections .text {
-  font-size: 24px;
-  line-height: 2.1;
-  color: #fff;
-}
-.location02 .sections .img {
-  padding-top: 45px;
-  padding-bottom: 8px;
+  width: 70%;
+  max-width: 1030px;
 }
 .location02 .sections .annotation {
   font-size: 10px;
   text-align: right;
-  line-height: 1.4;
-}
-.location02 .intro {
-  padding-bottom: 180px;
 }
 .location02 .intro .lead {
-  font-size: 83px;
+  text-align: center;
+  font-size: 54px;
+  padding-bottom: 200px;
   line-height: 1.5;
-}
-.location02 .intro .text {
-  font-size: 40px;
-  padding-bottom: 55px;
-  line-height: 1.6;
-}
-.location02 .intro .text01 {
-  font-size: 24px;
-  line-height: 1.5;
-  padding-bottom: 43px;
-}
-.location02 .intro .img01 {
-  margin-bottom: 85px;
-}
-.location02 .intro .img01 .annotation {
-  bottom: 0;
-}
-.location02 .intro .map-img {
-  margin-bottom: 125px;
-}
-.location02 .intro .img-lists li {
-  float: left;
-  width: 48%;
-  margin-bottom: 35px;
-}
-.location02 .intro .img-lists li .annotation {
-  bottom: 3%;
-}
-.location02 .intro .img-lists li:nth-child(2n) {
-  float: right;
-}
-.location02 .intro .img-lists li:nth-child(2n+1) {
-  clear: both;
 }
 .location02 main {
   padding-bottom: 140px;
 }
-@media screen and (max-width: 768px) {
-  .location02 .main-visual .page-lead {
-    font-size: 30px;
-  }
-  .location02 .sections .section-title {
+.location02 .tama .tit {
+  font-size: 36px;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  border-left: 15px solid #afa471;
+  padding-left: 10px;
+}
+.location02 .tama .tit span {
+  font-size: 27px;
+  color: #afa471;
+}
+.location02 .tama .tama01 {
+  margin-bottom: 40px;
+}
+.location02 .tama .lead {
+  font-size: 24px;
+  line-height: 1.8;
+  margin-bottom: 50px;
+}
+.location02 .tama .text {
+  font-size: 32px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid;
+}
+.location02 .tama .text span {
+  font-size: 20px;
+}
+.location02 .tama .list01 li {
+  vertical-align: top;
+  display: inline-block;
+  width: 33%;
+}
+.location02 .tama .list01 li:last-child {
+  margin-right: auto;
+}
+.location02 .tama .name {
+  font-size: 25px;
+  line-height: 1.4;
+  margin: 20px 0 30px;
+  padding-left: 10px;
+  border-left: 5px solid;
+}
+.location02 .tama .name span {
+  font-size: 20px;
+}
+.location02 .tama .bg {
+  background: #dbd3c5;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 100px;
+  position: relative;
+  z-index: -2;
+}
+.location02 .tama .bg .list02 li {
+  vertical-align: middle;
+  display: inline-block;
+  width: 46%;
+  margin-right: 1%;
+}
+.location02 .tama .bg .list02 li:nth-child(2),
+.location02 .tama .bg .list02 li:last-child {
+  width: 26%;
+  margin-right: auto;
+}
+.location02 .tama .bg .txt01 {
+  font-size: 26px;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+.location02 .tama .bg .txt02 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.location02 .tama .bg .txt02 span {
+  font-size: 20px;
+}
+.location02 .tama .bg .txt03 {
+  font-size: 20px;
+  line-height: 1.8;
+}
+.location02 .tama .bg .txt04 {
+  font-size: 27px;
+  line-height: 1.4;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-left: 30px;
+  position: relative;
+}
+.location02 .tama .bg .txt04::after {
+  content: "";
+  display: block;
+  width: 90px;
+  height: 90px;
+  background: url(../images/location02/txt-bg.jpg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-right: 20px;
+  z-index: -1;
+}
+.location02 .tama .list03 {
+  margin-bottom: 30px;
+}
+.location02 .tama .list03 li {
+  vertical-align: top;
+  display: inline-block;
+  width: 49%;
+}
+.location02 .tama .list03 li:last-child {
+  margin-right: auto;
+}
+.location02 .tama .list03 .info {
+  font-size: 24px;
+  line-height: 1.6;
+}
+.location02 .tama .list04 li {
+  vertical-align: text-top;
+  display: inline-block;
+  width: 48.5%;
+  margin-right: 2%;
+}
+.location02 .tama .list04 li:last-child {
+  margin-right: auto;
+}
+.location02 .tama .list04 .side {
+  vertical-align: top;
+  display: inline-block;
+  width: 53%;
+  margin-right: 1%;
+}
+.location02 .tama .list04 .side.last {
+  width: 45%;
+  margin-right: auto;
+}
+.location02 .tama .list04 .tama10 {
+  margin-bottom: 10px;
+}
+.location02 .redevelopment {
+  margin-bottom: 100px;
+}
+.location02 .redevelopment .tit {
+  font-size: 36px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #b6aa74;
+  border-left: 8px solid #b6aa74;
+  padding-left: 20px;
+}
+.location02 .redevelopment .text {
+  font-size: 36px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+.location02 .redevelopment .lead {
+  font-size: 24px;
+  line-height: 1.8;
+  margin-bottom: 10px;
+}
+.location02 .redevelopment .mini {
+  font-size: 15px;
+  line-height: 1.5;
+}
+.location02 .redevelopment .caps {
+  text-align: right;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.location02 .redevelopment .list01 li {
+  vertical-align: top;
+  display: inline-block;
+  width: 64%;
+  margin-right: 1%;
+}
+.location02 .redevelopment .list01 li:last-child {
+  width: 34%;
+  margin-right: auto;
+}
+.location02 .redevelopment .img05 {
+  margin-top: -10%;
+}
+.location02 .redevelopment .policy {
+  margin-top: -10%;
+  margin-bottom: 100px;
+}
+.location02 .redevelopment .policy .txt01 {
+  max-width: 370px;
+  font-size: 28px;
+  background-image: linear-gradient(90deg, #b6aa74, #fff);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% 40%;
+  margin-bottom: 20px;
+}
+.location02 .redevelopment .policy .points li {
+  vertical-align: top;
+  display: inline-block;
+  width: 31%;
+  margin-right: 2%;
+  margin-bottom: 50px;
+}
+.location02 .redevelopment .policy .points li:nth-child(3n) {
+  margin-right: auto;
+}
+.location02 .redevelopment .policy .points .txt02 {
+  font-size: 22px;
+  color: #96365c;
+  padding: 0 0 6px 10px;
+  box-sizing: border-box;
+  border-left: 1px solid #96365c;
+  border-bottom: 1px solid #96365c;
+  margin-bottom: 10px;
+}
+.location02 .redevelopment .policy .points .txt02 span {
+  color: #fff;
+  background: #96365c;
+  padding: 2px 8px;
+  margin-right: 6px;
+}
+.location02 .redevelopment .policy .points .txt03 {
+  font-size: 20px;
+  line-height: 1.6;
+}
+.location02 .redevelopment .policy .points .point02 .txt02 {
+  color: #983505;
+  border-left: 1px solid #983505;
+  border-bottom: 1px solid #983505;
+}
+.location02 .redevelopment .policy .points .point02 .txt02 span {
+  background: #983505;
+}
+.location02 .redevelopment .policy .points .point03 .txt02 {
+  color: #501a5a;
+  border-left: 1px solid #501a5a;
+  border-bottom: 1px solid #501a5a;
+}
+.location02 .redevelopment .policy .points .point03 .txt02 span {
+  background: #501a5a;
+}
+.location02 .redevelopment .policy .points .point04 .txt02 {
+  color: #294040;
+  border-left: 1px solid #294040;
+  border-bottom: 1px solid #294040;
+}
+.location02 .redevelopment .policy .points .point04 .txt02 span {
+  background: #294040;
+}
+.location02 .redevelopment .policy .points .point05 .txt02 {
+  color: #50428f;
+  border-left: 1px solid #50428f;
+  border-bottom: 1px solid #50428f;
+}
+.location02 .redevelopment .policy .points .point05 .txt02 span {
+  background: #50428f;
+}
+.location02 .redevelopment .policy .points .point06 .txt02 {
+  color: #5a441a;
+  border-left: 1px solid #5a441a;
+  border-bottom: 1px solid #5a441a;
+}
+.location02 .redevelopment .policy .points .point06 .txt02 span {
+  background: #5a441a;
+}
+.location02 .redevelopment .list02 li {
+  vertical-align: top;
+  display: inline-block;
+  width: 64%;
+  margin-right: 1%;
+}
+.location02 .redevelopment .list02 li:last-child {
+  width: 34%;
+  margin-right: auto;
+}
+@media screen and (max-width: 1024px) {
+  .location02 .sections .box-tit {
     font-size: 20px;
-    padding-top: 45px;
+    letter-spacing: 0.15em;
+  }
+  .location02 .intro .lead {
+    text-align: left;
+    font-size: 30px;
+    padding-bottom: 40px;
+  }
+  .location02 .history {
+    margin-bottom: 60px;
+  }
+  .location02 .history .text {
+    font-size: 24px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  .location02 .history .img01 {
+    margin-bottom: 20px;
+  }
+  .location02 .history .texts {
+    margin-top: 40px;
+  }
+  .location02 .history .texts .tit {
+    font-size: 24px;
+  }
+  .location02 .history .texts .lead {
+    font-size: 17px;
+  }
+  .location02 .redevelopment {
+    margin-bottom: 60px;
+  }
+  .location02 .redevelopment .tit {
+    font-size: 24px;
+  }
+  .location02 .redevelopment .text {
+    font-size: 20px;
+  }
+  .location02 .redevelopment .lead {
+    font-size: 17px;
+  }
+  .location02 .redevelopment .policy {
+    margin-bottom: 60px;
+  }
+  .location02 .redevelopment .policy .txt01 {
+    font-size: 24px;
     margin-bottom: 30px;
   }
+  .location02 .redevelopment .policy .points li {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .location02 .redevelopment .policy .points .txt02 {
+    font-size: 20px;
+  }
+  .location02 .redevelopment .policy .points .txt03 {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .location02 .sections .section-title {
+    font-size: 20px;
+    padding-top: 90px;
+    margin-bottom: 60px;
+  }
   .location02 .sections .section-title::after {
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 100px;
     margin-right: 10px;
   }
   .location02 .sections .inner {
     margin: 0 auto;
     width: 70%;
   }
-  .location02 .sections .lead {
-    font-size: 30px;
-    padding-bottom: 35px;
-  }
-  .location02 .sections .lead02 {
-    font-size: 20px;
-    padding-bottom: 25px;
-  }
-  .location02 .sections .text {
-    font-size: 17px;
-  }
-  .location02 .sections .img {
-    padding-top: 25px;
-    padding-bottom: 6px;
-  }
-  .location02 main {
-    padding-bottom: 100px;
-  }
-  .location02 .intro {
-    padding-bottom: 90px;
-  }
-  .location02 .intro .text {
-    padding-bottom: 30px;
-  }
-  .location02 .intro .text01 {
-    font-size: 15px;
-    line-height: 1.5;
-    padding-bottom: 23px;
-  }
-  .location02 .intro .img01 {
-    margin-bottom: 55px;
-  }
-  .location02 .intro .map-img {
-    margin-bottom: 65px;
-  }
-  .location02 .intro .img-lists li {
-    float: none;
-    width: 80%;
-    margin: 0 auto;
-    margin-bottom: 40px;
-  }
-  .location02 .intro .img-lists li .annotation {
-    bottom: -30px;
-  }
-  .location02 .intro .img-lists li:nth-child(2n) {
-    float: none;
-  }
-}
-.location02 .section01 .section-img .annotation {
-  bottom: -30px;
-}
-.location02 .section01 .img01 {
-  padding-top: 50px;
-  margin-bottom: 72px;
-}
-.location02 .section01 .texts {
-  width: 70%;
-  border-bottom: none;
-}
-.location02 .section01 .title {
-  font-size: 40px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #fff;
-  margin-bottom: 22px;
-  text-align: center;
-  line-height: 1.5;
-}
-.location02 .section01 .lead03 {
-  font-size: 24px;
-  line-height: 1.8;
-}
-.location02 .section01 .img02 {
-  margin-top: -30px;
-  padding-left: 22%;
-  margin-bottom: 50px;
-  position: relative;
-}
-.location02 .section01 .img-lists01 {
-  padding-bottom: 85px;
-}
-.location02 .section01 .img-lists01 li {
-  float: left;
-  width: 49%;
-  margin-bottom: 20px;
-}
-.location02 .section01 .img-lists01 li:nth-child(2n) {
-  float: right;
-}
-.location02 .section01 .img-lists01 li:nth-child(2n+1) {
-  clear: both;
-}
-.location02 .section01 .img03 {
-  margin-top: -12px;
-  padding-right: 5%;
-  margin-bottom: 190px;
-  position: relative;
-}
-.location02 .section01 .img04 {
-  margin-bottom: 65px;
-}
-.location02 .section01 .cond04 .box {
-  position: relative;
-}
-.location02 .section01 .cond04 .box .texts {
-  position: absolute;
-  top: 12%;
-  width: 53%;
-}
-.location02 .section01 .img05 {
-  margin-bottom: 75px;
-}
-.location02 .section01 .img-lists {
-  padding-bottom: 160px;
-}
-.location02 .section01 .img-lists li {
-  float: left;
-  width: 49%;
-  margin-bottom: 40px;
-}
-.location02 .section01 .img-lists li:nth-child(2n) {
-  float: right;
-}
-.location02 .section01 .img-lists li:nth-child(2n+1) {
-  clear: both;
-}
-.location02 .section02 .img01 {
-  padding-top: 45px;
-  margin-bottom: 75px;
-}
-.location02 .section02 .annotation.left {
-  font-size: 18px;
-  bottom: -26px;
-}
-.location02 .section02 .img-lists {
-  padding-bottom: 190px;
-}
-.location02 .section02 .img-lists li {
-  float: left;
-  width: 49%;
-  margin-bottom: 55px;
-}
-.location02 .section02 .img-lists li:nth-child(2n) {
-  float: right;
-}
-.location02 .section02 .img-lists li:nth-child(2n+1) {
-  clear: both;
-}
-.location02 .section03 .annotation.left {
-  font-size: 18px;
-  bottom: -26px;
-}
-.location02 .section03 .sub-header {
-  background-color: #0e3521;
-  text-align: center;
-  border-bottom: none;
-}
-.location02 .section03 .sub-header .wrap {
-  padding: 40px 0 35px;
-  position: relative;
-  z-index: 2;
-}
-.location02 .section03 .sub-header .wrap::after {
-  content: "";
-  position: absolute;
-  top: -11px;
-  left: 0;
-  width: 70px;
-  height: 258px;
-  background: url(../images/location02/sec04-clip.png) no-repeat;
-  background-size: 100% auto;
-}
-.location02 .section03 .sub-header .lead {
-  font-size: 24px;
-  line-height: 1.5;
-  padding-bottom: 6px;
-}
-.location02 .section03 .sub-header .title {
-  font-size: 40px;
-  line-height: 1.2;
-}
-.location02 .section03 .sub-img-lists {
-  padding-bottom: 55px;
-}
-.location02 .section03 .sub-img-lists li {
-  float: left;
-  width: 49%;
-  margin-bottom: 55px;
-}
-.location02 .section03 .sub-img-lists li:nth-child(2n) {
-  float: right;
-}
-.location02 .section03 .sub-img-lists li:nth-child(2n+1) {
-  clear: both;
-}
-.location02 .section03 .sub-img-lists .image {
-  margin-bottom: 35px;
-}
-.location02 .section03 .sub-img {
-  margin-bottom: 80px;
-}
-.location02 .section03 .shop-data {
-  display: flex;
-  align-items: center;
-  margin-bottom: 12px;
-}
-.location02 .section03 .shop-data dt {
-  padding: 3px 10px;
-  background-color: #fff;
-  color: #000;
-  font-size: 15px;
-  width: 85px;
-  text-align: center;
-  line-height: 1.4;
-}
-.location02 .section03 .shop-data dd {
-  line-height: 1.4;
-  padding-left: 10px;
-  font-size: 15px;
-}
-.location02 .section03 .sub-section01 {
-  padding-top: 70px;
-}
-.location02 .section03 .sub-section03 {
-  padding-bottom: 145px;
-}
-.location02 .section03 .sub-section02 .sub-header .wrap::after {
-  left: auto;
-  right: 0;
-}
-.location02 .section03 .sub-section02 .sub-img-lists li {
-  width: 32%;
-  margin-right: 2%;
-}
-.location02 .section03 .sub-section02 .sub-img-lists li:nth-child(2n) {
-  float: left;
-}
-.location02 .section03 .sub-section02 .sub-img-lists li:nth-child(2n+1) {
-  clear: none;
-}
-.location02 .section03 .sub-section02 .sub-img-lists li:nth-child(3n) {
-  clear: none;
-  margin-right: auto;
-}
-.location02 .section03 .shop-lists {
-  padding-bottom: 110px;
-}
-.location02 .section03 .shop-lists li {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-bottom: 80px;
-}
-.location02 .section03 .shop-lists li .image {
-  width: 52%;
-}
-.location02 .section03 .shop-lists li .texts {
-  width: 46%;
-}
-.location02 .section03 .shop-lists li:nth-child(2n) .image {
-  order: 2;
-}
-.location02 .section03 .shop-lists li:nth-child(2n) .texts {
-  order: 1;
-}
-.location02 .section03 .shop-lists .info {
-  position: relative;
-  border-bottom: 1px solid #fff;
-  padding-bottom: 5px;
-  display: flex;
-  align-items: flex-end;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-.location02 .section03 .shop-lists .text {
-  font-size: 21px;
-  padding-bottom: 45px;
-}
-.location02 .section03 .shop-lists .name {
-  font-size: 30px;
-  line-height: 1.5;
-}
-.location02 .section03 .shop-lists .distance {
-  font-size: 12px;
-  line-height: 1.6;
-}
-.location02 .section03 .colum {
-  background-color: #fff;
-  padding: 50px 5%;
-  box-sizing: border-box;
-  color: #000;
-}
-.location02 .section03 .colum .colum-header {
-  position: relative;
-  border-bottom: none;
-  margin-bottom: 115px;
-}
-.location02 .section03 .colum .colum-header .title-mark {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 24%;
-}
-.location02 .section03 .colum .colum-header .colum-title {
-  padding-top: 3%;
-  width: 83%;
-  padding-left: 16%;
-  padding-bottom: 1%;
-}
-.location02 .section03 .colum .colum-header .image {
-  position: absolute;
-  bottom: 0%;
-  right: 0;
-  width: 31%;
-}
-.location02 .section03 .points {
-  position: relative;
-}
-.location02 .section03 .points-list {
-  overflow: visible;
-}
-.location02 .section03 .points-list li {
-  float: left;
-  width: 48%;
-  margin-bottom: 115px;
-}
-.location02 .section03 .points-list li:nth-child(2n) {
-  float: right;
-}
-.location02 .section03 .points-list li:nth-child(2n+1) {
-  clear: both;
-}
-.location02 .section03 .points-list .ttl {
-  padding: 20px 40% 20px 5%;
-  background-color: #d8d6c4;
-  border-radius: 12px;
-  line-height: 1;
-  position: relative;
-  text-align: center;
-  color: #000;
-  margin-bottom: 30px;
-  font-size: 22px;
-  font-weight: bold;
-}
-.location02 .section03 .points-list .ttl .mark {
-  position: absolute;
-  right: 2%;
-  width: 43%;
-  bottom: -29%;
-}
-.location02 .section03 .points-list .txt {
-  font-size: 18px;
-  line-height: 1.7;
-}
-.location02 .section03 .points-list .cap {
-  text-align: right;
-  font-size: 14px;
-  line-height: 1.5;
-  padding-top: 14px;
-}
-.location02 .section03 .points-list .box {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-.location02 .section03 .points-list .box .image {
-  width: 20%;
-}
-.location02 .section03 .points-list .box .text-box {
-  width: 75%;
-}
-.location02 .section03 .points-list .point02 .image {
-  order: 2;
-  width: 35%;
-}
-.location02 .section03 .points-list .point02 .text-box {
-  order: 1;
-  width: 62%;
-}
-.location02 .section03 .points-list .point04 .image {
-  width: 24%;
-}
-.location02 .section03 .points-list .point04 .text-box {
-  width: 73%;
-}
-.location02 .section03 .points-list .image-box {
-  position: relative;
-  margin-top: 20px;
-}
-.location02 .section03 .points-list .image-box .image01 {
-  position: absolute;
-  left: -10%;
-  bottom: 0%;
-  width: 37%;
-  z-index: 1;
-}
-.location02 .section03 .points-list .image-box .image02 {
-  margin-left: 26%;
-}
-.location02 .section03 .other {
-  position: absolute;
-  bottom: 5%;
-  right: 0%;
-  width: 48%;
-  padding-bottom: 20px;
-}
-.location02 .section04 .sec-title {
-  font-size: 42px;
-  line-height: 1;
-  text-align: center;
-  padding-bottom: 100px;
-}
-.location02 .section04 .info-map {
-  position: relative;
-  margin-bottom: 80px;
-}
-.location02 .section04 .info-map .annotation {
-  bottom: -15px;
-}
-.location02 .section04 .details {
-  padding-bottom: 50px;
-}
-.location02 .section04 .title {
-  font-size: 30px;
-  line-height: 1;
-  text-align: center;
-  padding: 12px 5%;
-  background-color: #e79f89;
-  margin-bottom: 45px;
-}
-.location02 .section04 .box {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: flex-start;
-}
-.location02 .section04 .box.wide {
-  display: block;
-}
-.location02 .section04 .box.wide .lists {
-  overflow: visible;
-}
-.location02 .section04 .box.wide .lists li {
-  float: left;
-  width: 49%;
-}
-.location02 .section04 .box.wide .lists li:nth-child(2n) {
-  float: right;
-}
-.location02 .section04 .box.wide .lists li:nth-child(2n+1) {
-  clear: both;
-}
-.location02 .section04 .box .images {
-  order: 2;
-  width: 49%;
-  overflow: hidden;
-}
-.location02 .section04 .box .images li {
-  float: left;
-  width: 49%;
-  margin-bottom: 10px;
-}
-.location02 .section04 .box .images li:nth-child(2n) {
-  float: right;
-}
-.location02 .section04 .box .images li:nth-child(2n+1) {
-  clear: both;
-}
-.location02 .section04 .box .texts {
-  order: 1;
-  width: 49%;
-}
-.location02 .section04 .box .lead {
-  font-size: 18px;
-  line-height: 1.4;
-  padding-bottom: 18px;
-}
-.location02 .section04 .box .lists {
-  counter-reset: number;
-}
-.location02 .section04 .box .lists li {
-  counter-increment: number;
-  position: relative;
-  padding-left: 40px;
-  line-height: 1.5;
-  line-height: 1.1;
-  margin-bottom: 12px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-}
-.location02 .section04 .box .lists li::after {
-  content: counter(number);
-  display: inline-block;
-  width: 28px;
-  height: 26px;
-  text-align: center;
-  box-sizing: border-box;
-  padding: 0px;
-  color: #fff;
-  font-size: 13px;
-  line-height: 2;
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-  background: #e79f89;
-}
-.location02 .section04 .box .lists li::before {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 22px;
-  height: 21px;
-  border: 1px solid #fff;
-  top: 50%;
-  left: 2px;
-  transform: translateY(-50%);
-  z-index: 1;
-}
-.location02 .section04 .box .lists li.no-label::after, .location02 .section04 .box .lists li.no-label::before {
-  display: none;
-}
-.location02 .section04 .box .name {
-  font-size: 17px;
-}
-.location02 .section04 .box .name .mini {
-  font-size: 80%;
-}
-.location02 .section04 .box .distance {
-  font-size: 17px;
-}
-.location02 .section04 .medi .title {
-  background-color: #a38a77;
-}
-.location02 .section04 .medi .lists li::after {
-  background-color: #a38a77;
-}
-.location02 .section04 .sport .title {
-  background-color: #91b670;
-}
-.location02 .section04 .sport .lists li::after {
-  background-color: #91b670;
-}
-.location02 .section04 .culture .title {
-  background-color: #e5aa74;
-}
-.location02 .section04 .culture .lists li::after {
-  background-color: #e5aa74;
-}
-.location02 .section04 .shopping .title {
-  background-color: #ecce6c;
-}
-.location02 .section04 .shopping .images li li {
-  width: auto;
-  margin-bottom: 10px;
-}
-.location02 .section04 .shopping .images li.cond01 {
-  width: 36.5%;
-}
-.location02 .section04 .shopping .images li.cond02 {
-  width: 61%;
-}
-.location02 .section04 .shopping .lists li::after {
-  background-color: #ecce6c;
-}
-.location02 .section04 .bank .title {
-  background-color: #b4b4b5;
-}
-.location02 .section04 .bank .lists li::after {
-  background-color: #b4b4b5;
-}
-.location02 .page-annotation {
-  padding-top: 100px;
-}
-@media screen and (max-width: 1300px) {
-  .location02 .section04 .box .distance {
-    font-size: 15px;
-  }
-  .location02 .section04 .box .name {
-    font-size: 15px;
-  }
-  .location02 .section03 .shop-data dt {
-    font-size: 12px;
-  }
-  .location02 .section03 .shop-data dd {
-    font-size: 12px;
-  }
-}
-@media screen and (max-width: 1024px) {
-  .location02 .section01 .title {
-    font-size: 20px;
-    padding-bottom: 10px;
-    margin-bottom: 22px;
-    line-height: 1.5;
-  }
-  .location02 .section01 .lead03 {
-    font-size: 15px;
-    line-height: 1.8;
-  }
-  .location02 .section03 .annotation.left {
-    font-size: 13px;
-    bottom: -20px;
-  }
-  .location02 .section03 .points-list li {
-    margin-top: 50px;
-    float: none;
-    width: auto;
-  }
-  .location02 .section03 .points-list li:nth-child(2n) {
-    float: none;
-  }
-  .location02 .section03 .points-list .ttl .mark {
-    width: 30%;
-  }
-  .location02 .section03 .shop-lists li {
+  .location02 .history .texts li {
     display: block;
+    width: 100%;
   }
-  .location02 .section03 .shop-lists li .image {
-    width: auto;
-    margin-bottom: 30px;
-  }
-  .location02 .section03 .shop-lists li .texts {
-    width: auto;
-  }
-  .location02 .section03 .other {
-    position: static;
-    width: 80%;
-    margin: 0 auto;
-  }
-  .location02 .section04 .box {
-    display: block;
-  }
-  .location02 .section04 .box .images {
-    width: auto;
-    margin-bottom: 30px;
-  }
-  .location02 .section04 .box .texts {
-    width: auto;
-  }
-  .location02 .section03 .shop-data dt {
-    font-size: 15px;
-  }
-  .location02 .section03 .shop-data dd {
-    font-size: 15px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .location02 .intro .img01 .annotation {
-    bottom: -42px;
-  }
-  .location02 .section01 .img01 {
-    padding-top: 30px;
-    margin-bottom: 40px;
-  }
-  .location02 .section01 .texts {
-    width: auto;
-  }
-  .location02 .section01 .title {
-    font-size: 25px;
-    padding-bottom: 8px;
-    margin-bottom: 16px;
-  }
-  .location02 .section01 .lead03 {
-    font-size: 16px;
-    padding-bottom: 20px;
-  }
-  .location02 .section01 .img02 {
-    margin-top: -10px;
-    padding-left: 0;
-    margin: 0 auto 50px;
-    width: 75%;
-  }
-  .location02 .section01 .img-lists01 {
-    padding-bottom: 55px;
-  }
-  .location02 .section01 .img-lists01 li {
-    float: none;
-    width: 75%;
-    margin: 0 auto 40px;
-  }
-  .location02 .section01 .img-lists01 li:nth-child(2n) {
-    float: none;
-  }
-  .location02 .section01 .img03 {
-    margin-top: 0px;
-    padding-right: 5%;
-    margin-bottom: 90px;
-  }
-  .location02 .section01 .img04 {
-    margin-bottom: 65px;
-  }
-  .location02 .section01 .cond04 .box {
-    position: relative;
-  }
-  .location02 .section01 .cond04 .box .texts {
-    position: static;
-    top: auto;
-    width: auto;
-  }
-  .location02 .section01 .img05 {
-    position: relative;
-    width: 110%;
-    left: -5%;
-    margin-bottom: 75px;
-  }
-  .location02 .section01 .img05 .annotation.left {
-    left: 5%;
-  }
-  .location02 .section01 .img-lists {
-    padding-bottom: 90px;
-  }
-  .location02 .section01 .img-lists li {
-    float: none;
-    width: 80%;
-    margin: 0 auto 40px;
-  }
-  .location02 .section01 .img-lists li:nth-child(2n) {
-    float: none;
-  }
-  .location02 .section02 .img01 {
-    padding-top: 30px;
-    margin: 0 auto 45px;
-    width: 80%;
-  }
-  .location02 .section02 .annotation.left {
-    font-size: 12px;
-    bottom: -14px;
-  }
-  .location02 .section02 .img-lists {
-    padding-bottom: 80px;
-  }
-  .location02 .section02 .img-lists li {
-    float: none;
-    width: 80%;
-    margin: 0 auto 45px;
-  }
-  .location02 .section02 .img-lists li:nth-child(2n) {
-    float: none;
-  }
-  .location02 .section02 .cond01 .annotation {
-    bottom: -30px;
-  }
-  .location02 .section03 .annotation.left {
-    font-size: 12px;
-    bottom: -10px;
-  }
-  .location02 .section03 .sub-header .wrap {
-    padding: 20px 0 18px;
-    z-index: 2;
-  }
-  .location02 .section03 .sub-header .wrap::after {
-    top: -5px;
-    width: 35px;
-    height: 129px;
-  }
-  .location02 .section03 .sub-header .lead {
-    font-size: 12px;
-  }
-  .location02 .section03 .sub-header .title {
-    font-size: 20px;
-  }
-  .location02 .section03 .sub-img-lists {
-    padding-bottom: 40px;
-  }
-  .location02 .section03 .sub-img-lists .annotation {
-    bottom: -30px;
-  }
-  .location02 .section03 .sub-img-lists .annotation01 {
-    bottom: -45px;
-  }
-  .location02 .section03 .sub-img-lists li {
-    float: left;
-    width: 49%;
-    margin-bottom: 55px;
-  }
-  .location02 .section03 .sub-img-lists li:nth-child(2n) {
-    float: right;
-  }
-  .location02 .section03 .sub-img-lists li:nth-child(2n+1) {
-    clear: both;
-  }
-  .location02 .section03 .sub-img-lists .image {
-    margin-bottom: 35px;
-  }
-  .location02 .section03 .sub-img-lists .image .annotation {
-    text-align: left;
-    right: auto;
-  }
-  .location02 .section03 .sub-img-lists .image01 {
-    margin-bottom: 50px;
-  }
-  .location02 .section03 .sub-img {
-    margin-bottom: 40px;
-  }
-  .location02 .section03 .shop-data {
-    display: block;
-    margin-bottom: 6px;
-  }
-  .location02 .section03 .shop-data dt {
-    padding: 2px 6px;
-    font-size: 10px;
-    width: 60px;
-    margin-bottom: 2px;
-  }
-  .location02 .section03 .shop-data dd {
-    padding-left: 0;
-    font-size: 10px;
-  }
-  .location02 .section03 .sub-section01 {
-    padding-top: 55px;
-  }
-  .location02 .section03 .sub-section03 {
-    padding-bottom: 105px;
-    margin-bottom: -2px;
-  }
-  .location02 .section03 .sub-section02 {
-    padding-bottom: 15px;
-  }
-  .location02 .section03 .sub-section02 .image .annotation {
-    right: 0;
-  }
-  .location02 .section03 .sub-section02 .sub-img-lists li {
-    width: 80%;
-    margin: 0 auto;
-    float: none;
-  }
-  .location02 .section03 .sub-section02 .sub-img-lists li:nth-child(2n) {
-    float: none;
-  }
-  .location02 .section03 .sub-section02 .sub-img-lists li:nth-child(2n+1) {
-    clear: none;
-  }
-  .location02 .section03 .sub-section02 .sub-img-lists li:nth-child(3n) {
-    clear: none;
-    margin-right: auto;
-  }
-  .location02 .section03 .shop-lists {
-    padding-bottom: 25px;
-  }
-  .location02 .section03 .shop-lists li {
-    margin-bottom: 40px;
-  }
-  .location02 .section03 .shop-lists .info {
-    padding-bottom: 5px;
-  }
-  .location02 .section03 .shop-lists .text {
-    font-size: 15px;
-    padding-bottom: 25px;
-  }
-  .location02 .section03 .shop-lists .name {
-    font-size: 17px;
-    line-height: 1.5;
-  }
-  .location02 .section03 .shop-lists .distance {
-    font-size: 12px;
-    line-height: 1.6;
-  }
-  .location02 .section03 .colum {
-    padding: 30px 5%;
-    box-sizing: border-box;
-    color: #000;
-  }
-  .location02 .section03 .colum .colum-header {
-    margin-bottom: 106px;
-  }
-  .location02 .section03 .colum .colum-header .title-mark {
-    position: static;
-    margin: 0 auto -5%;
-    width: 42%;
-  }
-  .location02 .section03 .colum .colum-header .colum-title {
-    padding-top: 0%;
-    width: auto;
-    padding-left: 0;
-    padding-bottom: 4px;
-  }
-  .location02 .section03 .colum .colum-header .image {
-    position: static;
-    margin: 0 auto;
-    width: 50%;
-  }
-  .location02 .section03 .points-list li {
-    float: none;
-    width: auto;
-    margin-bottom: 105px;
-  }
-  .location02 .section03 .points-list li:nth-child(2n) {
-    float: none;
-  }
-  .location02 .section03 .points-list li:nth-child(2n+1) {
-    clear: both;
-  }
-  .location02 .section03 .points-list .point05 {
-    margin-bottom: 45px;
-  }
-  .location02 .section03 .points-list .ttl {
-    padding: 20px 5% 10px 5%;
-    background-color: #d8d6c4;
-    border-radius: 12px;
-    margin-bottom: 19px;
-    font-size: 17px;
-  }
-  .location02 .section03 .points-list .ttl .mark {
-    position: absolute;
-    right: 50%;
-    transform: translateX(50%);
-    width: 110px;
-    bottom: 100%;
-    margin-bottom: -20px;
-  }
-  .location02 .section03 .points-list .txt {
-    font-size: 15px;
-  }
-  .location02 .section03 .points-list .cap {
-    font-size: 11px;
-    padding-top: 14px;
-  }
-  .location02 .section03 .points-list .image-box {
+  .location02 .history .texts li:last-child {
     margin-top: 20px;
   }
-  .location02 .section03 .points-list .image-box .image01 {
-    position: absolute;
-    left: 0%;
-    bottom: 0%;
-    width: 34%;
-    z-index: 1;
-  }
-  .location02 .section03 .points-list .image-box .image02 {
-    margin-left: 32%;
-  }
-  .location02 .section03 .other {
-    position: static;
-    width: 80%;
-    margin: 0 auto;
-    padding-bottom: 50px;
-  }
-  .location02 .section04 .sec-title {
-    font-size: 28px;
-    padding-bottom: 30px;
-  }
-  .location02 .section04 .info-map {
-    margin-bottom: 45px;
-  }
-  .location02 .section04 .details {
-    padding-bottom: 35px;
-  }
-  .location02 .section04 .title {
-    font-size: 17px;
-    padding: 12px 5%;
-    margin-bottom: 25px;
-  }
-  .location02 .section04 .box {
+  .location02 .redevelopment .list01 li {
     display: block;
+    width: 100%;
   }
-  .location02 .section04 .box .images {
-    width: auto;
-    padding-bottom: 20px;
+  .location02 .redevelopment .list01 li:last-child {
+    width: 100%;
+    margin-top: 20px;
   }
-  .location02 .section04 .box .images li {
-    margin-bottom: 10px;
+  .location02 .redevelopment .img05 {
+    margin-top: -5%;
   }
-  .location02 .section04 .box .images li:nth-child(2n+1) {
-    clear: both;
+  .location02 .redevelopment .policy {
+    margin-top: -5%;
   }
-  .location02 .section04 .box .texts {
-    width: auto;
+  .location02 .redevelopment .policy .points .txt02 {
+    font-size: 18px;
   }
-  .location02 .section04 .box .lead {
-    font-size: 15px;
-    padding-bottom: 12px;
+  .location02 .redevelopment .list02 li {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
   }
-  .location02 .section04 .box .lists {
-    counter-reset: number;
-  }
-  .location02 .section04 .box .lists li {
-    padding-left: 30px;
-    margin-bottom: 12px;
-  }
-  .location02 .section04 .box .lists li::after {
-    width: 22px;
-    height: 18px;
-    line-height: 1;
-    padding-top: 3px;
-    font-size: 12px;
-  }
-  .location02 .section04 .box .lists li::before {
-    width: 16px;
-    height: 14px;
-  }
-  .location02 .section04 .box .name {
-    font-size: 12px;
-  }
-  .location02 .section04 .box .distance {
-    font-size: 12px;
-  }
-  .location02 .section04 .shopping .images li li {
-    margin-bottom: 10px;
-  }
-  .location02 .section04 .shopping .images li.cond01 {
-    width: 36.5%;
-  }
-  .location02 .section04 .shopping .images li.cond02 {
-    width: 61%;
-  }
-  .location02 .section04 .box.wide .lists li {
-    float: none;
-    width: auto;
-  }
-  .location02 .section04 .box.wide .lists li:nth-child(2n) {
-    float: none;
-  }
-  .location02 .page-annotation {
-    padding-top: 80px;
+  .location02 .redevelopment .list02 li:last-child {
+    width: 100%;
   }
 }/*# sourceMappingURL=location02.css.map */
