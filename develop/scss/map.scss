@@ -188,11 +188,15 @@
     header {
       display: block;
     }
+    main {
+      padding-top: 0 !important;
+    }
     h2.ttl {
       margin: 90px 0 75px 0 !important;
     }
     .print-area {
-      width: 100% !important;
+      width: 90% !important;
+      margin: 0 auto !important;
     }
     // .print-area .map-image .image{
     //   width: 750px;
