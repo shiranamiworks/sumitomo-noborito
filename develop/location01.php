@@ -158,7 +158,7 @@
 
 <div class="location-link location-link--3">
   <a href="location01.html" class="current"><p>土地区画整理事業で生まれ変わる街</p></a>
-  <a href="location02.html"><p>土地区画整理事業で生まれ変わる街</p></a>
+  <a href="location02.html"><p>水と緑の自然を身近に</p></a>
   <a href="location03.html"><p>「登戸」駅周辺の優れた利便性</p></a>
 </div>
 

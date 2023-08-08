@@ -69,7 +69,7 @@
   } //sections
 
   .intro {
-    .lead {
+    .section-lead {
       text-align: center;
       font-size: 54px;
       padding-bottom: 200px;
@@ -80,7 +80,7 @@
     padding-bottom: 140px;
   }
 
-  .tama {
+  .sections {
     .tit {
       font-size: 36px;
       margin-bottom: 30px;
@@ -91,9 +91,6 @@
         font-size: 27px;
         color: #afa471;
       }
-    }
-    .tama01 {
-      margin-bottom: 40px;
     }
     .lead {
       font-size: 24px;
@@ -109,16 +106,6 @@
         font-size: 20px;
       }
     }
-    .list01 {
-      li {
-        vertical-align: top;
-        display: inline-block;
-        width: 33%;
-      }
-      li:last-child {
-        margin-right: auto;
-      }
-    }
     .name {
       font-size: 25px;
       line-height: 1.4;
@@ -127,6 +114,22 @@
       border-left: 5px solid;
       span {
         font-size: 20px;
+      }
+    }
+  } //sections
+
+  .tama {
+    .tama01 {
+      margin-bottom: 40px;
+    }
+    .list01 {
+      li {
+        vertical-align: top;
+        display: inline-block;
+        width: 33%;
+      }
+      li:last-child {
+        margin-right: auto;
       }
     }
     .bg {
@@ -191,7 +194,7 @@
       li {
         vertical-align: top;
         display: inline-block;
-        width: 49%;
+        width: 49.7%;
       }
       li:last-child {
         margin-right: auto;
@@ -227,227 +230,147 @@
     }
   } //tama
 
-  .redevelopment {
+  .park {
     margin-bottom: 100px;
-    .tit {
-      font-size: 36px;
-      line-height: 1.6;
-      margin-bottom: 20px;
-      color: #b6aa74;
-      border-left: 8px solid #b6aa74;
-      padding-left: 20px;
-    }
-    .text {
-      font-size: 36px;
-      line-height: 1.6;
-      margin-bottom: 20px;
-    }
     .lead {
-      font-size: 24px;
-      line-height: 1.8;
       margin-bottom: 10px;
     }
     .mini {
-      font-size: 15px;
-      line-height: 1.5;
-    }
-    .caps {
       text-align: right;
       font-size: 15px;
       line-height: 1.5;
+      margin-bottom: 20px;
     }
-    .list01 {
+    .lists {
       li {
         vertical-align: top;
         display: inline-block;
-        width: 64%;
-        margin-right: 1%;
+        width: 49.7%;
       }
       li:last-child {
-        width: 34%;
         margin-right: auto;
       }
     }
-    .img05 {
-      margin-top: -10%;
+  } //park
+
+  .festival {
+    margin-bottom: 100px;
+    .mini {
+      font-size: 15px;
+      line-height: 1.5;
+      margin-bottom: 20px;
     }
-    .policy {
-      margin-top: -10%;
-      margin-bottom: 100px;
-      .txt01 {
-        max-width: 370px;
-        font-size: 28px;
-        background-image: linear-gradient(90deg, #b6aa74, #fff);
-        background-repeat: no-repeat;
-        background-position: bottom;
-        background-size: 100% 40%;
-        margin-bottom: 20px;
-      }
-      .points {
-        li {
-          vertical-align: top;
-          display: inline-block;
-          width: 31%;
-          margin-right: 2%;
-          margin-bottom: 50px;
-        }
-        li:nth-child(3n) {
-          margin-right: auto;
-        }
-        .txt02 {
-          font-size: 22px;
-          color: #96365c;
-          padding: 0 0 6px 10px;
-          box-sizing: border-box;
-          border-left: 1px solid #96365c;
-          border-bottom: 1px solid #96365c;
-          margin-bottom: 10px;
-          span {
-            color: #fff;
-            background: #96365c;
-            padding: 2px 8px;
-            margin-right: 6px;
-          }
-        }
-        .txt03 {
-          font-size: 20px;
-          line-height: 1.6;
-        }
-        .point02 {
-          .txt02 {
-            color: #983505;
-            border-left: 1px solid #983505;
-            border-bottom: 1px solid #983505;
-            span {
-              background: #983505;
-            }
-          }
-        } //point02
-        .point03 {
-          .txt02 {
-            color: #501a5a;
-            border-left: 1px solid #501a5a;
-            border-bottom: 1px solid #501a5a;
-            span {
-              background: #501a5a;
-            }
-          }
-        } //point03
-        .point04 {
-          .txt02 {
-            color: #294040;
-            border-left: 1px solid #294040;
-            border-bottom: 1px solid #294040;
-            span {
-              background: #294040;
-            }
-          }
-        } //point04
-        .point05 {
-          .txt02 {
-            color: #50428f;
-            border-left: 1px solid #50428f;
-            border-bottom: 1px solid #50428f;
-            span {
-              background: #50428f;
-            }
-          }
-        } //point05
-        .point06 {
-          .txt02 {
-            color: #5a441a;
-            border-left: 1px solid #5a441a;
-            border-bottom: 1px solid #5a441a;
-            span {
-              background: #5a441a;
-            }
-          }
-        } //point06
-      } //points
-    } //policy
-    .list02 {
-      li {
-        vertical-align: top;
-        display: inline-block;
-        width: 64%;
-        margin-right: 1%;
-      }
-      li:last-child {
-        width: 34%;
-        margin-right: auto;
-      }
+    li {
+      vertical-align: top;
+      display: inline-block;
+      width: 54%;
+      margin-right: 2%;
     }
-  } //redevelopment
+    li:last-child {
+      width: 42%;
+      margin-right: auto;
+    }
+  } //festival
 
   @media screen and (max-width: 1300px) {
   }
   @media screen and (max-width: 1024px) {
     .sections {
-      .box-tit {
+      .tit {
         font-size: 20px;
-        letter-spacing: 0.15em;
+        margin-bottom: 20px;
+        span {
+          font-size: 18px;
+        }
+      }
+      .lead {
+        font-size: 17px;
+        margin-bottom: 20px;
+      }
+      .text {
+        font-size: 22px;
+        span {
+          font-size: 16px;
+        }
+      }
+      .name {
+        font-size: 20px;
+        margin: 10px 0 20px;
+        span {
+          font-size: 16px;
+        }
       }
     } //sections
     .intro {
-      .lead {
+      .section-lead {
         text-align: left;
         font-size: 30px;
         padding-bottom: 40px;
       }
     } //intro
-    .history {
-      margin-bottom: 60px;
-      .text {
-        font-size: 24px;
-        line-height: 1.6;
+
+    .tama {
+      .tama01 {
         margin-bottom: 20px;
       }
-      .img01 {
-        margin-bottom: 20px;
-      }
-      .texts {
-        margin-top: 40px;
-        .tit {
-          font-size: 24px;
+      .list01 {
+        li {
+          width: 32.7%;
         }
-        .lead {
+      }
+      .bg {
+        margin-bottom: 60px;
+        .list02 {
+          li {
+            display: inline-block;
+            width: 100%;
+            margin-right: auto;
+          }
+          li:nth-child(2),
+          li:last-child {
+            width: 49%;
+          }
+        }
+        .txt01 {
+          font-size: 22px;
+        }
+        .txt02 {
+          font-size: 24px;
+          span {
+            font-size: 16px;
+          }
+        }
+        .txt03 {
+          font-size: 17px;
+        }
+        .txt04 {
+          font-size: 22px;
+        }
+      } //bg
+      .list03 {
+        margin-bottom: 30px;
+        .info {
           font-size: 17px;
         }
       }
-    } //history
-
-    .redevelopment {
-      margin-bottom: 60px;
-      .tit {
-        font-size: 24px;
-      }
-      .text {
-        font-size: 20px;
-      }
-      .lead {
-        font-size: 17px;
-      }
-      .policy {
-        margin-bottom: 60px;
-        .txt01 {
-          font-size: 24px;
-          margin-bottom: 30px;
+      .list04 {
+        li {
+          display: block;
+          width: 100%;
         }
-        .points {
-          li {
-            display: block;
-            width: 100%;
-            margin-bottom: 30px;
-          }
-          .txt02 {
-            font-size: 20px;
-          }
-          .txt03 {
-            font-size: 17px;
-          }
-        } //points
-      } //policy
-    } //redevelopment
+        li:last-child {
+          margin-top: 10px;
+        }
+        .side {
+          width: 49%;
+          margin-right: auto;
+        }
+        .side.last {
+          width: 49%;
+          margin-right: auto;
+        }
+      }
+    } //tama
   } //tb
   @media screen and (max-width: 768px) {
     .sections {
@@ -467,50 +390,69 @@
       }
     } //sections
 
-    .history {
-      .texts {
-        li {
-          display: block;
-          width: 100%;
-        }
-        li:last-child {
-          margin-top: 20px;
-        }
-      }
-    } //history
-
-    .redevelopment {
+    .tama {
       .list01 {
         li {
           display: block;
           width: 100%;
         }
-        li:last-child {
-          width: 100%;
-          margin-top: 20px;
-        }
       }
-      .img05 {
-        margin-top: -5%;
-      }
-      .policy {
-        margin-top: -5%;
-        .points {
-          .txt02 {
-            font-size: 18px;
+      .bg {
+        .list02 {
+          li:nth-child(2),
+          li:last-child {
+            width: 100%;
           }
-        } //points
-      } //policy
-      .list02 {
+          li:nth-child(2) {
+            margin: 10px auto;
+          }
+        }
+      } //bg
+      .list03 {
         li {
           display: block;
           width: 100%;
-          margin-top: 20px;
         }
-        li:last-child {
+        .info {
+          margin-bottom: 30px;
+        }
+      }
+      .list04 {
+        .side {
+          display: block;
+          width: 100%;
+        }
+        .side.last {
+          width: 100%;
+        }
+        .tama10 {
+          margin: 10px auto;
+        }
+      }
+    } //tama
+
+    .park {
+      margin-bottom: 60px;
+      .mini {
+        text-align: left;
+      }
+      .lists {
+        li {
+          display: block;
           width: 100%;
         }
       }
-    } //redevelopment
+    } //park
+
+    .festival {
+      margin-bottom: 60px;
+      li {
+        display: block;
+        width: 100%;
+      }
+      li:last-child {
+        width: 100%;
+      }
+    } //festival
   } //sp
 }

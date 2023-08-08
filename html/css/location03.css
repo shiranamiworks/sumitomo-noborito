@@ -1,0 +1,455 @@
+@charset "UTF-8";
+/* 
+  css設定 @charsetが消されるsass仕様へのハック用コメントです。削除しないでください。新規作成時も必須！
+ */
+.location03 main img {
+  max-width: 100%;
+}
+.location03 .img {
+  position: relative;
+}
+.location03 main {
+  font-family: "RyuminPro", serif;
+}
+.location03 .page-annotation {
+  font-family: "Noto Sans JP", sans-serif;
+}
+.location03 .main-visual {
+  position: relative;
+  line-height: 0;
+  border: none;
+}
+.location03 .main-visual .page-lead {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 54px;
+  width: 90%;
+}
+.location03 .sections {
+  line-height: 1;
+}
+.location03 .sections .section-img {
+  position: relative;
+}
+.location03 .sections .section-title {
+  font-size: 27px;
+  padding-top: 155px;
+  position: relative;
+  color: #afa471;
+  letter-spacing: 0.2em;
+  margin-bottom: 140px;
+}
+.location03 .sections .section-title::after {
+  content: "";
+  display: block;
+  width: 45px;
+  height: 170px;
+  background: url(../images/common/intro.jpg) bottom;
+  position: absolute;
+  top: 0;
+  right: 100%;
+  margin-right: 20px;
+}
+.location03 .sections .inner {
+  margin: 0 auto;
+  width: 70%;
+  max-width: 1030px;
+}
+.location03 .sections .annotation {
+  font-size: 10px;
+  text-align: right;
+}
+.location03 .intro .section-lead {
+  text-align: center;
+  font-size: 54px;
+  padding-bottom: 200px;
+  line-height: 1.5;
+}
+.location03 main {
+  padding-bottom: 140px;
+}
+.location03 .sec-contents .tit {
+  font-size: 36px;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  border-left: 15px solid #afa471;
+  padding-left: 10px;
+}
+.location03 .sec-contents .tit span {
+  font-size: 27px;
+  color: #afa471;
+}
+.location03 .sec-contents .lead {
+  font-size: 24px;
+  line-height: 1.8;
+}
+.location03 .sec-contents .name {
+  font-size: 25px;
+  line-height: 1.4;
+  margin: 20px 0 30px;
+  padding-left: 10px;
+  border-left: 5px solid;
+}
+.location03 .sec-contents .name span {
+  font-size: 20px;
+}
+.location03 .map {
+  margin-bottom: 20px;
+}
+.location03 .map .caps {
+  text-align: right;
+  font-size: 15px;
+}
+.location03 .shopping,
+.location03 .child {
+  margin-bottom: 100px;
+}
+.location03 .shopping .txt-list,
+.location03 .child .txt-list {
+  margin-bottom: 20px;
+}
+.location03 .shopping .txt-list li,
+.location03 .child .txt-list li {
+  vertical-align: top;
+  display: inline-block;
+  width: 52%;
+  margin-right: 2%;
+}
+.location03 .shopping .txt-list li:last-child,
+.location03 .child .txt-list li:last-child {
+  width: 44%;
+  margin-right: auto;
+}
+.location03 .shopping .lis li,
+.location03 .child .lis li {
+  vertical-align: top;
+  display: inline-block;
+  width: 49.7%;
+}
+.location03 .shopping .lis02 li,
+.location03 .shopping .lis03 li,
+.location03 .child .lis02 li,
+.location03 .child .lis03 li {
+  vertical-align: top;
+  display: inline-block;
+  width: 33%;
+}
+.location03 .life-info .lead02 {
+  margin-bottom: 220px;
+}
+.location03 .life-info .annotation {
+  bottom: 6px;
+  right: 0;
+  background: #000;
+  color: #fff;
+  padding: 4px 8px;
+  box-sizing: border-box;
+  margin: 0;
+}
+.location03 .life-info .annotation span {
+  background: #c86318;
+  border-radius: 50px;
+  padding: 2px 5px;
+  margin-right: 5px;
+}
+.location03 .life-info .annotation01 span {
+  background: #4c6c46;
+}
+.location03 .life-info .annotation02 span {
+  background: #729ccf;
+}
+.location03 .life-info .annotation03 span {
+  background: #093659;
+}
+.location03 .life-info .annotation04 span {
+  background: #ab6252;
+}
+.location03 .life-info .annotation05 span {
+  background: #675b7d;
+}
+.location03 .life-info .bg {
+  background: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.location03 .life-info .tab-inner {
+  display: none;
+}
+.location03 .life-info .tab-inner.current {
+  display: block;
+}
+.location03 .life-info .change-buttons {
+  text-align: center;
+  margin: 0 auto 20px;
+}
+.location03 .life-info .change-buttons li {
+  text-align: center;
+  float: left;
+  width: 19.2%;
+  margin-right: 1%;
+}
+.location03 .life-info .change-buttons li:last-child {
+  margin-right: 0;
+}
+.location03 .life-info .change-buttons .button {
+  display: block;
+  color: #c86318;
+  font-size: 26px;
+  background: rgba(89, 87, 88, 0.4);
+  border: 4px solid;
+}
+.location03 .life-info .change-buttons .button.current {
+  pointer-events: none;
+  background: #fff;
+  line-height: 0;
+}
+.location03 .life-info .change-buttons .button span {
+  display: inline-block;
+  padding: 20px 0;
+  line-height: 1;
+}
+.location03 .life-info .change-buttons .button02 {
+  color: #bece91;
+}
+.location03 .life-info .change-buttons .button02 span {
+  padding: 7px 0;
+}
+.location03 .life-info .change-buttons .button03 {
+  color: #42577a;
+}
+.location03 .life-info .change-buttons .button04 {
+  color: #a85326;
+}
+.location03 .life-info .change-buttons .button05 {
+  color: #4d2251;
+}
+.location03 .life-info .change-buttons .button05 span {
+  padding: 7px 0;
+}
+.location03 .life-info .change-buttons .button:hover {
+  opacity: 1;
+  background: #fff;
+  transition: 0.3s;
+}
+.location03 .life-info .img-list {
+  float: left;
+  width: 54%;
+  margin-right: 1%;
+}
+.location03 .life-info .img-list .lists li {
+  display: inline-block;
+  width: 49.5%;
+}
+.location03 .life-info .info-list {
+  background: #f7eede;
+  padding: 10px;
+  box-sizing: border-box;
+  float: right;
+  width: 45%;
+}
+.location03 .life-info .info-list .info-tit {
+  text-align: left;
+  font-size: 18px;
+  padding-left: 10px;
+  border-left: 10px solid #c86318;
+  margin-bottom: 10px;
+}
+.location03 .life-info .info-list .info-tit span {
+  display: block;
+  padding-left: 10px;
+  background: #b0b0b0;
+}
+.location03 .life-info .info-list .info-tit01 {
+  border-left: 10px solid #4c6c46;
+}
+.location03 .life-info .info-list .info-tit02 {
+  border-left: 10px solid #729ccf;
+}
+.location03 .life-info .info-list .info-tit03 {
+  border-left: 10px solid #093659;
+}
+.location03 .life-info .info-list .info-tit04 {
+  border-left: 10px solid #ab6252;
+}
+.location03 .life-info .info-list .info-tit05 {
+  border-left: 10px solid #675b7d;
+}
+.location03 .life-info .info-list .shop {
+  text-align: left;
+  font-size: 18px;
+  border-bottom: 1px solid #b0b0b0;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  color: #000;
+}
+.location03 .life-info .info-list .shop p {
+  display: inline-block;
+  vertical-align: middle;
+}
+.location03 .life-info .info-list .shop .num {
+  background: #c86318;
+  border-radius: 50px;
+  color: #fff;
+  padding: 0 9px;
+  margin-right: 5px;
+}
+.location03 .life-info .info-list .shop .num01 {
+  background: #4c6c46;
+}
+.location03 .life-info .info-list .shop .num02 {
+  background: #729ccf;
+}
+.location03 .life-info .info-list .shop .num03 {
+  background: #093659;
+}
+.location03 .life-info .info-list .shop .num04 {
+  background: #ab6252;
+}
+.location03 .life-info .info-list .shop .num05 {
+  background: #675b7d;
+}
+.location03 .life-info .info-list .shop .num06 {
+  background: #675b7d;
+  padding: 0 5px;
+}
+.location03 .life-info .info-list .shop .name {
+  line-height: 1;
+}
+.location03 .life-info .info-list .shop .min {
+  padding-top: 4px;
+  font-size: 13px;
+  float: right;
+}
+.location03 .life-info .info-list01 {
+  background: #eaeeeb;
+}
+.location03 .life-info .info-list02 {
+  background: #dddce2;
+}
+.location03 .life-info .info-list03 {
+  background: #f2eae5;
+}
+.location03 .life-info .info-list04 {
+  background: #eeecef;
+  float: left;
+  width: 50%;
+}
+.location03 .life-info .info-list04 .shop {
+  height: 45px;
+}
+@media screen and (max-width: 1024px) {
+  .location03 .intro .section-lead {
+    text-align: left;
+    font-size: 30px;
+    padding-bottom: 40px;
+  }
+  .location03 .sec-contents .tit {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .location03 .sec-contents .tit span {
+    font-size: 18px;
+  }
+  .location03 .sec-contents .lead {
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
+  .location03 .sec-contents .name {
+    font-size: 20px;
+    margin: 10px 0 20px;
+  }
+  .location03 .sec-contents .name span {
+    font-size: 16px;
+  }
+  .location03 .life-info .bg {
+    padding: 20px 10px;
+  }
+  .location03 .life-info .change-buttons {
+    text-align: center;
+    margin: 0 auto 10px;
+  }
+  .location03 .life-info .change-buttons li {
+    float: none;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .location03 .life-info .change-buttons .button {
+    font-size: 18px;
+    border: 2px solid;
+  }
+  .location03 .life-info .change-buttons .button span {
+    padding: 10px 0;
+  }
+  .location03 .life-info .img-list {
+    float: none;
+    width: 100%;
+  }
+  .location03 .life-info .img-list .lists li {
+    display: block;
+    width: 100%;
+  }
+  .location03 .life-info .img-list img {
+    width: 100%;
+  }
+  .location03 .life-info .info-list {
+    float: none;
+    width: 100%;
+  }
+  .location03 .life-info .info-list .info-tit {
+    font-size: 14px;
+  }
+  .location03 .life-info .info-list .shop {
+    font-size: 12px;
+    border-bottom: 1px solid #b0b0b0;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  .location03 .life-info .info-list .shop .num {
+    padding: 0 6px;
+  }
+  .location03 .life-info .info-list .shop .num06 {
+    padding: 0 3px;
+  }
+  .location03 .life-info .info-list .shop .min {
+    font-size: 12px;
+  }
+  .location03 .life-info .info-list04 {
+    float: none;
+    width: 100%;
+  }
+  .location03 .life-info .info-list04 .shop {
+    height: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .location03 .sections .section-title {
+    font-size: 20px;
+    padding-top: 90px;
+    margin-bottom: 60px;
+  }
+  .location03 .sections .section-title::after {
+    width: 40px;
+    height: 100px;
+    margin-right: 10px;
+  }
+  .location03 .sections .inner {
+    margin: 0 auto;
+    width: 70%;
+  }
+  .location03 .life-info {
+    padding: 150px 0 50px;
+    width: 94%;
+  }
+  .location03 .life-info .lead02 {
+    margin-bottom: 50px;
+  }
+  .location03 .life-info .bg {
+    padding: 10px;
+  }
+  .location03 .life-info .info-list .shop .min {
+    float: none;
+  }
+}/*# sourceMappingURL=location03.css.map */
