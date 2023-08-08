@@ -161,6 +161,8 @@
   font-size: 15px;
   bottom: 2px;
   right: 0;
+  left: 0;
+  text-align: left;
   background: rgba(0, 0, 0, 0.7);
   color: #fff;
   padding: 5px 8px;
@@ -256,7 +258,7 @@
 }
 .location03 .life-info .img-list .lists li {
   display: inline-block;
-  width: 49.5%;
+  width: 49.4%;
 }
 .location03 .life-info .info-list {
   background: #f5e4d2;
@@ -269,7 +271,7 @@
   text-align: left;
   font-size: 18px;
   border-bottom: 1px solid #b0b0b0;
-  padding-bottom: 10px;
+  padding: 10px;
   margin-bottom: 10px;
   color: #000;
 }
@@ -299,10 +301,24 @@
 .location03 .life-info .info-list .shop .name {
   line-height: 1;
 }
+.location03 .life-info .info-list .shop .name .mid {
+  font-size: 14px;
+}
 .location03 .life-info .info-list .shop .min {
   padding-top: 4px;
   font-size: 13px;
   float: right;
+}
+.location03 .life-info .info-list .shop .mini {
+  display: block;
+  font-size: 10px;
+  margin-left: 40px;
+}
+.location03 .life-info .info-list .shop .sp {
+  display: none;
+}
+.location03 .life-info .info-list .shop .pc {
+  display: inherit;
 }
 .location03 .life-info .info-list01 {
   background: #fffde9;
@@ -466,5 +482,15 @@
   }
   .location03 .life-info .info-list .shop .min {
     float: none;
+  }
+  .location03 .life-info .info-list .shop .mini {
+    margin-left: 0;
+    margin-top: 4px;
+  }
+  .location03 .life-info .info-list .shop .pc {
+    display: none;
+  }
+  .location03 .life-info .info-list .shop .sp {
+    display: inherit;
   }
 }/*# sourceMappingURL=location03.css.map */

@@ -203,19 +203,19 @@
         <div class="img-list">
           <div class="image">
             <img src="./images/location03/info01-01.jpg" alt="">
-            <p class="annotation"><span>1</span>ココネリ</p>
+            <p class="annotation"><span>4</span>いなげや川崎登戸店</p>
           </div>
           <ul class="lists list01">
             <li>
               <div class="image">
                 <img src="./images/location03/info01-02.jpg" alt="">
-                <p class="annotation"><span>4</span>西松屋練馬中村店</p>
+                <p class="annotation"><span>6</span>小田急マルシェ登戸</p>
               </div>
             </li>
             <li>
               <div class="image">
                 <img src="./images/location03/info01-03.jpg" alt="">
-                <p class="annotation"><span>6</span>ライフ練馬中村北</p>
+                <p class="annotation"><span>8</span>マルエツ登戸駅前店</p>
               </div>
             </li>
           </ul>
@@ -223,13 +223,13 @@
             <li>
               <div class="image">
                 <img src="./images/location03/info01-04.jpg" alt="">
-                <p class="annotation"><span>7</span>オオゼキ練馬店</p>
+                <p class="annotation"><span>9</span>オーケー登戸店</p>
               </div>
             </li>
             <li>
               <div class="image">
                 <img src="./images/location03/info01-05.jpg" alt="">
-                <p class="annotation"><span>3</span>ジェーソン練馬中村橋店</p>
+                <p class="annotation"><span>1</span>クリエイトエス・ディー登戸新町店</p>
               </div>
             </li>
           </ul>
@@ -237,48 +237,53 @@
         <div class="info-list">
           <div class="shop">
             <p class="num">1</p>
-            <p class="name">ココネリ</p>
-            <p class="min">徒歩11分（No.8区画）?徒歩12分（No.1区画）</p>
+            <p class="name">クリエイトエス・ディー<br class="pc">登戸新町店</p>
+            <p class="min">約160m／徒歩2分</p>
           </div>
           <div class="shop">
             <p class="num">2</p>
-            <p class="name">エミオ練馬</p>
-            <p class="min">徒歩12分（No.8区画）?徒歩12分（No.1区画）</p>
+            <p class="name">しまむら登戸店</p>
+            <p class="min">約430m／徒歩6分</p>
           </div>
           <div class="shop">
             <p class="num">3</p>
-            <p class="name">ジェーソン<br>練馬中村橋店</p>
-            <p class="min">徒歩2分（No.3区画）?徒歩3分（No.10区画）</p>
+            <p class="name">セブン-イレブン<br class="pc">川崎中野島4丁目店</p>
+            <p class="min">約440m／徒歩6分</p>
           </div>
           <div class="shop">
             <p class="num">4</p>
-            <p class="name">西松屋<br>練馬中村橋店</p>
-            <p class="min">徒歩4分（No.10区画）?徒歩5分（No.1区画）</p>
+            <p class="name">いなげや川崎登戸店</p>
+            <p class="min">約460m／徒歩6分</p>
           </div>
           <div class="shop">
             <p class="num">5</p>
-            <p class="name">地産マルシェ<br>練馬店</p>
-            <p class="min">徒歩4分（No.8区画）?徒歩5分（No.1区画）</p>
+            <p class="name">ウェルパーク<br class="pc">川崎中野島5丁目店</p>
+            <p class="min">約610m／徒歩8分</p>
           </div>
           <div class="shop">
             <p class="num">6</p>
-            <p class="name">ライフ<br>練馬中村北店</p>
-            <p class="min">徒歩6分（No.3区画）?徒歩7分（No.10区画）</p>
+            <p class="name">小田急マルシェ登戸</p>
+            <p class="min">約880m／徒歩11分</p>
           </div>
           <div class="shop">
             <p class="num">7</p>
-            <p class="name">オオゼキ<br>練馬店</p>
-            <p class="min">徒歩6分（No.8区画）?徒歩7分（No.1区画）</p>
+            <p class="name">味の食彩館のぼりと</p>
+            <p class="min">約880m／徒歩11分</p>
           </div>
           <div class="shop">
             <p class="num">8</p>
-            <p class="name">ウエルシア<br>豊玉目白通り店</p>
-            <p class="min">徒歩9分（No.8区画）?徒歩10分（No.1区画）</p>
+            <p class="name">マルエツ登戸駅前店</p>
+            <p class="min">約900m／徒歩12分</p>
           </div>
           <div class="shop">
             <p class="num">9</p>
-            <p class="name">西友練馬店</p>
-            <p class="min">徒歩10分（No.8区画）?徒歩11分（No.1区画）</p>
+            <p class="name">オーケー登戸店</p>
+            <p class="min">約1,110m／徒歩14分</p>
+          </div>
+          <div class="shop">
+            <p class="num">10</p>
+            <p class="name">Odakyu OX 向ヶ丘遊園店</p>
+            <p class="min">約1,140m／徒歩15分</p>
           </div>
         </div><!-- info-list -->
       </div><!-- cond01 -->
@@ -287,19 +292,19 @@
         <div class="img-list">
           <div class="image">
             <img src="./images/location03/info02-01.jpg" alt="">
-            <p class="annotation annotation01"><span>1</span>中村かしわ公園</p>
+            <p class="annotation annotation01"><span>9</span>川崎市藤子・F・不二雄ミュージアム</p>
           </div>
           <ul class="lists list01">
             <li>
               <div class="image">
                 <img src="./images/location03/info02-02.jpg" alt="">
-                <p class="annotation annotation01"><span>2</span>豊玉公園</p>
+                <p class="annotation annotation01"><span>1</span>多摩川</p>
               </div>
             </li>
             <li>
               <div class="image">
                 <img src="./images/location03/info02-03.jpg" alt="">
-                <p class="annotation annotation01"><span>3</span>学田公園</p>
+                <p class="annotation annotation01"><span>11</span>かわさき宙と緑の科学館<br>（川崎市青少年科学館）</p>
               </div>
             </li>
           </ul>
@@ -307,13 +312,13 @@
             <li>
               <div class="image">
                 <img src="./images/location03/info02-04.jpg" alt="">
-                <p class="annotation annotation01"><span>1</span>ホットヨガスタジオLAVA練馬店</p>
+                <p class="annotation annotation01"><span>8</span>生田緑地</p>
               </div>
             </li>
             <li>
               <div class="image">
                 <img src="./images/location03/info02-05.jpg" alt="">
-                <p class="annotation annotation01"><span>2</span>ティップネス練馬店</p>
+                <p class="annotation annotation01"><span>13</span>川崎市岡本太郎美術館</p>
               </div>
             </li>
           </ul>
@@ -321,38 +326,68 @@
         <div class="info-list info-list01">
           <div class="shop">
             <p class="num num01">1</p>
-            <p class="name">中村かしわ公園</p>
-            <p class="min">徒歩1分（No.1区画）?徒歩2分（No.8区画）</p>
+            <p class="name">多摩川</p>
+            <p class="min">約200m／徒歩3分</p>
           </div>
           <div class="shop">
             <p class="num num01">2</p>
-            <p class="name">豊玉公園</p>
-            <p class="min">徒歩6分（No.8区画）?徒歩6分（No.1区画）</p>
+            <p class="name">登戸第2公園</p>
+            <p class="min">約240m／徒歩3分</p>
           </div>
           <div class="shop">
             <p class="num num01">3</p>
-            <p class="name">学田公園</p>
-            <p class="min">徒歩6分（No.10区画）?徒歩7分（No.3区画）</p>
+            <p class="name">中野島石河原公園</p>
+            <p class="min">約340m／徒歩5分</p>
           </div>
           <div class="shop">
             <p class="num num01">4</p>
-            <p class="name">都立<br>練馬城址公園</p>
-            <p class="min">徒歩13分（No.8区画）?徒歩14分（No.1区画）</p>
+            <p class="name">稲田多摩川公園</p>
+            <p class="min">約590m／徒歩8分</p>
           </div>
           <div class="shop">
             <p class="num num01">5</p>
-            <p class="name">中野区立<br>江古田の森公園</p>
-            <p class="min">徒歩25分（No.8区画）?徒歩25分（No.1区画）</p>
+            <p class="name">ジム&スタジオルネサンス登戸</p>
+            <p class="min">約920m／徒歩12分</p>
           </div>
           <div class="shop">
             <p class="num num01">6</p>
-            <p class="name">都立石神井公園</p>
-            <p class="min">徒歩52分（No.3区画）?徒歩53分（No.10区画）</p>
+            <p class="name">多摩川緑地（中野島地区）</p>
+            <p class="min">約1,170m／徒歩15分</p>
           </div>
           <div class="shop">
             <p class="num num01">7</p>
-            <p class="name">都立光が丘公園</p>
-            <p class="min">徒歩53分（No.3区画）?徒歩54分（No.10区画）</p>
+            <p class="name">二ヶ領用水</p>
+            <p class="min">約1,360m</p>
+          </div>
+          <div class="shop">
+            <p class="num num01">8</p>
+            <p class="name">生田緑地 <span class="mid">※戸隠不動口まで</span></p>
+            <p class="min">約1,830m</p>
+          </div>
+          <div class="shop">
+            <p class="num num01">9</p>
+            <p class="name">川崎市藤子・F・不二雄ミュージアム</p>
+            <p class="min">約2,310m</p>
+          </div>
+          <div class="shop">
+            <p class="num num01">10</p>
+            <p class="name">市立日本民家園</p>
+            <p class="min">約2,310m</p>
+          </div>
+          <div class="shop">
+            <p class="num num01">11</p>
+            <p class="name">かわさき宙と緑の科学館<br>（川崎市青少年科学館）</p>
+            <p class="min">約2,510m</p>
+          </div>
+          <div class="shop">
+            <p class="num num01">12</p>
+            <p class="name">川崎国際生田緑地ゴルフ場</p>
+            <p class="min">約2,790m</p>
+          </div>
+          <div class="shop">
+            <p class="num num01">13</p>
+            <p class="name">川崎市岡本太郎美術館</p>
+            <p class="min">約2,810m</p>
           </div>
         </div><!-- info-list -->
       </div><!-- cond02 -->
@@ -361,19 +396,19 @@
         <div class="img-list">
           <div class="image">
             <img src="./images/location03/info03-01.jpg" alt="">
-            <p class="annotation annotation02"><span>1</span>区立中村小学校</p>
+            <p class="annotation annotation02"><span>9</span>KFJ多摩スカイキッズ児童館</p>
           </div>
           <ul class="lists list01">
             <li>
               <div class="image">
                 <img src="./images/location03/info03-02.jpg" alt="">
-                <p class="annotation annotation02"><span>3</span>練馬あけみ保育園</p>
+                <p class="annotation annotation02"><span>6</span>市立登戸小学校</p>
               </div>
             </li>
             <li>
               <div class="image">
                 <img src="./images/location03/info03-03.jpg" alt="">
-                <p class="annotation annotation02"><span>4</span>にじいろ保育園練馬北</p>
+                <p class="annotation annotation02"><span>10</span>市立枡形中学校</p>
               </div>
             </li>
           </ul>
@@ -381,13 +416,13 @@
             <li>
               <div class="image">
                 <img src="./images/location03/info03-04.jpg" alt="">
-                <p class="annotation annotation02"><span>5</span>豊玉第二保育園</p>
+                <p class="annotation annotation02"><span>1</span>ぶどうの実登戸園</p>
               </div>
             </li>
             <li>
               <div class="image">
                 <img src="./images/location03/info03-05.jpg" alt="">
-                <p class="annotation annotation02"><span>6</span>さくらさくみらい中村北</p>
+                <p class="annotation annotation02"><span>4</span>なかのしまのぞみ保育園</p>
               </div>
             </li>
           </ul>
@@ -395,48 +430,53 @@
         <div class="info-list info-list02">
           <div class="shop">
             <p class="num num02">1</p>
-            <p class="name">区立中村小学校</p>
-            <p class="min">徒歩7分（No.1区画）?徒歩8分（No.8区画）</p>
+            <p class="name">ぶどうの実登戸園（私立</p>
+            <p class="min">約170m／徒歩3分</p>
           </div>
           <div class="shop">
             <p class="num num02">2</p>
-            <p class="name">区立中村中学校</p>
-            <p class="min">徒歩10分（No.10区画）?徒歩11分（No.3区画）</p>
+            <p class="name">ゆい保育園たまがわ（私立）</p>
+            <p class="min">約340m／徒歩5分</p>
           </div>
           <div class="shop">
             <p class="num num02">3</p>
-            <p class="name">練馬あけみ保育園</p>
-            <p class="min">徒歩2分（No.8区画）?徒歩3分（No.1区画）</p>
+            <p class="name">中野島のはら保育園（私立）</p>
+            <p class="min">約390m／徒歩5分</p>
           </div>
           <div class="shop">
             <p class="num num02">4</p>
-            <p class="name">にじいろ保育園<br>練馬中村</p>
-            <p class="min">徒歩3分（No.1区画）?徒歩4分（No.8区画）</p>
+            <p class="name">なかのしまのぞみ保育園（私立）</p>
+            <p class="min">約580m／徒歩8分</p>
           </div>
           <div class="shop">
             <p class="num num02">5</p>
-            <p class="name">豊玉第二保育園</p>
-            <p class="min">徒歩5分（No.8区画）?徒歩5分（No.1区画）</p>
+            <p class="name">カリタス幼稚園（私立）</p>
+            <p class="min">約720m／徒歩9分</p>
           </div>
           <div class="shop">
             <p class="num num02">6</p>
-            <p class="name">さくらさくみらい<br>中村北</p>
-            <p class="min">徒歩5分（No.8区画）?徒歩6分（No.1区画）</p>
+            <p class="name">市立登戸小学校（通学区）</p>
+            <p class="min">約760m／徒歩10分</p>
           </div>
           <div class="shop">
             <p class="num num02">7</p>
-            <p class="name">にじいろ保育園<br>中村一丁目</p>
-            <p class="min">徒歩5分（No.10区画）?徒歩6分（No.3区画）</p>
+            <p class="name">カリタス小学校（私立）</p>
+            <p class="min">約770m／徒歩10分</p>
           </div>
           <div class="shop">
             <p class="num num02">8</p>
-            <p class="name">豊玉保育園</p>
-            <p class="min">徒歩6分（No.10区画）?徒歩7分（No.3区画）</p>
+            <p class="name">KFJ多摩なのはな保育園（私立）</p>
+            <p class="min">約840m／徒歩11分</p>
           </div>
           <div class="shop">
             <p class="num num02">9</p>
-            <p class="name">練馬二葉保育園</p>
-            <p class="min">徒歩8分（No.10区画）?徒歩9分（No.3区画）</p>
+            <p class="name">KFJ多摩スカイキッズ児童館</p>
+            <p class="min">約840m／徒歩11分</p>
+          </div>
+          <div class="shop">
+            <p class="num num02">9</p>
+            <p class="name">市立枡形中学校（通学区）</p>
+            <p class="min">約2,270m</p>
           </div>
         </div><!-- info-list -->
       </div><!-- cond03 -->
@@ -445,19 +485,19 @@
         <div class="img-list">
         <div class="image">
           <img src="./images/location03/info04-01.jpg" alt="">
-          <p class="annotation annotation03"><span>1</span>メディカルポート練馬</p>
+          <p class="annotation annotation03"><span>12</span>川崎市立多摩病院</p>
         </div>
         <ul class="lists list01">
             <li>
               <div class="image">
                 <img src="./images/location03/info04-02.jpg" alt="">
-                <p class="annotation annotation03"><span>1</span>メディカルポート練馬</p>
+                <p class="annotation annotation03"><span>2</span>鈴木内科医院</p>
               </div>
             </li>
             <li>
               <div class="image">
                 <img src="./images/location03/info04-03.jpg" alt="">
-                <p class="annotation annotation03"><span>2</span>小山小児科・耳鼻咽喉科医院</p>
+                <p class="annotation annotation03"><span>4</span>多摩ファミリークリニック</p>
               </div>
             </li>
           </ul>
@@ -465,13 +505,13 @@
             <li>
               <div class="image">
                 <img src="./images/location03/info04-04.jpg" alt="">
-                <p class="annotation annotation03"><span>5</span>練馬区夜間救急こどもクリニック</p>
+                <p class="annotation annotation03"><span>5</span>登戸内科・脳神経クリニック</p>
               </div>
             </li>
             <li>
               <div class="image">
                 <img src="./images/location03/info04-05.jpg" alt="">
-                <p class="annotation annotation03"><span>8</span>総合東京病院</p>
+                <p class="annotation annotation03"><span>11</span>川崎市多摩休日夜間急患診療所</p>
               </div>
             </li>
           </ul>
@@ -479,43 +519,87 @@
         <div class="info-list info-list03">
           <div class="shop">
             <p class="num num03">1</p>
-            <p class="name">メディカルポート練馬</p>
-            <p class="min">徒歩3分（No.8区画）?徒歩4分（No.1区画）</p>
+            <p class="name">ゆう歯科・口腔外科クリニック登戸院</p>
+            <p class="mini sp">（歯科）</p>
+            <p class="min">約150m／徒歩2分</p>
+            <p class="mini pc">（歯科）</p>
           </div>
           <div class="shop">
             <p class="num num03">2</p>
-            <p class="name">小山小児科・<br>耳鼻咽喉科医院</p>
-            <p class="min">徒歩5分（No.8区画）?徒歩6分（No.1区画）</p>
+            <p class="name">鈴木内科医院</p>
+            <p class="mini sp">（内科・消化器科）</p>
+            <p class="min">約210m／徒歩3分</p>
+            <p class="mini pc">（内科・消化器科）</p>
           </div>
           <div class="shop">
             <p class="num num03">3</p>
-            <p class="name">はたクリニック</p>
-            <p class="min">徒歩5分（No.10区画）?徒歩6分（No.3区画）</p>
+            <p class="name">木下医院</p>
+            <p class="mini sp">（整形外科、リハビリテーション科）</p>
+            <p class="min">約230m／徒歩3分</p>
+            <p class="mini pc">（整形外科、リハビリテーション科）</p>
           </div>
           <div class="shop">
             <p class="num num03">4</p>
-            <p class="name">森田医院</p>
-            <p class="min">徒歩6分（No.8区画）?徒歩6分（No.1区画）</p>
+            <p class="name">多摩ファミリークリニック</p>
+            <p class="mini sp">（内科、小児科、外科）</p>
+            <p class="min">約580m／徒歩8分</p>
+            <p class="mini pc">（内科、小児科、外科）</p>
           </div>
           <div class="shop">
             <p class="num num03">5</p>
-            <p class="name">練馬区夜間救急<br>こどもクリニック</p>
-            <p class="min">徒歩6分（No.8区画）?徒歩7分（No.1区画）</p>
+            <p class="name">登戸内科・脳神経クリニック</p>
+            <p class="mini sp">（内科、脳神経内科、循環器内科、リハビリテーション科）</p>
+            <p class="min">約720m／徒歩9分</p>
+            <p class="mini pc">（内科、脳神経内科、循環器内科、リハビリテーション科）</p>
           </div>
           <div class="shop">
             <p class="num num03">6</p>
-            <p class="name">臼井医院</p>
-            <p class="min">徒歩7分（No.3区画）?徒歩7分（No.10区画）</p>
+            <p class="name">のぼりと皮膚科</p>
+            <p class="mini sp">（皮膚科）</p>
+            <p class="min">約880m／徒歩11分</p>
+            <p class="mini pc">（皮膚科）</p>
           </div>
           <div class="shop">
             <p class="num num03">7</p>
-            <p class="name">藤澤こどもクリニック</p>
-            <p class="min">徒歩7分（No.8区画）?徒歩8分（No.1区画）</p>
+            <p class="name">川崎・多摩アイクリニック</p>
+            <p class="mini sp">（眼科）</p>
+            <p class="min">約900m／徒歩12分</p>
+            <p class="mini pc">（眼科）</p>
           </div>
           <div class="shop">
             <p class="num num03">8</p>
-            <p class="name">総合東京病院</p>
-            <p class="min">徒歩26分（No.8区画）?徒歩27分（No.1区画）</p>
+            <p class="name">なかむらこどもクリニック</p>
+            <p class="mini sp">（小児科、アレルギー科）</p>
+            <p class="min">約900m／徒歩12分</p>
+            <p class="mini pc">（小児科、アレルギー科）</p>
+          </div>
+          <div class="shop">
+            <p class="num num03">9</p>
+            <p class="name">登戸クリニック</p>
+            <p class="mini sp">（一般内科、漢方内科、血液透析）</p>
+            <p class="min">約970m／徒歩13分</p>
+            <p class="mini pc">（一般内科、漢方内科、血液透析）</p>
+          </div>
+          <div class="shop">
+            <p class="num num03">10</p>
+            <p class="name">のぼりとキッズクリニック</p>
+            <p class="mini sp">（小児科、アレルギー科、小児皮膚科）</p>
+            <p class="min">約1,000m／徒歩13分</p>
+            <p class="mini pc">（小児科、アレルギー科、小児皮膚科）</p>
+          </div>
+          <div class="shop">
+            <p class="num num03">11</p>
+            <p class="name">川崎市多摩休日夜間急患診療所</p>
+            <p class="mini sp">（内科、小児科）</p>
+            <p class="min">約1,060m／徒歩14分</p>
+            <p class="mini pc">（内科、小児科）</p>
+          </div>
+          <div class="shop">
+            <p class="num num03">12</p>
+            <p class="name">川崎市立多摩病院</p>
+            <p class="mini sp">（救急災害医療センター）</p>
+            <p class="min">約1,150m／徒歩15分</p>
+            <p class="mini pc">（救急災害医療センター）</p>
           </div>
         </div><!-- info-list -->
       </div><!-- cond04 -->
@@ -524,19 +608,19 @@
       <div class="img-list">
         <div class="image">
           <img src="./images/location03/info05-01.jpg" alt="">
-          <p class="annotation annotation04"><span>1</span>メディカルポート練馬</p>
+          <p class="annotation annotation04"><span>4</span>川崎市多摩区役所</p>
         </div>
         <ul class="lists list01">
           <li>
             <div class="image">
               <img src="./images/location03/info05-02.jpg" alt="">
-              <p class="annotation annotation04"><span>1</span>メディカルポート練馬</p>
+              <p class="annotation annotation04"><span>2</span>登戸行政サービスコーナー</p>
             </div>
           </li>
           <li>
             <div class="image">
               <img src="./images/location03/info05-03.jpg" alt="">
-              <p class="annotation annotation04"><span>2</span>小山小児科・耳鼻咽喉科医院</p>
+              <p class="annotation annotation04"><span>6</span>市立多摩図書館</p>
             </div>
           </li>
         </ul>
@@ -544,47 +628,62 @@
           <li>
             <div class="image">
               <img src="./images/location03/info05-04.jpg" alt="">
-              <p class="annotation annotation04"><span>5</span>練馬区夜間救急こどもクリニック</p>
+              <p class="annotation annotation04"><span>8</span>登戸郵便局</p>
             </div>
           </li>
           <li>
             <div class="image">
               <img src="./images/location03/info05-05.jpg" alt="">
-              <p class="annotation annotation04"><span>8</span>総合東京病院</p>
+              <p class="annotation annotation04"><span>9</span>多摩警察署</p>
             </div>
           </li>
         </ul>
         </div><!-- img-list -->
         <div class="info-list info-list04">
           <div class="shop">
+            <p class="num num04">1</p>
+            <p class="name">中野島こども文化センター</p>
+            <p class="min">約510m／徒歩7分</p>
+          </div>
+          <div class="shop">
+            <p class="num num04">2</p>
+            <p class="name">登戸行政サービスコーナー</p>
+            <p class="min">約880m／徒歩11分</p>
+          </div>
+          <div class="shop">
+            <p class="num num04">3</p>
+            <p class="name">みずほ銀行登戸駅出張所</p>
+            <p class="min">約880m／徒歩11分</p>
+          </div>
+          <div class="shop">
+            <p class="num num04">4</p>
+            <p class="name">川崎市多摩区役所</p>
+            <p class="min">約950m／徒歩12分</p>
+          </div>
+          <div class="shop">
+            <p class="num num04">5</p>
+            <p class="name">川崎市多摩市民館</p>
+            <p class="min">約950m／徒歩12分</p>
+          </div>
+          <div class="shop">
+            <p class="num num04">6</p>
+            <p class="name">市立多摩図書館</p>
+            <p class="min">約950m／徒歩12分</p>
+          </div>
+          <div class="shop">
             <p class="num num04">7</p>
-            <p class="name">練馬中村ニ郵便局</p>
-            <p class="min">徒歩5分（No.1区画）?徒歩6分（No.8区画）</p>
+            <p class="name">三菱UFJ銀行登戸支店</p>
+            <p class="min">約1,060m／徒歩14分</p>
           </div>
           <div class="shop">
             <p class="num num04">8</p>
-            <p class="name">みずほ銀行<br>練馬区役所出張所</p>
-            <p class="min">徒歩6分（No.8区画）?徒歩7分（No.1区画）</p>
+            <p class="name">登戸郵便局</p>
+            <p class="min">約1,130m／徒歩15分</p>
           </div>
           <div class="shop">
             <p class="num num04">9</p>
-            <p class="name">練馬郵便局</p>
-            <p class="min">徒歩8分（No.8区画）?徒歩9分（No.1区画）</p>
-          </div>
-          <div class="shop">
-            <p class="num num04">10</p>
-            <p class="name">りそな銀行練馬支店</p>
-            <p class="min">徒歩9分（No.8区画）?徒歩10分（No.1区画）</p>
-          </div>
-          <div class="shop">
-            <p class="num num04">11</p>
-            <p class="name">三井住友銀行<br>練馬支店・氷川台支店</p>
-            <p class="min">徒歩11分（No.8区画）?徒歩12分（No.1区画）</p>
-          </div>
-          <div class="shop">
-            <p class="num num04">12</p>
-            <p class="name">三菱UFJ銀行<br>練馬支店</p>
-            <p class="min">徒歩14分（No.8区画）?徒歩15分（No.1区画）</p>
+            <p class="name">多摩警察署</p>
+            <p class="min">約1,350m</p>
           </div>
         </div><!-- info-list -->
       </div><!-- cond05 -->
