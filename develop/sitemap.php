@@ -5,12 +5,12 @@
   "gnav_set" => "sitemap",
   "page_class" => "",
   "url" => "sitemap.html",
-  "title" => "サイトマップ｜【公式】シティテラス桜上水｜桜上水の新築マンション｜住友不動産",
-  "keywords" => "サイトマップ,シティテラス桜上水,桜上水 新築マンション,桜上水,桜上水駅,京王電鉄京王線,世田谷区上北沢,マンション,新築マンション,分譲マンション,住友不動産",
-  "description" => "サイトマップページ。京王電鉄京王線「桜上水駅」から徒歩12分。住友不動産の新築マンションが桜上水に誕生。【すみふ桜上水】世田谷区上北沢の新築マンションなら住友不動産。",
+  "title" => "サイトマップ｜【公式】シティテラス登戸｜登戸の新築マンション｜住友不動産",
+  "keywords" => "サイトマップ,シティテラス登戸,登戸 新築マンション,登戸,登戸駅,京王電鉄京王線,世田谷区上北沢,マンション,新築マンション,分譲マンション,住友不動産",
+  "description" => "サイトマップページ。京王電鉄京王線「登戸駅」から徒歩11分。住友不動産の新築マンションが登戸に誕生。【すみふ登戸】世田谷区上北沢の新築マンションなら住友不動産。",
   "add_stylesheet" => ["css/sitemap.css"],
     
-  "logo_text" => "桜上水駅徒歩12分｜シティテラス桜上水｜桜上水 新築マンション｜サイトマップ｜すみふ桜上水｜住友不動産"
+  "logo_text" => "登戸駅徒歩11分｜シティテラス登戸｜登戸 新築マンション｜サイトマップ｜すみふ登戸｜住友不動産"
 );
 ?>
 
@@ -20,7 +20,7 @@
 	<!-- パンくずリスト -->
   <div class="breadcrumb sp-hide">
     <ul>
-      <li><a href="./index.html">シティテラス桜上水｜桜上水 新築マンション｜トップ</a></li>
+      <li><a href="./index.html">シティテラス登戸｜登戸 新築マンション｜トップ</a></li>
       <li><p>サイトマップ</p></li>
     </ul>
   </div>
@@ -30,7 +30,7 @@
   <div class="wrap">
     <h2 class="title">サイトマップ</h2>
     <ul class="pages">
-      <li class="top"><a href="./"><span class="ja">シティテラス桜上水 トップ</span></a></li>
+      <li class="top"><a href="./"><span class="ja">シティテラス登戸 トップ</span></a></li>
       <li class="concept"><a href="./concept.html"><span class="ja">コンセプト</span></a></li>
       <li class="design disable"><a href="./design01.html" class="disable"><span class="ja">デザイン</span></a></li>
       <li class="public disable"><a href="./public01.html" class="disable"><span class="ja">共用空間</span></a></li>
@@ -38,7 +38,7 @@
      <li class="plan disable"><a href="javascript:planFn();" class="disable"><span class="ja">間取り</span></a></li>
       <li class="equipment disable"><a href="./equipment01.html" class="disable"><span class="ja">設備・仕様</span></a></li>
       <li class="structur disable"><a href="./structure01.html" class="disable"><span class="ja">構造・防災</span></a></li>
-      <li class="location disable">ロケーション （ <span><a href="./location01.html"><span class="ja">上質な住環境が広がる桜上水</span></a></span> / <span><a href="./location02.html"><span class="ja">家族の憩いの場が広がる桜上水</span></a></span> ）</li>
+      <li class="location disable">ロケーション （ <span><a href="./location01.html"><span class="ja">土地区画整理事業で生まれ変わる街</span></a></span> / <span><a href="./location02.html"><span class="ja">水と緑の自然を身近に。</span></a></span> / <span><a href="./location03.html"><span class="ja">「登戸」駅周辺の優れた利便性</span></a></span> ）</li>
       <li class="access"><a href="./access.html"><span class="ja">アクセス</span></a></li>
       <li class="link map"><a href="map.html" target="_blank"><span class="ja">現地案内図</span></a></li>
       <li class="link outline"><a href="javascript:outline();"><span class="ja">物件概要</span></a></li>

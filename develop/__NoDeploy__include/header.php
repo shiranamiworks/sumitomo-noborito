@@ -130,8 +130,9 @@ $folder_name = $site_setting["area"]."/".$site_setting["prop"]."/";
             <!--<p><span class="f-en">LOCATION</span><br>ロケーション</p>-->
             <p class="active"><span class="f-en">LOCATION</span><br>ロケーション</p>
             <div class="sub-menu">
-              <a href="<?= $page_settings["directory_pos"]  ?>location01.html">上質な住環境が広がる登戸</a>
-              <a href="<?= $page_settings["directory_pos"]  ?>location02.html" class="finish">家族の憩いの場が広がる登戸</a>
+              <a href="<?= $page_settings["directory_pos"]  ?>location01.html">土地区画整理事業で生まれ変わる街</a>
+              <a href="<?= $page_settings["directory_pos"]  ?>location02.html">水と緑の自然を身近に。</a>
+              <a href="<?= $page_settings["directory_pos"]  ?>location03.html" class="finish">「登戸」駅周辺の優れた利便性</a>
             </div>
           </li>
           <li>
