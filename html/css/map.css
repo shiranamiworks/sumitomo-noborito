@@ -165,11 +165,15 @@
   #map header {
     display: block;
   }
+  #map main {
+    padding-top: 0 !important;
+  }
   #map h2.ttl {
     margin: 90px 0 75px 0 !important;
   }
   #map .print-area {
-    width: 100% !important;
+    width: 90% !important;
+    margin: 0 auto !important;
   }
   #map .entry {
     padding: 20px !important;
