@@ -9,7 +9,7 @@
   "keywords" => "ロケーション,シティテラス登戸,登戸 新築マンション,登戸,登戸駅,京王電鉄京王線,世田谷区上北沢,マンション,新築マンション,分譲マンション,住友不動産",
   "description" => "ロケーションページ。京王電鉄京王線「登戸駅」から徒歩11分。住友不動産の新築マンションが登戸に誕生。【すみふ登戸】世田谷区上北沢の新築マンションなら住友不動産。",
   "add_stylesheet" => ["css/location.css","css/location03.css"],
-  "add_script" =>  [],
+  "add_script" =>  ["js/location.js"],
     
   "logo_text" => "登戸駅徒歩11分｜シティテラス登戸｜登戸 新築マンション｜ロケーション｜すみふ登戸｜住友不動産"
 );
@@ -184,15 +184,16 @@
   </div><!-- child -->
 
 
-  <section class="sections life-info">
-    <div class="inner">
-      <h2 class="title">ライフインフォメーション</h2>
-      <p class="lead">商業にグルメ、文化施設、スポーツ施設も多彩。</p>
-      <p class="lead02">暮らしを鮮やかに彩るロケーション。</p>
+  <section class="sections life-info wrap">
+      <h2 class="box-tit">LIFE INFORMATION</h2>
+      <div class="img">
+        <img src="./images/location03/life.jpg" alt="">
+      </div>
+      <p class="line-txt">下記の項目をクリックすると施設情報がご覧いただけます。</p>
       <div class="bg clearfix">
       <ul class="change-buttons clearfix">
         <li><span href="#" data-target="cond01" class="button button01 current"><span>SHOPPING</span></span></li>
-        <li><span href="#" data-target="cond02" class="button button02"><span>PARK&<br>SPORTS</span></span></li>
+        <li><span href="#" data-target="cond02" class="button button02"><span>PARK<br>SPORTS&LEISURE</span></span></li>
         <li><span href="#" data-target="cond03" class="button button03"><span>EDUCATION</span></span></li>
         <li><span href="#" data-target="cond04" class="button button04"><span>HOSPITAL</span></span></li>
         <li><span href="#" data-target="cond05" class="button button05"><span>PUBLIC&<br>FINANCIAL</span></span></li>
@@ -234,7 +235,6 @@
           </ul>
         </div><!-- img-list -->
         <div class="info-list">
-          <p class="info-tit"><span>大型商業施設</span></p>
           <div class="shop">
             <p class="num">1</p>
             <p class="name">ココネリ</p>
@@ -245,7 +245,6 @@
             <p class="name">エミオ練馬</p>
             <p class="min">徒歩12分（No.8区画）?徒歩12分（No.1区画）</p>
           </div>
-          <p class="info-tit"><span>買い物施設</span></p>
           <div class="shop">
             <p class="num">3</p>
             <p class="name">ジェーソン<br>練馬中村橋店</p>
@@ -308,19 +307,18 @@
             <li>
               <div class="image">
                 <img src="./images/location03/info02-04.jpg" alt="">
-                <p class="annotation annotation02"><span>1</span>ホットヨガスタジオLAVA練馬店</p>
+                <p class="annotation annotation01"><span>1</span>ホットヨガスタジオLAVA練馬店</p>
               </div>
             </li>
             <li>
               <div class="image">
                 <img src="./images/location03/info02-05.jpg" alt="">
-                <p class="annotation annotation02"><span>2</span>ティップネス練馬店</p>
+                <p class="annotation annotation01"><span>2</span>ティップネス練馬店</p>
               </div>
             </li>
           </ul>
         </div><!-- img-list -->
         <div class="info-list info-list01">
-          <p class="info-tit info-tit01"><span>公園</span></p>
           <div class="shop">
             <p class="num num01">1</p>
             <p class="name">中村かしわ公園</p>
@@ -356,115 +354,87 @@
             <p class="name">都立光が丘公園</p>
             <p class="min">徒歩53分（No.3区画）?徒歩54分（No.10区画）</p>
           </div>
-          <p class="info-tit info-tit02"><span>スポーツ</span></p>
-          <div class="shop">
-            <p class="num num02">1</p>
-            <p class="name">ホットヨガスタジオ<br>LAVA練馬店</p>
-            <p class="min">徒歩10分（No.8区画）?徒歩11分（No.1区画）</p>
-          </div>
-          <div class="shop">
-            <p class="num num02">2</p>
-            <p class="name">ティップネス練馬店</p>
-            <p class="min">徒歩11分（No.8区画）?徒歩12分（No.1区画）</p>
-          </div>
-          <div class="shop">
-            <p class="num num02">3</p>
-            <p class="name">ファストジム24<br>豊島園店</p>
-            <p class="min">徒歩11分（No.8区画）?徒歩12分（No.1区画）</p>
-          </div>
         </div><!-- info-list -->
       </div><!-- cond02 -->
 
       <div class="tab-inner cond03 clearfix">
         <div class="img-list">
-        <ul class="lists list01">
-            <li>
-              <div class="image">
-                <img src="./images/location03/info03-01.jpg" alt="">
-                <p class="annotation annotation03"><span>1</span>区立中村小学校</p>
-              </div>
-            </li>
+          <div class="image">
+            <img src="./images/location03/info03-01.jpg" alt="">
+            <p class="annotation annotation02"><span>1</span>区立中村小学校</p>
+          </div>
+          <ul class="lists list01">
             <li>
               <div class="image">
                 <img src="./images/location03/info03-02.jpg" alt="">
-                <p class="annotation annotation03"><span>2</span>区立中村中学校</p>
+                <p class="annotation annotation02"><span>3</span>練馬あけみ保育園</p>
               </div>
             </li>
-          </ul>
-          <ul class="lists list01">
             <li>
               <div class="image">
                 <img src="./images/location03/info03-03.jpg" alt="">
-                <p class="annotation annotation03"><span>3</span>練馬あけみ保育園</p>
-              </div>
-            </li>
-            <li>
-              <div class="image">
-                <img src="./images/location03/info03-04.jpg" alt="">
-                <p class="annotation annotation03"><span>4</span>にじいろ保育園練馬北</p>
+                <p class="annotation annotation02"><span>4</span>にじいろ保育園練馬北</p>
               </div>
             </li>
           </ul>
           <ul class="lists list01">
             <li>
               <div class="image">
-                <img src="./images/location03/info03-05.jpg" alt="">
-                <p class="annotation annotation03"><span>5</span>豊玉第二保育園</p>
+                <img src="./images/location03/info03-04.jpg" alt="">
+                <p class="annotation annotation02"><span>5</span>豊玉第二保育園</p>
               </div>
             </li>
             <li>
               <div class="image">
-                <img src="./images/location03/info03-06.jpg" alt="">
-                <p class="annotation annotation03"><span>6</span>さくらさくみらい中村北</p>
+                <img src="./images/location03/info03-05.jpg" alt="">
+                <p class="annotation annotation02"><span>6</span>さくらさくみらい中村北</p>
               </div>
             </li>
           </ul>
         </div><!-- img-list -->
         <div class="info-list info-list02">
-          <p class="info-tit info-tit03"><span>通学区</span></p>
           <div class="shop">
-            <p class="num num03">1</p>
+            <p class="num num02">1</p>
             <p class="name">区立中村小学校</p>
             <p class="min">徒歩7分（No.1区画）?徒歩8分（No.8区画）</p>
           </div>
           <div class="shop">
-            <p class="num num03">2</p>
+            <p class="num num02">2</p>
             <p class="name">区立中村中学校</p>
             <p class="min">徒歩10分（No.10区画）?徒歩11分（No.3区画）</p>
           </div>
-          <p class="info-tit info-tit03"><span>幼稚園</span></p>
           <div class="shop">
-            <p class="num num03">3</p>
+            <p class="num num02">3</p>
             <p class="name">練馬あけみ保育園</p>
             <p class="min">徒歩2分（No.8区画）?徒歩3分（No.1区画）</p>
           </div>
           <div class="shop">
-            <p class="num num03">4</p>
+            <p class="num num02">4</p>
             <p class="name">にじいろ保育園<br>練馬中村</p>
             <p class="min">徒歩3分（No.1区画）?徒歩4分（No.8区画）</p>
           </div>
           <div class="shop">
-            <p class="num num03">5</p>
+            <p class="num num02">5</p>
             <p class="name">豊玉第二保育園</p>
             <p class="min">徒歩5分（No.8区画）?徒歩5分（No.1区画）</p>
           </div>
           <div class="shop">
-            <p class="num num03">6</p>
+            <p class="num num02">6</p>
             <p class="name">さくらさくみらい<br>中村北</p>
             <p class="min">徒歩5分（No.8区画）?徒歩6分（No.1区画）</p>
           </div>
           <div class="shop">
-            <p class="num num03">7</p>
+            <p class="num num02">7</p>
             <p class="name">にじいろ保育園<br>中村一丁目</p>
             <p class="min">徒歩5分（No.10区画）?徒歩6分（No.3区画）</p>
           </div>
           <div class="shop">
-            <p class="num num03">8</p>
+            <p class="num num02">8</p>
             <p class="name">豊玉保育園</p>
             <p class="min">徒歩6分（No.10区画）?徒歩7分（No.3区画）</p>
           </div>
           <div class="shop">
-            <p class="num num03">9</p>
+            <p class="num num02">9</p>
             <p class="name">練馬二葉保育園</p>
             <p class="min">徒歩8分（No.10区画）?徒歩9分（No.3区画）</p>
           </div>
@@ -473,74 +443,77 @@
 
       <div class="tab-inner cond04 clearfix">
         <div class="img-list">
+        <div class="image">
+          <img src="./images/location03/info04-01.jpg" alt="">
+          <p class="annotation annotation03"><span>1</span>メディカルポート練馬</p>
+        </div>
         <ul class="lists list01">
             <li>
               <div class="image">
-                <img src="./images/location03/info04-01.jpg" alt="">
-                <p class="annotation annotation04"><span>1</span>メディカルポート練馬</p>
+                <img src="./images/location03/info04-02.jpg" alt="">
+                <p class="annotation annotation03"><span>1</span>メディカルポート練馬</p>
               </div>
             </li>
             <li>
               <div class="image">
-                <img src="./images/location03/info04-02.jpg" alt="">
-                <p class="annotation annotation04"><span>2</span>小山小児科・耳鼻咽喉科医院</p>
+                <img src="./images/location03/info04-03.jpg" alt="">
+                <p class="annotation annotation03"><span>2</span>小山小児科・耳鼻咽喉科医院</p>
               </div>
             </li>
           </ul>
           <ul class="lists list01">
             <li>
               <div class="image">
-                <img src="./images/location03/info04-03.jpg" alt="">
-                <p class="annotation annotation04"><span>5</span>練馬区夜間救急こどもクリニック</p>
+                <img src="./images/location03/info04-04.jpg" alt="">
+                <p class="annotation annotation03"><span>5</span>練馬区夜間救急こどもクリニック</p>
               </div>
             </li>
             <li>
               <div class="image">
-                <img src="./images/location03/info04-04.jpg" alt="">
-                <p class="annotation annotation04"><span>8</span>総合東京病院</p>
+                <img src="./images/location03/info04-05.jpg" alt="">
+                <p class="annotation annotation03"><span>8</span>総合東京病院</p>
               </div>
             </li>
           </ul>
         </div><!-- img-list -->
         <div class="info-list info-list03">
-          <p class="info-tit info-tit04"><span>病院</span></p>
           <div class="shop">
-            <p class="num num04">1</p>
+            <p class="num num03">1</p>
             <p class="name">メディカルポート練馬</p>
             <p class="min">徒歩3分（No.8区画）?徒歩4分（No.1区画）</p>
           </div>
           <div class="shop">
-            <p class="num num04">2</p>
+            <p class="num num03">2</p>
             <p class="name">小山小児科・<br>耳鼻咽喉科医院</p>
             <p class="min">徒歩5分（No.8区画）?徒歩6分（No.1区画）</p>
           </div>
           <div class="shop">
-            <p class="num num04">3</p>
+            <p class="num num03">3</p>
             <p class="name">はたクリニック</p>
             <p class="min">徒歩5分（No.10区画）?徒歩6分（No.3区画）</p>
           </div>
           <div class="shop">
-            <p class="num num04">4</p>
+            <p class="num num03">4</p>
             <p class="name">森田医院</p>
             <p class="min">徒歩6分（No.8区画）?徒歩6分（No.1区画）</p>
           </div>
           <div class="shop">
-            <p class="num num04">5</p>
+            <p class="num num03">5</p>
             <p class="name">練馬区夜間救急<br>こどもクリニック</p>
             <p class="min">徒歩6分（No.8区画）?徒歩7分（No.1区画）</p>
           </div>
           <div class="shop">
-            <p class="num num04">6</p>
+            <p class="num num03">6</p>
             <p class="name">臼井医院</p>
             <p class="min">徒歩7分（No.3区画）?徒歩7分（No.10区画）</p>
           </div>
           <div class="shop">
-            <p class="num num04">7</p>
+            <p class="num num03">7</p>
             <p class="name">藤澤こどもクリニック</p>
             <p class="min">徒歩7分（No.8区画）?徒歩8分（No.1区画）</p>
           </div>
           <div class="shop">
-            <p class="num num04">8</p>
+            <p class="num num03">8</p>
             <p class="name">総合東京病院</p>
             <p class="min">徒歩26分（No.8区画）?徒歩27分（No.1区画）</p>
           </div>
@@ -548,68 +521,68 @@
       </div><!-- cond04 -->
 
       <div class="tab-inner cond05 clearfix">
-      <div class="info-list info-list04">
-          <p class="info-tit info-tit05"><span>公共・文化施設</span></p>
-          <div class="shop">
-            <p class="num num05">1</p>
-            <p class="name">南蔵院</p>
-            <p class="min">徒歩5分（No.10区画）?徒歩6分（No.3区画）</p>
-          </div>
-          <div class="shop">
-            <p class="num num05">2</p>
-            <p class="name">練馬区役所</p>
-            <p class="min">徒歩6分（No.8区画）?徒歩7分（No.1区画）</p>
-          </div>
-          <div class="shop">
-            <p class="num num05">3</p>
-            <p class="name">区立練馬図書館</p>
-            <p class="min">徒歩7分（No.8区画）?徒歩8分（No.1区画）</p>
-          </div>
-          <div class="shop">
-            <p class="num num05">4</p>
-            <p class="name">区民・産業プラザ</p>
-            <p class="min">徒歩11分（No.8区画）?徒歩12分（No.1区画）</p>
-          </div>
-          <div class="shop">
-            <p class="num num05">5</p>
-            <p class="name">厚生文化会館</p>
-            <p class="min">徒歩12分（No.8区画）?徒歩13分（No.1区画）</p>
-          </div>
-          <div class="shop">
-            <p class="num num05">6</p>
-            <p class="name">練馬文化センター</p>
-            <p class="min">徒歩13分（No.8区画）?徒歩14分（No.1区画）</p>
-          </div>
-        </div><!-- info-list -->
+      <div class="img-list">
+        <div class="image">
+          <img src="./images/location03/info05-01.jpg" alt="">
+          <p class="annotation annotation04"><span>1</span>メディカルポート練馬</p>
+        </div>
+        <ul class="lists list01">
+          <li>
+            <div class="image">
+              <img src="./images/location03/info05-02.jpg" alt="">
+              <p class="annotation annotation04"><span>1</span>メディカルポート練馬</p>
+            </div>
+          </li>
+          <li>
+            <div class="image">
+              <img src="./images/location03/info05-03.jpg" alt="">
+              <p class="annotation annotation04"><span>2</span>小山小児科・耳鼻咽喉科医院</p>
+            </div>
+          </li>
+        </ul>
+        <ul class="lists list01">
+          <li>
+            <div class="image">
+              <img src="./images/location03/info05-04.jpg" alt="">
+              <p class="annotation annotation04"><span>5</span>練馬区夜間救急こどもクリニック</p>
+            </div>
+          </li>
+          <li>
+            <div class="image">
+              <img src="./images/location03/info05-05.jpg" alt="">
+              <p class="annotation annotation04"><span>8</span>総合東京病院</p>
+            </div>
+          </li>
+        </ul>
+        </div><!-- img-list -->
         <div class="info-list info-list04">
-          <p class="info-tit info-tit05"><span>金融機関</span></p>
           <div class="shop">
-            <p class="num num05">7</p>
+            <p class="num num04">7</p>
             <p class="name">練馬中村ニ郵便局</p>
             <p class="min">徒歩5分（No.1区画）?徒歩6分（No.8区画）</p>
           </div>
           <div class="shop">
-            <p class="num num05">8</p>
+            <p class="num num04">8</p>
             <p class="name">みずほ銀行<br>練馬区役所出張所</p>
             <p class="min">徒歩6分（No.8区画）?徒歩7分（No.1区画）</p>
           </div>
           <div class="shop">
-            <p class="num num05">9</p>
+            <p class="num num04">9</p>
             <p class="name">練馬郵便局</p>
             <p class="min">徒歩8分（No.8区画）?徒歩9分（No.1区画）</p>
           </div>
           <div class="shop">
-            <p class="num num06">10</p>
+            <p class="num num04">10</p>
             <p class="name">りそな銀行練馬支店</p>
             <p class="min">徒歩9分（No.8区画）?徒歩10分（No.1区画）</p>
           </div>
           <div class="shop">
-            <p class="num num06">11</p>
+            <p class="num num04">11</p>
             <p class="name">三井住友銀行<br>練馬支店・氷川台支店</p>
             <p class="min">徒歩11分（No.8区画）?徒歩12分（No.1区画）</p>
           </div>
           <div class="shop">
-            <p class="num num06">12</p>
+            <p class="num num04">12</p>
             <p class="name">三菱UFJ銀行<br>練馬支店</p>
             <p class="min">徒歩14分（No.8区画）?徒歩15分（No.1区画）</p>
           </div>
@@ -617,7 +590,6 @@
       </div><!-- cond05 -->
 
       </div>
-    </div>
   </section><!-- life-info -->
 
 
