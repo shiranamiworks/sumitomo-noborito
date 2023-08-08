@@ -100,6 +100,7 @@
       </ul>
       <div class="img img05">
         <img src="./images/location01/img05.png" alt="">
+        <p class="caps">“oŒË“y’n‹æ‰æ®—Ž–‹ÆŠT”O}</p>
       </div>
       <div class="policy">
         <p class="txt01"><span>ŠX‚Ã‚­‚è‚Ì•ûj</span></p>

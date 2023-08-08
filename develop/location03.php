@@ -72,7 +72,7 @@
     <div class="img">
       <img src="./images/location03/shopping02.jpg" alt="">
     </div>
-    <p class="name">‚¢‚È‚°‚âìè“oŒË“X<br><span>i–ñ430m^“k•à6•ªj</span></p>
+    <p class="name">‚¢‚È‚°‚âìè“oŒË“X<br><span>i–ñ460m^“k•à6•ªj</span></p>
     <ul class="lis lis01">
       <li>
         <div class="img">
