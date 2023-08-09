@@ -78,7 +78,8 @@
       </li>
     </ul>
     <div class="img">
-      <img src="./images/location03/shopping02.jpg" alt="">
+      <img src="./images/location03/shopping02.jpg" class="pc" alt="">
+      <img src="./images/location03/shopping02-sp.jpg" class="sp" alt="">
     </div>
     <p class="name">いなげや川崎登戸店<br><span>（約460m／徒歩6分）</span></p>
     <ul class="lis lis01">
@@ -100,7 +101,7 @@
         <div class="img">
           <img src="./images/location03/shopping05.jpg" alt="">
         </div>
-        <p class="name">味の食彩館のぼりと<br><span>（約160m／徒歩2分）</span></p>
+        <p class="name">味の食彩館のぼりと<br><span>（約880m／徒歩11分）</span></p>
       </li>
       <li>
         <div class="img">
@@ -134,7 +135,8 @@
       </li>
     </ul>
     <div class="img">
-      <img src="./images/location03/child02.jpg" alt="">
+      <img src="./images/location03/child02.jpg" class="pc" alt="">
+      <img src="./images/location03/child02-sp.jpg" class="sp" alt="">
     </div>
     <p class="name">川崎市多摩区役所<br><span>（約950m／徒歩12分）</span></p>
     <ul class="lis lis01">
@@ -703,7 +705,8 @@
 
 
 
-  <p class="page-annotation js-scroll wrap"></p>
+  <p class="page-annotation js-scroll wrap">※掲載の周辺イラストマップ・地図は、一部道路・施設等を抜粋して表記しています。<br>※距離表示については地図上の概測距離を、徒歩分数表示については80ｍを1分として算出し、端数を切り上げたものです。<br>※掲載の写真は2023年4月・6月撮影。
+<br>※掲載の情報は2023年4月現在のものです。<br>※店舗・施設の内容等は将来変わる場合があります。</p>
 </main>
 
 
