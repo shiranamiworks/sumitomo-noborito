@@ -196,6 +196,7 @@
   border-left: 1px solid #96365c;
   border-bottom: 1px solid #96365c;
   margin-bottom: 10px;
+  line-height: 1.1;
 }
 .location01 .redevelopment .policy .points .txt02 span {
   color: #fff;
@@ -350,6 +351,7 @@
   }
   .location01 .redevelopment .img05 {
     margin-top: -5%;
+    margin-bottom: 10%;
   }
   .location01 .redevelopment .policy {
     margin-top: -5%;

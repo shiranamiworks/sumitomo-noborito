@@ -19,6 +19,12 @@
 #concept main {
   font-family: "RyuminPro", serif;
 }
+#concept sp {
+  display: none;
+}
+#concept pc {
+  display: block;
+}
 #concept .page-annotation {
   font-family: "Noto Sans JP", sans-serif;
 }
@@ -126,6 +132,12 @@
   padding-bottom: 140px;
 }
 @media screen and (max-width: 768px) {
+  #concept sp {
+    display: block;
+  }
+  #concept pc {
+    display: none;
+  }
   #concept .main-visual .page-lead {
     font-size: 30px;
   }

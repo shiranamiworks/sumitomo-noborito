@@ -24,6 +24,12 @@
   main {
     font-family: 'RyuminPro', serif;
   }
+  sp{
+    display: none;
+  }
+  pc{
+    display: block;
+  }
   .page-annotation {
     font-family: 'Noto Sans JP', sans-serif;
   }
@@ -135,7 +141,12 @@
   @media screen and (max-width: 1024px) {
   }
   @media screen and (max-width: 768px) {
-
+    sp{
+      display: block;
+    }
+    pc{
+      display: none;
+    }
     .main-visual {
       .page-lead {
         font-size: 30px;

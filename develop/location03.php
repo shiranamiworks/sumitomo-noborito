@@ -8,7 +8,7 @@
   "title" => "「登戸」駅周辺の優れた利便性｜ロケーション｜【【公式】シティテラス登戸｜登戸の新築マンション｜住友不動産",
   "keywords" => "ロケーション,シティテラス登戸,登戸 マンション,登戸 新築マンション,登戸,小田急小田原線,川崎市,マンション,新築マンション,分譲マンション,住友不動産",
   "description" => "「登戸」駅周辺の優れた利便性｜ロケーションページ。小田急小田原線・JR南武線「登戸」まで徒歩11分。住友不動産の新築マンションが登戸に誕生。【すみふ登戸】川崎市のマンションなら住友不動産。",
-  "add_stylesheet" => ["css/location.css","css/location03.css"],
+  "add_stylesheet" => ["css/location.css","css/location03.css","css/leaflet.css"],
   "add_script" =>  ["js/location.js"],
     
   "logo_text" => "登戸駅徒歩11分｜シティテラス登戸｜登戸 新築マンション｜ロケーション｜すみふ登戸｜住友不動産"
@@ -51,7 +51,13 @@
 
 
   <div class="img map wrap">
-    <img src="./images/location03/map.jpg" alt="">
+  <figure class="pc">
+    <img src="./images/location03/map.jpg" class="sp-hide" alt="">
+  </figure>
+  <figure class="sp">
+    <img src="./images/location03/map.jpg" class="sp-hide" alt="">
+    <img src="./images/location03/map.jpg" class="zoomImg sp" alt=""/>
+  </figure>
     <p class="caps">周辺施設マップ</p>
   </div>
 
@@ -60,7 +66,9 @@
     <ul class="txt-list">
       <li>
       <p class="tit"><span>SHOPPING</span><br>暮らしを彩る生活利便施設が充実。</p>
-        <p class="lead">周辺にはスーパー、ドラッグストア、コンビニなど商業施設が点在しています。また、最寄りの「登戸」駅や「向ヶ丘遊園」駅周辺には豊富な食材が揃ったスーパーなどがあり、会社帰りに利用できて便利です。</p>
+      </li>
+      <li>
+      <p class="lead">周辺にはスーパー、ドラッグストア、コンビニなど商業施設が点在しています。また、最寄りの「登戸」駅や「向ヶ丘遊園」駅周辺には豊富な食材が揃ったスーパーなどがあり、会社帰りに利用できて便利です。</p>
       </li>
       <li>
         <div class="img">
@@ -113,8 +121,10 @@
   <div class="sec-contents child wrap clearfix">
     <ul class="txt-list">
       <li>
-      <p class="tit"><span>CHILD CARE FACILITIES</span><br>図書館など子育て支援施設も身近に。</p>
-        <p class="lead">ホールやギャラリー、図書館、体育室などの設備を備えた川崎市多摩市民館は子育て家族を支援する心強い施設です。また多彩な公園が身近に点在し、小児科や夜間急患診療所も徒歩圏にあるなど、子育てに適した環境が揃っています。</p>
+       <p class="tit"><span>CHILD CARE FACILITIES</span><br>図書館など子育て支援施設も身近に。</p>
+      </li>
+      <li>
+       <p class="lead">ホールやギャラリー、図書館、体育室などの設備を備えた川崎市多摩市民館は子育て家族を支援する心強い施設です。また多彩な公園が身近に点在し、小児科や夜間急患診療所も徒歩圏にあるなど、子育てに適した環境が揃っています。</p>
       </li>
       <li>
         <div class="img">

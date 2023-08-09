@@ -8,7 +8,7 @@
   "title" => "アクセス｜【公式】シティテラス登戸｜登戸の新築マンション｜住友不動産",
   "keywords" => "アクセス,シティテラス登戸,登戸 マンション,登戸 新築マンション,登戸,小田急小田原線,川崎市,マンション,新築マンション,分譲マンション,住友不動産",
   "description" => "アクセスページ。小田急小田原線・JR南武線「登戸」まで徒歩11分。住友不動産の新築マンションが登戸に誕生。【すみふ登戸】川崎市のマンションなら住友不動産。",
-  "add_stylesheet" => ["css/access.css"],
+  "add_stylesheet" => ["css/access.css","css/leaflet.css"],
   "add_script" =>  [],
     
   "logo_text" => "登戸駅徒歩11分｜シティテラス登戸｜登戸 新築マンション｜アクセス｜すみふ登戸｜住友不動産"
@@ -40,7 +40,8 @@
       <p class="lead">快速急行停車駅がかなえる快足フットワーク。</p>
       <p class="tit"><span>MULTI ACCESS</span><br>都心近接&2路線<sup>※1</sup>利用で通勤通学に便利。</p>
       <p class="text">「新宿」駅へ3駅直通20分<sup>※2</sup>、「大手町」駅へ乗り換えで34分<sup>※3</sup>。快速急行が停車する「登戸」駅からは都心へのアクセスもスピーディ。毎日の通勤通学もスムーズです。「代々木上原」駅での東京メトロ千代田線への乗り換えも快適。また、JR南武線で武蔵小杉、川崎方面へのアクセスも軽快です。</p>
-      <div class="img image01"><img src="./images/access/img01.jpg" alt=""></div>
+      <div class="img image01 pc"><img src="./images/access/img01.jpg" class="sp-hide" alt=""></div>
+      <div class="img image01 sp"><img src="./images/access/img01.jpg" class="sp-hide" alt=""><img src="./images/access/img01.jpg" class="zoomImg sp" alt=""></div>
     </div>
   </section><!-- intro -->
 
