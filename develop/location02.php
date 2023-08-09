@@ -202,7 +202,7 @@
       <li>
         <div class="img">
           <img src="./images/location02/park06.jpg" alt="">
-          <p class="annotation">image photo</p>
+          <p class="annotation white">image photo</p>
         </div>
       </li>
     </ul>
@@ -210,7 +210,7 @@
 
 
 
-  <p class="page-annotation js-scroll wrap">※1.登戸土地区画整理事業（2026年3月完了予定） 出典：川崎市ホームページ（2023年6月現在）<br>※距離表示については地図上の概測距離を、徒歩分数表示については80ｍを1分として算出し、端数を切り上げたものです。<br>※掲載の登戸土地区画整理事業概念図は一部道路・施設等を抜粋して表記しています。<br>※掲載の写真は2023年6月撮影。<br>※掲載の情報は2023年4月現在のものです。</p>
+  <p class="page-annotation js-scroll wrap">※距離表示については地図上の概測距離を、徒歩分数表示については80ｍを1分として算出し、端数を切り上げたものです。<br>※掲載の写真は2023年4月-6月撮影。<br>※掲載の情報は2023年4月現在のものです。<br>※店舗・施設の内容等は将来変わる場合があります。</p>
 </main>
 
 <div class="location-link location-link--3">

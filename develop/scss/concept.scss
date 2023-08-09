@@ -53,15 +53,17 @@
     line-height: 0;
     .section-title {
       font-size: 27px;
-      padding-top: 95px;
+      padding-top: 155px;
       position: relative;
-      margin-bottom: 50px;
+      color: #afa471;
+      letter-spacing: 0.2em;
+      margin-bottom: 140px;
       &::after {
         content: "";
         display: block;
-        width: 125px;
-        height: 125px;
-        background-color: #0E3521;
+        width: 45px;
+        height: 170px;
+        background: url(../images/common/intro.jpg) bottom;
         position: absolute;
         top: 0;
         right: 100%;
@@ -70,8 +72,8 @@
     }
     .inner {
       margin: 0 auto;
-      width: 90%;
-      max-width: 1000px;
+      width: 70%;
+      max-width: 1030px;
     }
     .lead {
       font-size: 73px;
@@ -155,11 +157,11 @@
     .sections {
       .section-title {
         font-size: 20px;
-        padding-top: 45px;
-        margin-bottom: 30px;
+        padding-top: 90px;
+        margin-bottom: 60px;
         &::after {
-          width: 45px;
-          height: 45px;
+          width: 40px;
+          height: 100px;
           margin-right: 10px;
         }
       }

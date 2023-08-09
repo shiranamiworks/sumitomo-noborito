@@ -159,6 +159,18 @@
         font-size: 26px;
         line-height: 1.4;
         margin-bottom: 10px;
+        &::after {
+          content: "";
+          display: block;
+          width: 90px;
+          height: 90px;
+          background: url(../images/location02/txt-bg.jpg);
+          position: absolute;
+          top: 15px;
+          left: 11px;
+          margin-right: 20px;
+          z-index: -1;
+        }
       }
       .txt02 {
         font-size: 28px;

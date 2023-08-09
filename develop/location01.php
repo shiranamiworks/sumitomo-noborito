@@ -69,6 +69,7 @@
       <li>
         <div class="img img03">
           <img src="./images/location01/img03.jpg" alt="">
+          <p class="annotation white">image photo</p>
         </div>
       </li>
       <li>
