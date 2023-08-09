@@ -44,7 +44,7 @@
       <h2 class="section-title">LOCATION</h2>
     </div>
     <div class="wrap">
-      <p class="lead">土地区画整理事業で生まれ変わる街。</p>
+      <p class="lead">土地区画整理事業<sup>※1</sup>で生まれ変わる街。</p>
     </div>
   </section><!-- intro -->
 

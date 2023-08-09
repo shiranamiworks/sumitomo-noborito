@@ -36,7 +36,7 @@
 
   <header class="main-visual">
     <!--<h2 class="page-lead gothic">Hello Beautiful Future.</h2>-->
-    <div class="image"><img src="./images/location03/mv01.jpg" alt="" class="pc"><img src="./images/location03/mv01-sp.jpg" alt="" class="sp"><p class="annotation white">image photo</p></div>
+    <div class="image"><img src="./images/location03/mv01.jpg" alt="" class="pc"><img src="./images/location03/mv01-sp.jpg" alt="" class="sp"><p class="annotation white">提供写真：FUGLEN COFFEE ROASTERS（約1,020m／徒歩13分）</p></div>
   </header><!-- main-visual -->
 
   <section class="sections intro">
@@ -474,7 +474,7 @@
             <p class="min">約840m／徒歩11分</p>
           </div>
           <div class="shop">
-            <p class="num num02">9</p>
+            <p class="num num02">10</p>
             <p class="name">市立枡形中学校（通学区）</p>
             <p class="min">約2,270m</p>
           </div>

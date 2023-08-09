@@ -195,7 +195,7 @@
   <div class="sections festival clearfix">
     <ul class="wrap">
       <li>
-        <p class="tit"><span>FESTIVAL</span><br>狛江・多摩川花火大会。<sup>※</sup></p>
+        <p class="tit"><span>FESTIVAL</span><br>狛江・多摩川花火大会<sup>※</sup>。</p>
         <p class="lead">大正時代から続く歴史ある花火大会。約5000発の花火が夜空を彩り、フィナーレには音楽と花火がコラボするハナビリュージョンが行われます。川崎市側と狛江市側、多摩川を挟んで設けられた両側の観客席から、花火を楽しむことができます。</p>
         <p class="mini">※「狛江・多摩川花火大会」の開催・内容は変更・中止になる場合があります。</p>
       </li>

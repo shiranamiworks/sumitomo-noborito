@@ -120,21 +120,21 @@
               <dt><span class="big">「渋谷」</span>駅</dt>
               <dd><span class="big">22</span>分（19分）</dd>
             </dl>
-            <p class="cap">小田急小田原線快速急行利用、<br>「下北沢」駅で京王井の頭線（平常時は急行）に乗り換え</p>
+            <p class="cap">小田急小田原線快速急行利用、「下北沢」駅で京王井の頭線（平常時は急行）に乗り換え</p>
           </li><!-- root01 -->
           <li class="roots root02">
             <dl>
               <dt><span class="big">「品川」</span>駅</dt>
               <dd><span class="big">35</span>分（33分）</dd>
             </dl>
-            <p class="cap">JR南武線（平常時はJR南武線快速）利用、<br>「武蔵小杉」駅でJR横須賀線に乗り換え</p>
+            <p class="cap">JR南武線（平常時はJR南武線快速）利用、「武蔵小杉」駅でJR横須賀線に乗り換え</p>
           </li><!-- root02 -->
           <li class="roots root03">
             <dl>
               <dt><span class="big">「東京」</span>駅</dt>
               <dd><span class="big">36</span>分（36分）</dd>
             </dl>
-            <p class="cap">小田急小田原線快速急行利用、「代々木上原」駅で東京メトロ千代田線に乗り換え、<br>「国会議事堂前」駅で東京メトロ丸ノ内線に乗り換え</p>
+            <p class="cap">小田急小田原線快速急行利用、「代々木上原」駅で東京メトロ千代田線に乗り換え、「国会議事堂前」駅で東京メトロ丸ノ内線に乗り換え</p>
           </li><!-- root03 -->
         </ul><!-- roots-wrap -->
       </section><!-- root-lists -->

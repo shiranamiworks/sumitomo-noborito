@@ -212,7 +212,7 @@
 }
 #access .lines .roots-wrap dl dt .big,
 #access .lines .roots-wrap dl dd .big {
-  font-size: 160%;
+  font-size: 150%;
 }
 #access .lines .roots-wrap dl dt {
   float: left;
@@ -287,7 +287,7 @@
 #access .lines.line04 .list02 li {
   vertical-align: top;
   display: inline-block;
-  width: 32.9%;
+  width: 32.7%;
 }
 #access .lines.line05 {
   margin-bottom: 100px;
@@ -330,13 +330,13 @@
   padding: 20px 0;
 }
 #access .car-access .list .texts .name {
-  font-size: 26px;
+  font-size: 19px;
 }
 #access .car-access .list .texts .name.last {
   letter-spacing: -0.2em;
 }
 #access .car-access .list .texts .doorway {
-  font-size: 18px;
+  font-size: 16px;
 }
 #access .car-access .list .texts .min {
   font-size: 20px;

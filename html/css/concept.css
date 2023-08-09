@@ -61,24 +61,24 @@
 #concept .sections .inner {
   margin: 0 auto;
   width: 90%;
-  max-width: 690px;
+  max-width: 1000px;
 }
 #concept .sections .lead {
   font-size: 73px;
   padding-bottom: 65px;
   line-height: 1.5;
-  color: #fff;
+  color: #000;
 }
 #concept .sections .lead02 {
   font-size: 40px;
   padding-bottom: 45px;
   line-height: 1.8;
-  color: #fff;
+  color: #000;
 }
 #concept .sections .text {
   font-size: 24px;
   line-height: 2.1;
-  color: #fff;
+  color: #000;
 }
 #concept .sections .img {
   padding-top: 45px;
@@ -89,7 +89,7 @@
   text-align: right;
 }
 #concept .intro {
-  background-color: #0E3521;
+  background-color: #fff;
   padding-bottom: 180px;
 }
 #concept .intro .section-title {

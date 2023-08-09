@@ -38,7 +38,7 @@
         <li class="structure">構造・防災</li>
         <li class="location"><a href="<?= $page_settings["directory_pos"]  ?>location01.html">ロケーション</a></li>
         <li class="access"><a href="<?= $page_settings["directory_pos"]  ?>access.html">アクセス</a></li>
-        <li class="start map"><a href="<?= $page_settings["directory_pos"]  ?>map.html" target="_blank">現地案内図</a></li>
+        <li class="map"><a href="<?= $page_settings["directory_pos"]  ?>map.html" target="_blank">現地案内図</a></li>
         <li class="outline"><a href="javascript:outline()">物件概要</a></li>
         <li class="blog">マンション情報ブログ</li>
         <li class="faq"><a href="/<?= $folder_name?>faq.cgi" target="_blank">FAQ</a></li>
@@ -66,7 +66,7 @@
       </ul>
 
       <!-- おススメ物件 -->
-      <!--<p class="footer-recommend__ttl">おすすめ物件</p>
+      <p class="footer-recommend__ttl">おすすめ物件</p>
       <div class="footer-recommend__slide" id="recommendSlide">
         <div>
           <div class="cont">
@@ -94,7 +94,7 @@
             </dl>
           </div>
         </div>
-        <div>
+        <!-- <div>
           <div class="cont">
             <figure><a href="/shuto/ch_ayase/" target="_blank"><img src="<?= $page_settings["directory_pos"]  ?>images/common/bana/img_recommend02.jpg" alt="シティハウス綾瀬"></a></figure>
             <dl>
@@ -106,8 +106,8 @@
               </dd>
             </dl>
           </div>
-        </div>
-        <div>
+        </div> -->
+        <!-- <div>
           <div class="cont">
             <figure><a href="/shuto/ayase/" target="_blank"><img src="<?= $page_settings["directory_pos"]  ?>images/common/bana/img_recommend04.jpg" alt="シティタワー綾瀬"></a></figure>
             <dl>
@@ -119,8 +119,8 @@
               </dd>
             </dl>
           </div>
-        </div>
-        <div>
+        </div> -->
+        <!-- <div>
           <div class="cont">
             <figure><a href="/shuto/ayase/" target="_blank"><img src="<?= $page_settings["directory_pos"]  ?>images/common/bana/img_recommend04.jpg" alt="シティタワー綾瀬"></a></figure>
             <dl>
@@ -132,8 +132,8 @@
               </dd>
             </dl>
           </div>
-        </div>
-      </div>--><!-- //#recommendSlide -->
+        </div> -->
+      </div><!-- //#recommendSlide -->
 <!-- //おススメ物件 -->
     </div>
   </div>
@@ -250,7 +250,7 @@ var google_tag_params = {
 	dynx_pagetype: "product",
 	dynx_device: "d",
        dynx_area: "<?= $site_setting['area'] ?>",
-	dynx_prefecture: "東京都",
+	dynx_prefecture: "神奈川県",
 	dynx_city: "",
 	dynx_railway: "",
 	dynx_itemid: "<?= $site_setting['prop'] ?>",
@@ -313,7 +313,7 @@ var google_tag_params = {
 	dynx_pagetype: "product",
 	dynx_device: "d",
        dynx_area: "<?= $site_setting['area'] ?>",
-	dynx_prefecture: "東京都",
+	dynx_prefecture: "神奈川県",
 	dynx_city: "",
 	dynx_railway: "",
 	dynx_itemid: "<?= $site_setting['prop'] ?>",
