@@ -184,7 +184,6 @@
         </ul>
       </nav>
       <a href="http://www.sumitomo-rd.co.jp/" class="footer-wrapper__logo01" target="_blank"><img src="<?= $page_settings["directory_pos"]  ?>images/common/ft_logo.svg" alt="Z—F•s“®ŽY"></a>
-      <a href="https://www.keio.co.jp/" class="footer-wrapper__logo02" target="_blank"><img src="<?= $page_settings["directory_pos"]  ?>images/common/ft_logo02.svg" alt="‹ž‰¤“d“S"></a>
       <p class="copyright">Copyright &copy; Sumitomo Realty & Development Co., Ltd.</p>
     </div>
   </div>
