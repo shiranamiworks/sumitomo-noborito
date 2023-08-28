@@ -111,6 +111,10 @@
         background-color: #B4A064;
       }
     }
+    .title{
+      margin-bottom: 105px;
+      max-width: 700px;;
+    }
     .lead {
       font-size: 83px;
       padding-bottom: 105px;
@@ -188,6 +192,10 @@
     .intro {
       padding-bottom: 100px;
       .section-title {
+        margin-bottom: 40px;
+      }
+      .title{
+        max-width: 450px;
         margin-bottom: 40px;
       }
       .lead {

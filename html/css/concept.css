@@ -107,6 +107,10 @@
 #concept .intro .section-title::after {
   background-color: #B4A064;
 }
+#concept .intro .title {
+  margin-bottom: 105px;
+  max-width: 700px;
+}
 #concept .intro .lead {
   font-size: 83px;
   padding-bottom: 105px;
@@ -176,6 +180,10 @@
     padding-bottom: 100px;
   }
   #concept .intro .section-title {
+    margin-bottom: 40px;
+  }
+  #concept .intro .title {
+    max-width: 450px;
     margin-bottom: 40px;
   }
   #concept .intro .lead {

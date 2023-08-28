@@ -136,11 +136,11 @@
     li {
       vertical-align: middle;
       display: inline-block;
-      width: 57%;
+      width: 48%;
       margin-right: 2%;
     }
     li:last-child {
-      width: 40%;
+      // width: 40%;
       margin-right: auto;
     }
   } //station-lists
@@ -225,6 +225,7 @@
           float: left;
           padding-right: 10px;
           background: #fff;
+          width: 217px;
         }
         dd {
           float: right;

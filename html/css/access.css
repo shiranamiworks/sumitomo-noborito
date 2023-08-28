@@ -130,11 +130,10 @@
 #access .station-lists li {
   vertical-align: middle;
   display: inline-block;
-  width: 57%;
+  width: 48%;
   margin-right: 2%;
 }
 #access .station-lists li:last-child {
-  width: 40%;
   margin-right: auto;
 }
 #access .lines-title {
@@ -218,6 +217,7 @@
   float: left;
   padding-right: 10px;
   background: #fff;
+  width: 217px;
 }
 #access .lines .roots-wrap dl dd {
   float: right;
