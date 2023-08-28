@@ -80,7 +80,7 @@
                 <dt><span class="big">「渋谷」</span>駅</dt>
                 <dd><span class="big">22</span>分（19分）</dd>
               </dl>
-            <p class="cap">小田急小田原線快速急行利用、「下北沢」駅で京王井の頭線（平常時は急行）に乗り換え</p>
+            <p class="cap">小田急小田原線快速急行利用、<br>「下北沢」駅で京王井の頭線（平常時は急行）に乗り換え</p>
             </div><!-- root03 -->
             <div class="roots root04 mb">
               <dl>
@@ -260,7 +260,7 @@
             <dt><span class="big">「横浜」</span>駅</dt>
             <dd><span class="big">38</span>分（35分）</dd>
           </dl>
-          <p class="cap">JR南武線（平常時は快速）利用、「武蔵小杉」駅で<br>JR横須賀線（平常時はJR湘南新宿ライン）に乗り換え</p>
+          <p class="cap">JR南武線（平常時は快速）利用、「武蔵小杉」駅で<br class="pc">JR横須賀線（平常時はJR湘南新宿ライン）に乗り換え</p>
         </li><!-- root03 -->
       </ul>
   </div><!-- wrap -->

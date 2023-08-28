@@ -465,6 +465,7 @@
   }
   #access .lines .roots-wrap dl dt {
     padding-right: 10px;
+    width: auto;
   }
   #access .lines .roots-wrap dl dd {
     padding-left: 10px;
