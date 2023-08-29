@@ -102,7 +102,7 @@
       </li>
       <li>
       <a href="location01.html">
-          <div class="images"><img src="./images/top/img02.jpg" alt=""><p class="annotation">Image Photo</p></div>
+          <div class="images"><img src="./images/top/img02.jpg" alt=""><p class="annotation">image photo</p></div>
           <div class="texts">
             <p class="text01 gothic">LOCATION</p>
             <p class="text02 gothic">ロケーション</p>
@@ -111,7 +111,7 @@
       </li>
       <li>
         <a href="access.html">
-          <div class="images"><img src="./images/top/img03.jpg" alt=""><p class="annotation">Image Photo</p></div>
+          <div class="images"><img src="./images/top/img03.jpg" alt=""><p class="annotation">image photo</p></div>
           <div class="texts">
             <p class="text01 gothic">ACCESS</p>
             <p class="text02 gothic">アクセス</p>
