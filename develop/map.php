@@ -23,8 +23,11 @@
       <h2 class="page-title js-scroll"><span class="font-size400">MAP</span><br class="sp">現地案内図</h2>
 
       <div class="map-image">
-        <div class="image js-scroll swipe-img"><img src="./images/map/map.jpg" alt="現地案内図"></div>
-        <!-- <p class="swipe"><img src="./images/common/icon_swipe.svg" alt="左右にスワイプできます。"></p> -->
+        <div class="image pc"><img src="./images/map/map.jpg" alt="現地案内図"></div>
+        <figure class="img img05 sp">
+          <img src="./images/map/map.jpg" class="sp-hide" alt="">
+          <img src="./images/map/map.jpg" class="zoomImg sp" alt=""/>
+        </figure>
         <p class="text01 js-scroll">神奈川県川崎市多摩区登戸</p>
         <!--<p class="annotation js-scroll">※掲載の現地案内図は一部道路・施設等を抜粋して表記しています。</p>-->
       </div><!-- map-image -->
