@@ -198,9 +198,13 @@
 
   <section class="sections life-info wrap">
       <h2 class="box-tit">LIFE INFORMATION</h2>
-      <div class="img">
+      <div class="img pc">
         <img src="./images/location03/life.jpg" alt="">
       </div>
+      <figure class="sp">
+        <img src="./images/location03/life.jpg" class="sp-hide" alt="">
+        <img src="./images/location03/life.jpg" class="zoomImg sp" alt=""/>
+      </figure>
       <p class="line-txt">下記の項目をクリックすると施設情報がご覧いただけます。</p>
       <div class="bg clearfix">
       <ul class="change-buttons clearfix">
