@@ -5,7 +5,7 @@
   "gnav_set" => "location",
   "page_class" => "location01",
   "url" => "location01.html",
-  "title" => "“y’n‹æ‰æ®—Ž–‹Æ‚Å¶‚Ü‚ê•Ï‚í‚éŠXbƒƒP[ƒVƒ‡ƒ“byyŒöŽ®zƒVƒeƒBƒeƒ‰ƒX“oŒËb“oŒË‚ÌV’zƒ}ƒ“ƒVƒ‡ƒ“bZ—F•s“®ŽY",
+  "title" => "“y’n‹æ‰æ®—Ž–‹Æ‚Å¶‚Ü‚ê•Ï‚í‚éŠXbƒƒP[ƒVƒ‡ƒ“byŒöŽ®zƒVƒeƒBƒeƒ‰ƒX“oŒËb“oŒË‚ÌV’zƒ}ƒ“ƒVƒ‡ƒ“bZ—F•s“®ŽY",
   "keywords" => "ƒƒP[ƒVƒ‡ƒ“,ƒVƒeƒBƒeƒ‰ƒX“oŒË,“oŒË ƒ}ƒ“ƒVƒ‡ƒ“,“oŒË V’zƒ}ƒ“ƒVƒ‡ƒ“,“oŒË,¬“c‹}¬“cŒ´ü,ìèŽs,ƒ}ƒ“ƒVƒ‡ƒ“,V’zƒ}ƒ“ƒVƒ‡ƒ“,•ª÷ƒ}ƒ“ƒVƒ‡ƒ“,Z—F•s“®ŽY",
   "description" => "“y’n‹æ‰æ®—Ž–‹Æ‚Å¶‚Ü‚ê•Ï‚í‚éŠXbƒƒP[ƒVƒ‡ƒ“ƒy[ƒWB¬“c‹}¬“cŒ´üEJR“ì•üu“oŒËv‚Ü‚Å“k•à11•ªBZ—F•s“®ŽY‚ÌV’zƒ}ƒ“ƒVƒ‡ƒ“‚ª“oŒË‚É’a¶By‚·‚Ý‚Ó“oŒËzìèŽs‚Ìƒ}ƒ“ƒVƒ‡ƒ“‚È‚çZ—F•s“®ŽYB",
   "add_stylesheet" => ["css/location.css","css/location01.css"],

@@ -80,7 +80,7 @@
 	-moz-user-select: none;
 	}
 
-.leaflet-pane         { z-index: 400; }
+/*.leaflet-pane         { z-index: 400; }*/
 
 .leaflet-tile-pane    { z-index: 200; }
 .leaflet-overlay-pane { z-index: 400; }
@@ -114,7 +114,7 @@
 .leaflet-top,
 .leaflet-bottom {
 	position: absolute;
-	z-index: 1000;
+	z-index: 0;
 	pointer-events: none;
 	}
 .leaflet-top {
