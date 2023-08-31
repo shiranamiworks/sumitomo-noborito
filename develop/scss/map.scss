@@ -17,6 +17,7 @@
       max-width: 1300px;
       width: 90%;
       margin: 0 auto;
+      position: relative;
     }
     .page-title {
       font-size: 28px;
@@ -76,10 +77,6 @@
           }
         }
       }
-      .annotation {
-        padding-top: 20px;
-        font-size: 13px;
-      }
     }
   } //map-image
   .text01 {
@@ -123,6 +120,15 @@
       position: relative;
       color: #fff;
     }
+  }
+  .annotation {
+    padding-top: 20px;
+    font-size: 13px;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    margin: auto;
+    text-align: center;
   }
 
   @media (max-width: 1300px) {

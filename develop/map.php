@@ -28,7 +28,6 @@
           <img src="./images/map/map.jpg" class="sp-hide" alt="">
           <img src="./images/map/map.jpg" class="zoomImg sp" alt=""/>
         </figure>
-        <!--<p class="annotation js-scroll">※掲載の現地案内図は一部道路・施設等を抜粋して表記しています。</p>-->
       </div><!-- map-image -->
       <p class="text01 js-scroll">神奈川県川崎市多摩区登戸3816番3（地番）<span>※住戸表示ではありません。</span></p>
     </div> 
@@ -37,6 +36,7 @@
       <li class="link"><a href="https://goo.gl/maps/H5tvKTZVVkfrqE4L6" target="_blank">Google Mapsで見る</a></li>
       <li class="link02 pc"><a href="JavaScript:;" onclick="print_out(); return false;">印刷する</a></li>
     </ul>
+    <p class="annotation js-scroll">※掲載の現地案内図は一部道路・施設等を抜粋して表記しています。</p>
   </div>
 </main>
 
