@@ -32,13 +32,17 @@
   font-size: 400%;
 }
 #map main .map-image .text01 {
-  padding: 75px 25px;
+  margin: 75px auto;
   color: rgb(90, 90, 21);
   font-size: 40px;
   text-align: center;
 }
 #map main .map-image .text01 img {
   width: 80%;
+}
+#map main .map-image .text01 span {
+  display: block;
+  font-size: 50%;
 }
 #map main .map-image .link a {
   display: block;
@@ -63,6 +67,18 @@
 #map main .map-image .annotation {
   padding-top: 20px;
   font-size: 13px;
+}
+#map .text01 {
+  margin: 75px auto;
+  color: rgb(90, 90, 21);
+  font-size: 40px;
+  text-align: center;
+  width: fit-content;
+}
+#map .text01 span {
+  display: block;
+  font-size: 12px;
+  text-align: right;
 }
 #map .link-buttons {
   text-align: center;
@@ -162,27 +178,40 @@
   #map .footer .footer-btn {
     display: none !important;
   }
+  #map head {
+    display: none !important;
+  }
   #map header {
     display: block;
   }
+  #map header .header-wrapper {
+    height: 40px;
+  }
   #map main {
     padding-top: 0 !important;
-  }
-  #map h2.ttl {
-    margin: 90px 0 75px 0 !important;
+    margin-bottom: 0;
   }
   #map .print-area {
     width: 90% !important;
     margin: 0 auto !important;
   }
+  #map .print-area .page-title {
+    padding-bottom: 15px;
+  }
+  #map .print-area .page-title .font-size400 {
+    font-size: 200%;
+  }
+  #map .print-area .map-image {
+    margin-bottom: -25px;
+  }
+  #map .print-area .text01 {
+    margin: 0 auto;
+    font-size: 22px;
+  }
   #map .entry {
-    padding: 20px !important;
+    padding: 20px 0 !important;
   }
   #map .entry .entry-tel {
-    margin-top: 0px !important;
-  }
-  #map .print-area #map1 img {
-    width: 750px;
-    height: 850px;
+    margin: 0 auto !important;
   }
 }/*# sourceMappingURL=map.css.map */

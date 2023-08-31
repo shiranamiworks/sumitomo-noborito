@@ -28,9 +28,9 @@
           <img src="./images/map/map.jpg" class="sp-hide" alt="">
           <img src="./images/map/map.jpg" class="zoomImg sp" alt=""/>
         </figure>
-        <p class="text01 js-scroll">神奈川県川崎市多摩区登戸</p>
         <!--<p class="annotation js-scroll">※掲載の現地案内図は一部道路・施設等を抜粋して表記しています。</p>-->
       </div><!-- map-image -->
+      <p class="text01 js-scroll">神奈川県川崎市多摩区登戸3816番3（地番）<span>※住戸表示ではありません。</span></p>
     </div> 
 
     <ul class="link-buttons js-scroll">
