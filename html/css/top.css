@@ -74,6 +74,9 @@
 #top main {
   font-family: "RyuminPro", serif;
 }
+#top .breadcrumb {
+  display: none;
+}
 #top .page-annotation {
   font-family: "Noto Sans JP", sans-serif;
 }
