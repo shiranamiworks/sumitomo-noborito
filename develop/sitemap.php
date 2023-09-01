@@ -55,7 +55,7 @@
       <li class="demaeBtn disable"><a href="javascript:delivery();" target="_blank" class="disable">出前deオンライン見学会</a></li>
       <!--<li class="requestPageBtn"><a href="#requested_only" target="_blank">資料請求者限定ページ</a></li>
       <li class="meta-gallery"><a href="https://www.sumitomo-rd-mansion.jp/gallery/" target="_blank">メタマンションギャラリー</a></li>-->
-      <li class="requestBtn"><a href="javascript:siryo();" target="_blank"><span class="btnText">資料請求<!--（無料）--></span></a></li>
+      <li class="requestBtn"><a href="javascript:siryo();"><span class="btnText">資料請求<!--（無料）--></span></a></li>
     </ul>
 
 
