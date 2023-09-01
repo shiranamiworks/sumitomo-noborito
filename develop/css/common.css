@@ -226,7 +226,7 @@ img#adtag {
 .header-wrapper {
   position: relative;
   height: 80px;
-  padding-left: 20px;
+/*  padding-left: 20px;*/
   z-index: 10;
   background-color: #fff;
 }
@@ -239,11 +239,11 @@ img#adtag {
 .header-logo a {
   display: block;
   width: 100%;
-  max-width: 580px;
 }
 
 .header-logo img {
-  width: 45.43vw;
+  width: 40.43vw;
+  max-width: 580px;
 }
 .header-btn {
   display: flex;
@@ -816,13 +816,13 @@ div.header-btn.bg_btn {
 /* ---------------------------------------------------------------------------------------------------------------------------------------- */
 @media screen and (max-width: 768px) {
   .header-wrapper {
-    height: 110px;
+    height: 80px;
   }
   .header-btn {
     display: none;
   }
   .header-logo img {
-    width: 100%;
+    width: 95%;
   }
   .hamburger {
     padding-top: 12px;
