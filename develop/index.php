@@ -83,7 +83,7 @@
     <h3 class="section-title garamond">INFORMATION</h3>
     <div class="information-box">
       <div class="information-box-wrapper">
-        <div id="topics" class="informationTopics" data-area-cd="shuto" data-prop-cd="ct-noborito"></div>
+        <div id="topics" class="informationTopics" data-area-cd="shuto" data-prop-cd="ct_noborito"></div>
       </div>
     </div>
   </section><!-- information -->

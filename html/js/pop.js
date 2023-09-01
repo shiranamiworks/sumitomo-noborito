@@ -1,6 +1,6 @@
 
 function siryo(){ 
-	url = ebis.link("/shuto/ct-noborito/catalog.cgi");
+	url = ebis.link("/shuto/ct_noborito/catalog.cgi");
 	sub = window.open(url, "", "toolbar=no,location=no,directories=no,status=yes,menubar=yes,scrollbars=yes,resizable=yes,width=850,height=580");
 }
 
@@ -20,19 +20,19 @@ function delivery(){
 }
 
 function outline(){
-	sub = window.open("/shuto/ct-noborito/detail.cgi","","toolbar=no,location=no,directories=no,status=yes,menubar=yes,scrollbars=yes,resizable=yes,width=780,height=580");
+	sub = window.open("/shuto/ct_noborito/detail.cgi","","toolbar=no,location=no,directories=no,status=yes,menubar=yes,scrollbars=yes,resizable=yes,width=780,height=580");
 }
 
 function outline1(){
-	sub = window.open("/shuto/ct-noborito/detail.cgi?T=1","","toolbar=no,location=no,directories=no,status=yes,menubar=yes,scrollbars=yes,resizable=yes,width=780,height=580");
+	sub = window.open("/shuto/ct_noborito/detail.cgi?T=1","","toolbar=no,location=no,directories=no,status=yes,menubar=yes,scrollbars=yes,resizable=yes,width=780,height=580");
 }
 
 function outline2(){
-	sub = window.open("/shuto/ct-noborito/detail.cgi?T=2","","toolbar=no,location=no,directories=no,status=yes,menubar=yes,scrollbars=yes,resizable=yes,width=780,height=580");
+	sub = window.open("/shuto/ct_noborito/detail.cgi?T=2","","toolbar=no,location=no,directories=no,status=yes,menubar=yes,scrollbars=yes,resizable=yes,width=780,height=580");
 }
 
 function blog(){
-	sub = window.open("/shuto/ct-noborito/blog/","");
+	sub = window.open("/shuto/ct_noborito/blog/","");
 }
 
 

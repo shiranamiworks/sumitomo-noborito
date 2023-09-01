@@ -7,7 +7,7 @@
 <?php
 $site_setting = array(
   "area" => "shuto",
-  "prop" => "ct-noborito",
+  "prop" => "ct_noborito",
   "tel_link" => "tel:0120112507",
   "meta_link" => "https://www.sumitomo-rd-mansion.jp/gallery/",
   "requested_only" => "#requested_only",
