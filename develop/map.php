@@ -20,10 +20,10 @@
 <main>
 	<div class="content-inner">
     <div class="print-area">
-      <h2 class="page-title js-scroll"><span class="font-size400">MAP</span><br class="sp">åªínàƒì‡ê}</h2>
+      <h2 class="page-title js-scroll"><img src="images/map/ttl.jpg" alt="åªínàƒì‡ê}"></h2>
 
       <div class="map-image">
-        <div class="image pc"><img src="./images/map/map.jpg" alt="åªínàƒì‡ê}"></div>
+        <div class="image pc"><img src="./images/map/map.jpg" alt="åªínàƒì‡ê}" id="map1"></div>
         <figure class="img img05 sp">
           <img src="./images/map/map.jpg" class="sp-hide" alt="">
           <img src="./images/map/map.jpg" class="zoomImg sp" alt=""/>
