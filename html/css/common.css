@@ -216,7 +216,7 @@ img#adtag {
   background-color: #5d4c32;
 }
 .bg_btn--gray {
-  background-color: #b4a690;
+  background-color: #999;
 }
 
 /****************************************************************************************************************************************************************************************
@@ -264,7 +264,7 @@ a.header-btn.bg_btn {
   letter-spacing: -0.03em;
 }
 div.header-btn.bg_btn {
-  background-color: #b4a690;
+  background-color: #999;
 }
 
 .hamburger {
@@ -1204,7 +1204,7 @@ div.header-btn.bg_btn {
     height: 80px;
   }
   .float-btn {
-    display: none;
+    display: none !important;
   }
 }
 
@@ -1329,6 +1329,10 @@ div.header-btn.bg_btn {
     background-color: #fff;
     border: 1px solid #868076;
     border-right: none;
+  }
+  .fixed-btn a.none {
+    color: #fff;
+    background-color: #999;
   }
   .fixed-btn a.fixed-btn__reserve {
     color: #fff;
