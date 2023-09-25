@@ -5,13 +5,13 @@
   "gnav_set" => "location",
   "page_class" => "location03",
   "url" => "location03.html",
-  "title" => "u“oŒËv‰wŽü•Ó‚Ì—D‚ê‚½—˜•Ö«bƒƒP[ƒVƒ‡ƒ“byŒöŽ®zƒVƒeƒBƒeƒ‰ƒX“oŒËb“oŒË‚ÌV’zƒ}ƒ“ƒVƒ‡ƒ“bZ—F•s“®ŽY",
-  "keywords" => "ƒƒP[ƒVƒ‡ƒ“,ƒVƒeƒBƒeƒ‰ƒX“oŒË,“oŒË ƒ}ƒ“ƒVƒ‡ƒ“,“oŒË V’zƒ}ƒ“ƒVƒ‡ƒ“,“oŒË,¬“c‹}¬“cŒ´ü,ìèŽs,ƒ}ƒ“ƒVƒ‡ƒ“,V’zƒ}ƒ“ƒVƒ‡ƒ“,•ª÷ƒ}ƒ“ƒVƒ‡ƒ“,Z—F•s“®ŽY",
-  "description" => "u“oŒËv‰wŽü•Ó‚Ì—D‚ê‚½—˜•Ö«bƒƒP[ƒVƒ‡ƒ“ƒy[ƒWB¬“c‹}¬“cŒ´üEJR“ì•üu“oŒËv‚Ü‚Å“k•à11•ªBZ—F•s“®ŽY‚ÌV’zƒ}ƒ“ƒVƒ‡ƒ“‚ª“oŒË‚É’a¶By‚·‚Ý‚Ó“oŒËzìèŽs‚Ìƒ}ƒ“ƒVƒ‡ƒ“‚È‚çZ—F•s“®ŽYB",
+  "title" => "u“oŒËv‰wŽü•Ó‚Ì—D‚ê‚½—˜•Ö«b",
+  "keywords" => "u“oŒËv‰wŽü•Ó‚Ì—D‚ê‚½—˜•Ö«,",
+  "description" => "u“oŒËv‰wŽü•Ó‚Ì—D‚ê‚½—˜•Ö«ƒy[ƒWB",
   "add_stylesheet" => ["css/location.css","css/location03.css","css/leaflet.css"],
   "add_script" =>  ["js/location.js"],
     
-  "logo_text" => "“oŒË‰w“k•à11•ªbƒVƒeƒBƒeƒ‰ƒX“oŒËb“oŒË V’zƒ}ƒ“ƒVƒ‡ƒ“bƒƒP[ƒVƒ‡ƒ“b‚·‚Ý‚Ó“oŒËbZ—F•s“®ŽY"
+  "logo_text" => "ƒƒP[ƒVƒ‡ƒ“b"
 );
 ?>
 

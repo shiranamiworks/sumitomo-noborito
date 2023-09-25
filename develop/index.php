@@ -5,13 +5,13 @@
   "gnav_set" => "top",
   "page_class" => "",
   "url" => "",
-  "title" => "yŒöŽ®zƒVƒeƒBƒeƒ‰ƒX“oŒËb“oŒË‚ÌV’zƒ}ƒ“ƒVƒ‡ƒ“bZ—F•s“®ŽY",
-  "keywords" => "ƒVƒeƒBƒeƒ‰ƒX“oŒË,“oŒË ƒ}ƒ“ƒVƒ‡ƒ“,“oŒË V’zƒ}ƒ“ƒVƒ‡ƒ“,“oŒË,¬“c‹}¬“cŒ´ü,ìèŽs,ƒ}ƒ“ƒVƒ‡ƒ“,V’zƒ}ƒ“ƒVƒ‡ƒ“,•ª÷ƒ}ƒ“ƒVƒ‡ƒ“,Z—F•s“®ŽY",
-  "description" => "¬“c‹}¬“cŒ´üEJR“ì•üu“oŒËv‚Ü‚Å“k•à11•ªBZ—F•s“®ŽY‚ÌV’zƒ}ƒ“ƒVƒ‡ƒ“‚ª“oŒË‚É’a¶By‚·‚Ý‚Ó“oŒËzìèŽs‚Ìƒ}ƒ“ƒVƒ‡ƒ“‚È‚çZ—F•s“®ŽYB",
+  "title" => "",
+  "keywords" => "",
+  "description" => "",
   "add_stylesheet" => ["css/top.css"],
   "add_script" =>  ["js/top.js"],
   
-  "logo_text" => "“oŒË‰w“k•à11•ªbƒVƒeƒBƒeƒ‰ƒX“oŒËb“oŒË V’zƒ}ƒ“ƒVƒ‡ƒ“b‚·‚Ý‚Ó“oŒËbZ—F•s“®ŽY"
+  "logo_text" => ""
 );
 ?>
 
