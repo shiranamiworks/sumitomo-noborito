@@ -7,7 +7,7 @@
   "url" => "location02.html",
   "title" => "水と緑の自然を身近に｜",
   "keywords" => "水と緑の自然を身近に,",
-  "description" => "水と緑の自然を身近に｜",
+  "description" => "水と緑の自然を身近にページ。",
   "add_stylesheet" => ["css/location.css","css/location02.css"],
   "add_script" =>  [],
     
