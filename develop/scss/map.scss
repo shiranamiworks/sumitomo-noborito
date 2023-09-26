@@ -5,91 +5,160 @@
 @import "inc/mixin.scss";
 @import "inc/functions.scss";
 @import "inc/param.scss";
+
+/******************************************************
+
+ head
+ 
+******************************************************/
+@media print {
+  * html {
+    text-align: center;
+  }
+  @page {
+    margin: 0mm 5mm;
+  }
+  body {
+    padding-top: 5mm;
+    width: 210mm;
+    height: 297mm;
+  }
+  
+  .header-right,
+  .entry h2,
+  .entry .entry-btn,
+  .footer-menu,
+  .footer-recommend,
+  .footer-logo,
+  .footer-wrapper,
+  .footer-btn,
+  #btnArea,
+  .container .txt {
+    display: none !important;
+  }
+  header {
+    display: block;
+  }
+  .map-sec .ttl {
+    margin: -4mm 0 0 !important;
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }   
+  #submaincontainer{
+    width: 100%!important;
+  }
+  #submaincontainer .mapArea{
+    width: 130mm;
+    text-align: center;
+    margin: 0 auto;
+  }
+  #submaincontainer #map1{
+    width: 130mm;
+  }
+  #map #submaincontainer .zip {
+  margin: -2mm auto 0 !important;
+  font-size: 12px;
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+  }
+  .entry {
+    margin-top: -8mm !important;
+    padding: 0 !important;
+  }
+  .entry .entry-tel {
+    margin-top: -2mm !important;
+  }
+  .entry .entry-tel__num {
+    margin-left: -16mm !important;
+  }
+  .entry .entry-info {
+    margin-top: -1mm !important;
+  }
+  #submaincontainer #map1 img{
+    width: 130mm;
+  }
+  .map-sec .ttl {
+    padding-top: 15px;
+  }
+  .map-sec .ttl .eng {
+    font-size: 5rem !important;
+  }
+  .map-sec .ttl .ja {
+    font-size: 2rem !important;
+  }
+  .map-btn__list {
+    display: none !important;
+  }
+}
+/*-------------------------------------------------------------------*/
+
 #adtag {
   opacity: 0;
 }
+html, body{
+	background:#fff;
+}
+
+
+#btnArea{
+	display: flex;
+	justify-content: space-between;
+	width:100%;
+	margin: 0 auto;
+}
+
+#GoogleMap {
+	width:50%;
+	text-align:center;
+}
+#GoogleMap img{
+	margin: auto;
+}
+#PrintMap{
+	width:50%;
+	text-align:center;
+}
+#PrintMap img{
+	margin: auto;
+}
+
 #map {
   main {
     font-family: "RyuminPro", serif;
     margin-bottom: 100px;
-    padding-top: 200px;
-    .content-inner {
-      max-width: 1300px;
-      width: 90%;
-      margin: 0 auto;
-      position: relative;
-    }
-    .page-title {
-      font-size: 28px;
-      font-weight: normal;
-      padding: 0 15px 55px;
-      text-align: center;
-      letter-spacing: 0.1em;
-      color: rgb(90, 90, 21);
-      span {
-        letter-spacing: 0;
-        margin-right: 0.2em;
-        &.font-size400 {
-          font-size: 400%;
-        }
-      }
-    }
-    .map-image {
-      // padding-bottom: 60px;
-      .text01 {
-        margin: 75px auto;
-        color: rgb(90, 90, 21);
-        font-size: 40px;
-        // margin-bottom: 20px;
-        text-align: center;
-        img {
-          width: 80%;
-        }
-        span{
-          display: block;
-          font-size: 50%;
-        }
-      }
-      .link {
-        a {
-          display: block;
-          padding: 20px;
-          text-align: center;
-          color: #000;
-          background: #efefef;
-          position: relative;
-          font-size: 18px;
-          letter-spacing: 0.25em;
-          &::after {
-            content: "";
-            display: block;
-            position: absolute;
-            left: 0;
-            width: 100%;
-            bottom: 0;
-            height: 100%;
-            background: linear-gradient(
-              0deg,
-              rgba(0, 0, 0, 0.25) 0%,
-              rgba(0, 0, 0, 0) 70%,
-              rgba(0, 0, 0, 0) 100%
-            );
-          }
-        }
-      }
-    }
-  } //map-image
-  .text01 {
-    margin: 75px auto;
-    color: rgb(90, 90, 21);
-    font-size: 40px;
+  } //mapArea
+  #submaincontainer{
+    width:1300px;
+    margin:0 auto 0 auto;
+    font-size:10px;
+    color:#666;
+  }
+  .map-sec .ttl {
+    color: #5d4c32;
+    line-height: 1.3;
+    margin: 190px 0 75px 0;
     text-align: center;
-    width: fit-content;
-    span{
-      display: block;
-      font-size: 12px;
-      text-align: right;
+    .eng {
+      font-size: 10rem;
     }
+    .ja {
+      font-size: 3rem;
+      margin-left: 20px;
+    }
+  }
+  #submaincontainer .zip{
+    font-size: 30px;
+    font-weight: normal;
+    font-family: "RyuminPro", "GaramondPro", serif;
+    margin: 75px auto;
+    color: #534D44;
+    text-align: center;
+  }
+  #submaincontainer .zip span{
+    font-size: 16px;
+  }
+  #submaincontainer .container{
+    margin: 30px auto 30px auto;
   }
   .link-buttons {
     text-align: center;
@@ -131,135 +200,152 @@
     text-align: center;
   }
 
+  /**************************************************************************************/
+  /* w1600 Site*/
+  /**************************************************************************************/
+
+  @media screen and (max-width: 1600px) {
+  
+  h1,
+  #h_reserve,
+  #h_online,
+  #h_request,
+  #submaincontainer dl {
+    /*display:none;*/
+  }
+  #submaincontainer{
+    width:81.25vw;
+  }
+  #submaincontainer{
+    width:700px;
+    margin:0 auto 0 auto;
+    font-size:0.625vw;
+    color:#666;
+  }
+  #submaincontainer #map1{
+    /*width:30.312vw;*/
+    width:81.25vw;
+    margin:0 auto 0 auto;
+  }
+  
+  #GoogleMap {
+    width:45%;
+  }
+  #PrintMap {
+    width:45%;
+  }
+  
+  #submaincontainer #map1 img{
+    width:700px;
+    height:53.125vw;
+  }
+  
+  #submaincontainer #map2{
+    width:30.312vw;
+    margin:0 auto 0 auto;
+  }
+  
+  #submaincontainer #map2 img{
+    width:30.312vw;
+    height:13.5vw;
+  }
+
+  #GoogleMap {
+    display: block;
+    margin-top: 0.625vw;
+  }
+  
+  .mr{
+    padding-right: 1.25vw;
+  }
+    
+  #submaincontainer .ttl img{
+    float:left;
+  }
+  }
   @media (max-width: 1300px) {
-    .map-image .link {
-      width: 92%;
-      margin: 0 auto;
+    #submaincontainer{
+      width:100%;
     }
-    .map-image .link a {
-      font-size: 20px;
+    
+    #submaincontainer #map1{
+      /*width:30.312vw;*/
+      width:100%;
+      margin:0 auto 0 auto;
     }
-    .link-buttons li {
-      display: block;
-      float: none;
-      max-width: 560px;
-      width: 92%;
-      margin: 0 auto 40px;
+    
+    #btnArea{
+      display:block;
+      width:100%;
     }
-    .link-buttons li:last-child {
-      float: none;
-      margin-right: auto;
+    #btnArea img{
+        margin-top: 40px;
+        //margin-left: calc((100vw - 560px) / 2);
     }
-    .link-buttons a {
-      padding: 20px 30px;
-      font-size: 18px;
+    #GoogleMap{
+      width:100vw;
+    }
+    #PrintMap{
+      width:100vw;
+    }
+    
+    #submaincontainer .zip span{
+        display: block;
+        margin-top: 10px;
+    }
+    .cap{
+        text-align: center;
     }
   }
 
   @media (max-width: $breakpoint_sp) {
+    #btnArea{
+      display:block;
+      width:100%;
+    }
+    
+    #GoogleMap {
+      width:100%;
+        margin: auto;
+    }
+    
+    #GoogleMap img { width:100%; margin: auto; }
+      
+    #submaincontainer{
+      width:92%;
+    }
+    #submaincontainer .ttl{
+        width:60%;
+        height: auto;
+        margin: 40px auto;
+        font-size: 30px;
+    }
+    #submaincontainer .zip{
+      font-size:22px;
+        margin: 40px auto;
+    }
+    
+    #submaincontainer .zip span{
+        font-size: 13px;
+      margin-top:0;
+    }
     main {
-      padding-top: 80px;
-      .page-title {
-        font-size: 20px;
+      .map-sec .ttl {
+        .eng {
+          font-size: 8rem;
+        }
+        .ja {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          font-size: 2rem;
+        }
       }
       .content-inner {
         max-width: auto;
         max-width: inherit;
         width: 92%;
       }
-      .map-image {
-        padding-bottom: 40px;
-        .text01 {
-          font-size: 20px;
-          line-height: 1.8;
-          padding: 25px 10px;
-        }
-        .annotation {
-          width: 90%;
-          margin: 0 auto;
-          font-size: 12px;
-        }
-      }
-    } //map-imagg
-    .link-buttons {
-      li {
-        margin: 0 auto;
-      }
-    }
-    .link02 {
-      display: none !important;
-    }
   } //sp
-
-  @media print {
-    * html {
-      text-align: center;
-    }
-    @page {
-      margin: 0mm 5mm;
-    }
-    body {
-      padding-top: 5mm;
-      width: 210mm;
-      height: 297mm;
-    }
-    
-    head .title,
-    .header-right,
-    .link-buttons,
-    .footer .entry .entry-btn,
-    .footer .footer-menu,
-    .footer .footer-recommend,
-    .footer .footer-logo,
-    .footer .footer-wrapper,
-    .footer .footer-btn,
-    .annotation{
-      display: none !important;
-    }
-    head{
-      display: none !important;
-    }
-    header {
-      display: block;
-    }
-    h2.page-title {
-      margin: -4mm 0 0!important;
-      transform: scale(0.7);
-    }
-    
-    main {
-      padding-top: 0 !important;
-      margin-bottom: 30px !important;
-      width: 90% !important;
-      margin: 0 auto !important;
-    }
-    .content-inner{
-      position: relative;
-    }
-  .print-area{
-      width: 100%!important;
-  }
-  .print-area .map-image{
-      width: 175mm;
-      text-align: center;
-      margin: auto;
-  }
-  .print-area #map1{
-      width: 175mm;
-  }
-  .print-area.text01 {
-    margin: -2mm auto 0 !important;
-    transform: scale(0.8);
-  }
-  .print-area #map1 img{
-    width: 175mm;
-}
-    .entry {
-      padding: 10px 0 !important;
-    }
-    .entry .entry-tel {
-      width: 80% !important;
-      margin: 45px auto 0 !important;
-    }
-  }
-} //map
+} 
+}//map
