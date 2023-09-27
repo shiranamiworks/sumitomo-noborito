@@ -241,7 +241,6 @@ html, body {
   }
   #map #GoogleMap {
     display: block;
-    margin-top: 0.625vw;
   }
   #map .mr {
     padding-right: 1.25vw;
