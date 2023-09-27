@@ -156,6 +156,7 @@ html, body {
   text-align: center;
 }
 #map #submaincontainer .zip span {
+  display: block;
   font-size: 16px;
 }
 #map #submaincontainer .container {
