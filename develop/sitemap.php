@@ -17,14 +17,6 @@
 <?php require(INCLUDES."header.php"); ?>
 
 <main>
-	<!-- パンくずリスト -->
-  <div class="breadcrumb sp-hide">
-    <ul>
-      <li><a href="./index.html">シティテラス登戸｜登戸 マンション｜トップ</a></li>
-      <li><p>サイトマップ</p></li>
-    </ul>
-  </div>
-	<!--// パンくずリスト -->
   <div class="content">
 
   <div class="wrap">
