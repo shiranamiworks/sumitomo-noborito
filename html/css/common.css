@@ -1309,6 +1309,7 @@ div.header-btn.bg_btn {
     display: flex;
     width: 100%;
     z-index: 11;
+    background: #fff;
   }
   .fixed-btn a,
   .fixed-btn div.fixed-btn__tel,
