@@ -30,4 +30,56 @@ jQuery(document).ready(function($) {
             }
         ]
     });
+
+    //path = $('.banner-slide .slick-slide img').attr('src');
+    //$('.banner-slide .slick-slide img').height();
+    //$('.banner-slide .slick-slide img').width();
+
+	$(".banner-slide .slick-slide img").each(function(){
+		if($(window).width() >= 640){
+			currentImg  = $(this).attr("src");
+			width  = $(this).width();
+			height = $(this).height();
+			ratiow = width / height;
+			ratioh = height / width;
+			w =$('div.slick-slide').width();
+			h =$('div.slick-slide').height();
+			if (h > 380) { h = 380; }
+			stratiow = w / h;
+			stratioh = h / w;
+			mt = (h - height) / 2;
+			if (mt < 0) { mt=0; }
+			if ((ratiow > stratiow) && (width > w)) {
+				$(this).width(w);
+				height  = $(this).height();
+				$(this).height(height);
+				$(this).css("margin", mt+"px auto");
+			}else if (height > h){
+				$(this).height(h);
+				width  = $(this).width();
+				$(this).width(width);
+				$(this).css("margin", mt+"px auto");
+			}else if (ratiow > stratiow){
+				console.log("03:" + width + " x " + height);
+				$(this).css("margin", mt+"px auto");
+			}else if (ratiow < stratiow){
+				$(this).height(h);
+				width  = $(this).width();
+				$(this).width(width);
+				$(this).css("margin", " auto");
+			}else{
+				console.log("05:" + width + " x " + height);
+				$(this).css("margin", mt+"px auto");
+			}
+			
+		}else{
+			height = $(this).height();
+			h =$('div.slick-slide').height();
+			mt = (h - height) / 2;
+			$(this).css("margin", mt+"px auto");
+		}
+	});
+
+
+
 })

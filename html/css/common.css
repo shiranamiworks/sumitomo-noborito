@@ -1366,7 +1366,9 @@ div.header-btn.bg_btn {
     background-color: #999;
   }
 */
-  .fixed-btn a.fixed-btn__btn001{
+  .fixed-btn a.fixed-btn__btn001,
+  .fixed-btn a.fixed-btn__btn002,
+  .fixed-btn a.fixed-btn__btn003{
     color: #fff;
     background-color: #9d7a41;
   }
