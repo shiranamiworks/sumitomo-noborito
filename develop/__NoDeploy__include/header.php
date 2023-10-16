@@ -81,12 +81,8 @@ $folder_name = $site_setting["area"]."/".$site_setting["prop"]."/";
       </a>
     </h1><!-- header-logo -->
     <div class="header-right d-flex">
-      <!-- <div class="header-btn bg_btn"><p>来場予約</p></div> -->
-        <div class="header-btn bg_btn"><p>オンライン<br>見学会予約</p></div>
-        <!-- <a href="javascript:online();" class="header-btn bg_btn"><p>オンライン<br>見学会予約</p></a> -->
-        <!-- <a href="javascript:delivery();" class="header-btn bg_btn"><p>出前deオンライン<br>見学会予約 </p></a> -->
-        <a href="javascript:siryo();" class="header-btn header-btn--request bg_btn--request"><p>資料請求</p></a>
-        <div id="sp-menu-btn" class="hamburger">
+    <script type="text/javascript" src="/bukken_manage/bukken_manage_entry_button.cgi?AREA_CD=shuto&PROP_CD=ct_noborito&LINK=header"></script>
+      <div id="sp-menu-btn" class="hamburger">
         <p>MENU</p>
         <div class="menu-trigger">
           <span></span>
@@ -94,8 +90,8 @@ $folder_name = $site_setting["area"]."/".$site_setting["prop"]."/";
           <span></span>
         </div>
       </div>
-    </div>
-  </div><!-- header-right -->
+    </div><!-- header-right -->
+  </div><!-- header-wrapper -->
   <div class="header-menu">
     <div class="container d-flex flex-wrap justify-content-between align-items-start">
       <nav>
@@ -142,12 +138,7 @@ $folder_name = $site_setting["area"]."/".$site_setting["prop"]."/";
       </nav>
       <div class="header-menu-right">
         <ul class="header-menu-btn">
-          <!-- <li class="reserve bg_btn"><a href="javascript:raijo();">来場予約</a></li> -->
-          <li class="online bg_btn--gray"><p>オンライン見学会予約</p></li>
-          <!-- <li class="delivery bg_btn--gray"><p>出前deオンライン<br>見学会予約</p></li>
-          <li class="limited bg_btn--gallery"><a href="#">資料請求者限定ページ</a></li>
-          <li class="gallery bg_btn--gallery"><a href="#">メタマンションギャラリー</a></li> -->
-          <li class="request bg_btn--request"><a href="javascript:siryo();">資料請求</a></li>
+        <script type="text/javascript" src="/bukken_manage/bukken_manage_entry_button.cgi?AREA_CD=shuto&PROP_CD=ct_noborito&LINK=header-menu"></script>
         </ul>
         <div class="header-menu-other">
           <ul>
@@ -182,10 +173,7 @@ $folder_name = $site_setting["area"]."/".$site_setting["prop"]."/";
         <li><a href="javascript:outline();">物件概要</a></li>
         <li>マンション情報ブログ</li>
         <li><a href="/<?= $folder_name?>faq.cgi" target="_blank">FAQ</a></li>
-         <li><p href="javascript:raijo();">来場予約</p></li>
-        <li><a href="javascript:siryo();">資料請求</a></li>
-        <li class="online">オンライン見学会</li>
-        <li class="delivery">出前deオンライン見学会</li>
+        <script type="text/javascript" src="/bukken_manage/bukken_manage_entry_button.cgi?AREA_CD=shuto&PROP_CD=ct_noborito&LINK=sp-menu"></script>
       </ul>
     </nav>
     <!-- <div class="sp-menu-sns d-flex justify-content-center align-items-center">

@@ -12,11 +12,8 @@
   </div> -->
   <div class="entry">      
     <div class="container">
-      <div class="entry-btn entry-btn--3">
-        <!-- <p class="entry-btn-p">来場予約</p> -->
-        <a href="javascript:online();" class="none"><p>オンライン見学会予約</p></a>
-        <a href="javascript:siryo();"><p>資料請求</p></a>
-      </div>
+      <script type="text/javascript" src="/bukken_manage/bukken_manage_entry_button.cgi?AREA_CD=shuto&PROP_CD=ct_noborito&LINK=entry"></script>
+      <script type="text/javascript" src="/bukken_manage/bukken_manage_link.cgi?AREA_CD=shuto&PROP_CD=ct_noborito"></script>
       <div class="entry-tel">
         <p>お問い合わせは<br class="sp">住友不動産「リモート販売センター品川」</p>
         <a href="tel:<?= $site_setting["tel_link"]?>" class="entry-tel__num"><img src="./images/common/icn_entry-tel.png" alt=""><span class="f-en">0120-112-507</span></a><br>
@@ -43,10 +40,7 @@
         <li class="blog">マンション情報ブログ</li>
         <li class="faq"><a href="/<?= $folder_name?>faq.cgi" target="_blank">FAQ</a></li>
         <li class="sitemap"><a href="<?= $page_settings["directory_pos"]  ?>sitemap.html">サイトマップ</a></li>
-        <li class="online">オンライン見学会予約</li>
-        <li class="delivery">出前deオンライン見学会予約</li>
-        <li class="raijo">来場予約</li>
-        <li class="request"><a href="javascript:siryo()">資料請求</a></li>
+        <script type="text/javascript" src="/bukken_manage/bukken_manage_entry_button.cgi?AREA_CD=shuto&PROP_CD=ct_noborito&LINK=footer"></script>
       </ul>
     </div>
   </nav><!-- footer-menu -->
@@ -67,7 +61,8 @@
 
       <!-- おススメ物件 -->
       <p class="footer-recommend__ttl">おすすめ物件</p>
-      <div class="footer-recommend__slide" id="recommendSlide">
+      <script type="text/javascript" src="/bukken_manage/bukken_manage_recommend.cgi?AREA_CD=shuto&PROP_CD=ct_noborito"></script>
+      <!-- <div class="footer-recommend__slide" id="recommendSlide">
         <div>
           <div class="cont">
             <figure><a href="/shuto/tamagawa/" target="_blank"><img src="<?= $page_settings["directory_pos"]  ?>images/common/bana/img_recommend01.jpg" alt="シティテラス多摩川"></a></figure>
@@ -119,7 +114,7 @@
               </dd>
             </dl>
           </div>
-        </div>
+        </div> -->
       </div><!-- //#recommendSlide -->
 <!-- //おススメ物件 -->
     </div>
@@ -176,11 +171,7 @@
   </div>
   <div class="footer-btn">
     <div class="float-btn">
-      <!-- <p class="bg_btn--gray">来場予約</p> -->
-      <p class="bg_btn--gray">オンライン<br>見学会予約</p>
-      <!-- <a href="javascript:online()" class="bg_btn"><p>オンライン<br>見学会予約 </p></a>
-      <a href="javascript:delivery()" class="bg_btn"><p>出前ｄｅオンライン<br>見学会予約 </p></a> -->
-      <a href="javascript:siryo()" class="bg_btn--request"><p>資料請求</p></a>
+    <script type="text/javascript" src="/bukken_manage/bukken_manage_entry_button.cgi?AREA_CD=shuto&PROP_CD=ct_noborito&LINK=footer"></script>
     </div>
     <div class="fixed-btn">
       <a href="<?= $site_setting["tel_link"] ?>">
@@ -189,10 +180,10 @@
       <a href="<?= $page_settings["directory_pos"]  ?>map.html" target="_blank">
         <p><img src="<?= $page_settings["directory_pos"]  ?>images/common/icn_map.png" alt="現地案内図"><br>現地案内図</p>
       </a>
-      <a href="javascript:siryo()" class="fixed-btn__mail">
+      <a href="/shuto/ct_noborito/catalog.cgi" class="fixed-btn__mail" target="_blank">
         <p><img src="<?= $page_settings["directory_pos"]  ?>images/common/icn_mail.png" alt="資料請求"><br>資料請求</p>
       </a>
-      <a href="javascript:online()" class="fixed-btn__online none">
+      <a href="javascript:online()" class="fixed-btn__online">
         <p><img src="<?= $page_settings["directory_pos"]  ?>images/common/icn_btn02.png" alt="見学会予約"><br>オンライン<br>見学会予約</p>
       </a>
       <div id="sp-menu-btn-ft" class="hamburger">
@@ -206,6 +197,9 @@
         </div>
       </div>
     </div>
+    <div id="spfraijo" class="sp">
+    <script type="text/javascript" src="/bukken_manage/bukken_manage_entry_button.cgi?AREA_CD=shuto&PROP_CD=ct_noborito&LINK=sp-footer"></script>
+		</div>
   </div>
 </footer>
 

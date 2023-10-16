@@ -35,19 +35,9 @@
       <li class="link map"><a href="map.html" target="_blank"><span class="ja">現地案内図</span></a></li>
       <li class="link outline"><a href="javascript:outline();"><span class="ja">物件概要</span></a></li>
       <li class="link faq"><a href="/<?= $folder_name?>faq.cgi" target="_blank"><span class="ja">FAQ</span></a></li>
-      <!-- <li class="link blog"><a href="javascript:blog();"><span class="ja">マンション情報ブログ</span></a></li> -->
-     <!--<li class="sns-icons">
-        <ul class="lists clearfix">
-          <li class="sns"><a href="#twitter" target="_blank"><img src="./static/images/common/ico_twitter.png" alt=""></a></li>
-          <li class="sns"><a href="#insta" target="_blank"><img src="./static/images/common/ico_instagram.png" alt=""></a></li>
-        </ul>
-      </li>-->
-      <li class="reserveBtn disable"><a href="javascript:raijo();" target="_blank" class="disable">来場予約</a></li>
-      <li class="onlineBtn disable"><a href="javascript:online();" target="_blank" class="disable"><span class="btnText">オンライン見学会</span></a></li>
-      <li class="demaeBtn disable"><a href="javascript:delivery();" target="_blank" class="disable">出前deオンライン見学会</a></li>
-      <!--<li class="requestPageBtn"><a href="#requested_only" target="_blank">資料請求者限定ページ</a></li>
-      <li class="meta-gallery"><a href="https://www.sumitomo-rd-mansion.jp/gallery/" target="_blank">メタマンションギャラリー</a></li>-->
-      <li class="requestBtn"><a href="javascript:siryo();"><span class="btnText">資料請求<!--（無料）--></span></a></li>
+      <li class="link blog disable"><a href="javascript:blog();"  class="disable"><span class="ja">マンション情報ブログ</span></a></li>
+      <li class="link sitemap"><a href="sitemap.html"><span class="ja">サイトマップ</span></a></li>
+      <script type="text/javascript" src="/bukken_manage/bukken_manage_entry_button.cgi?AREA_CD=shuto&PROP_CD=ct_noborito&LINK=footer"></script>
     </ul>
 
 

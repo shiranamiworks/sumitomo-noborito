@@ -47,35 +47,11 @@
   <!-- バナースライド -->
   <div class="top-banner">
     <div class="container">
-      <div class="banner-slide">
-        <div>
-          <figure><img src="./images/top/bnr_slide01.jpg" alt=""></figure>
-        </div>
-        <div>
-          <figure><img src="./images/top/bnr_slide02.jpg" alt=""></figure>
-        </div>
-        <div>
-          <figure><img src="./images/top/bnr_slide01.jpg" alt=""></figure>
-        </div>
-        <div>
-          <figure><img src="./images/top/bnr_slide02.jpg" alt=""></figure>     
-        </div>
-      </div>
-                    
-      <div class="banner-slide">
-        <div>
-          <figure><img src="./images/top/bnr_slide01.jpg" alt=""></figure>
-        </div>
-        <div>
-          <figure><img src="./images/top/bnr_slide02.jpg" alt=""></figure>
-        </div>
-        <div>
-          <figure><img src="./images/top/bnr_slide01.jpg" alt=""></figure>
-        </div>
-        <div>
-          <figure><img src="./images/top/bnr_slide02.jpg" alt=""></figure>
-        </div>
-      </div>
+    <!-- バナー上 -->
+    <script type="text/javascript" src="/bukken_manage/bukken_manage_banner.cgi?AREA_CD=shuto&PROP_CD=ct_noborito&BANNER=first"></script>
+
+    <!-- バナー下 -->
+    <script type="text/javascript" src="/bukken_manage/bukken_manage_banner.cgi?AREA_CD=shuto&PROP_CD=ct_noborito&BANNER=second"></script>
     </div>
   </div><!-- / バナースライド -->
 
