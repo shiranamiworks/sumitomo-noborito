@@ -232,6 +232,7 @@ img#adtag {
 
 .bg_btn--gray {
   background-color: #999;
+  color: #fff;
 }
 
 /****************************************************************************************************************************************************************************************
@@ -274,8 +275,13 @@ a.header-btn.bg_btn {
 /*  background-color: #b4a690;*/
   letter-spacing: -0.03em;
 }
+p.header-btn.bg_btn {
+/*  background-color: #b4a690;*/
+  letter-spacing: -0.03em;
+}
 div.header-btn.bg_btn {
   background-color: #999;
+  color: #fff;
 }
 
 .hamburger {
@@ -1360,23 +1366,17 @@ div.header-btn.bg_btn {
     border: 1px solid #868076;
     border-right: none;
   }
-/*
-  .fixed-btn a.none {
-    color: #fff;
-    background-color: #999;
-  }
-*/
   .fixed-btn a.fixed-btn__btn001,
   .fixed-btn a.fixed-btn__btn002,
   .fixed-btn a.fixed-btn__btn003{
     color: #fff;
     background-color: #9d7a41;
   }
-/*
-  .fixed-btn a.fixed-btn__btn001.none {
+  .fixed-btn a.fixed-btn__none {
+    color: #fff;
+    background-color: #999;
     pointer-events: none;
   }
-*/
   .fixed-btn a.fixed-btn__mail {
     color: #fff;
     background-color: #c59b57;
