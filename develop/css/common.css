@@ -275,7 +275,7 @@ a.header-btn.bg_btn {
 /*  background-color: #b4a690;*/
   letter-spacing: -0.03em;
 }
-p.header-btn.bg_btn {
+.header-btn.bg_btn p {
 /*  background-color: #b4a690;*/
   letter-spacing: -0.03em;
 }
