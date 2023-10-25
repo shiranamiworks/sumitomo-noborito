@@ -275,13 +275,10 @@ a.header-btn.bg_btn {
 /*  background-color: #b4a690;*/
   letter-spacing: -0.03em;
 }
-.header-btn.bg_btn p {
-/*  background-color: #b4a690;*/
-  letter-spacing: -0.03em;
-}
 div.header-btn.bg_btn {
   background-color: #999;
   color: #fff;
+  letter-spacing: -0.03em;  
 }
 
 .hamburger {
