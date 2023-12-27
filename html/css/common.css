@@ -231,8 +231,8 @@ img#adtag {
 }
 
 .bg_btn--gray {
-  background-color: #999;
-  color: #fff;
+  background-color: #999 !important; 
+  color:#777 !important;
 }
 
 /****************************************************************************************************************************************************************************************
@@ -249,7 +249,6 @@ img#adtag {
 
 .header-logo {
   flex: 1;
-  /*max-width: 395px;*/
   padding-right: 20px;
 }
 
@@ -260,16 +259,15 @@ img#adtag {
 .header-btn {
   display: flex;
   justify-content: center;
-/*  align-items: center;*/
+  align-items: center;
   width: 150px;
   height: 80px;
   text-align: center;
-  font-size: 1.3rem;
-  line-height: 6;
+  font-size: 1.6rem;line-height: 1.2;
   letter-spacing: .05em;
-/*  color: #fff;*/
   border: 1px solid #fff;
   border-left: none;
+  padding:3px;
 }
 a.header-btn.bg_btn {
 /*  background-color: #b4a690;*/
@@ -277,7 +275,7 @@ a.header-btn.bg_btn {
 }
 div.header-btn.bg_btn {
   background-color: #999;
-  color: #fff;
+  color:#777 !important;
   letter-spacing: -0.03em;  
 }
 
@@ -616,7 +614,6 @@ div.header-btn.bg_btn {
   height: 80px;
   margin-bottom: 6px;
   text-align: center;
-  /*padding: 10px 10px 10px 60px;*/
   font-size: 2rem;
   line-height: 1.2;
   letter-spacing: 0.1em;
@@ -757,8 +754,7 @@ div.header-btn.bg_btn {
 @media screen and (max-width: 1200px) {
   .header-btn {
     width: 13vw;
-    font-size: 1.25vw;
-    line-height: 7;
+    font-size: 1.4166vw;
   }
   .header-menu nav > ul > li > a .f-en,
   .header-menu nav > ul > li > p .f-en {
@@ -894,26 +890,28 @@ div.header-btn.bg_btn {
     top: 0;
   }
   .sp-menu.sp-toggle {
-/*    padding-top: 0;*/
   }
   .sp-menu nav ul {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+    align-items: center;
     border-top: 1px solid #b99a31;
-/*    border-bottom: 1px solid #b99a31;*/
   }
   .sp-menu nav ul li {
     width: 50%;
+    height:14.8437vw;
     border-bottom: 1px solid #b99a31;
-    display: block;
-    font-size: 3.46666vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 3.75vw;
     font-weight: 300;
-    letter-spacing: 0.05em;
-/*    line-height: 13.33vw;*/
-    color: #767676;
+    letter-spacing: .05em;
+    color:#c7c6c6;
     line-height: 1.2;
-    padding: 20px 0;
+	padding: 20px 10px;
   }
 /*
   .sp-menu nav ul li:nth-child(2n + 1) {
@@ -922,16 +920,14 @@ div.header-btn.bg_btn {
     padding: 20px 0;
   }
 */
-  .sp-menu nav ul li:nth-of-type(2n + 1) {
+  .sp-menu nav ul li:nth-of-type(2n+1) {
     border-right: 1px solid #b99a31;
-    line-height: 1.2;
-    padding: 20px 0;
   }
+/*
   .sp-menu nav ul li:last-child {
-/*    border-bottom: none;*/
-      line-height: 1.2;
-      padding: 20px 0;
+    border-bottom: none;
   }
+*/
   .sp-menu nav ul li a {
     color: #000;
   }
@@ -983,8 +979,8 @@ div.header-btn.bg_btn {
   letter-spacing: -0.01em;
   font-size: 14px;
 }
-.footer-menu ul li.start {
-  border-left: none;
+.footer-menu ul li br  {
+  display: none;
 }
 .footer-menu ul li a {
   color: #000;
@@ -1018,7 +1014,7 @@ div.header-btn.bg_btn {
   border-right: none;
 }
 
-/* �������ߕ��� */
+/* おすすめ物件 */
 .footer-recommend__ttl {
   text-align: center;
   font-size: 3rem;
@@ -1081,7 +1077,7 @@ div.header-btn.bg_btn {
   padding-left: 4em;
   text-indent: -4em;
 }
-/*//�������ߕ��� */
+/*//おすすめ物件 */
 
 .footer-logo {
   margin-top: 260px;
@@ -1120,23 +1116,25 @@ div.header-btn.bg_btn {
   letter-spacing: 0.05em;
 }
 
-.footer-wrapper__logo01 {
-  position: absolute;
-  right: 30px;
-  top: 0;
-  display: block;
+.footer-wrapper__logo {
+    position: absolute;
+    right: 15px;
+    top: 0;
+    display: block;
 }
-.footer-wrapper__logo02 {
-  position: absolute;
-  right: 05px;
-  top: 15px;
-  display: block;
+
+.footer-wrapper__logo img{
+	width:137px;
 }
-.footer-wrapper__logo01 img {
-  width: 137px;
+
+.footer-wrapper__logo_jv {
+    display: flex;
+    justify-content: flex-end;
 }
-.footer-wrapper__logo02 img {
-  width: 70px;
+
+.footer-wrapper__logo_jv li{
+	width:137px;
+	margin:10px;
 }
 
 .footer-wrapper nav ul {
@@ -1180,12 +1178,11 @@ div.header-btn.bg_btn {
   width: 48px;
   height: 150px;
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   line-height: 1.3;
   letter-spacing: 0.05em;
   writing-mode: vertical-rl;
   text-orientation: upright;
-/*  color: #fff;*/
   border-bottom: 1px solid #fff;
 }
 
@@ -1252,15 +1249,16 @@ div.header-btn.bg_btn {
   }
   .footer-menu ul li {
     width: 50%;
-    padding: 20px 0;
+    padding: 20px 10px;
     border-bottom: 1px solid #f1e9dc;
     border-left: none;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: 12px;
+    font-size: 3.75vw;
     letter-spacing: 0.05em;
+    line-height: 1.2;
     margin: 0 0;
   }
 /*
@@ -1276,6 +1274,9 @@ div.header-btn.bg_btn {
   }
   .footer-menu ul li a {
     text-decoration: none;
+  }
+  .footer-menu ul li br {
+    display: block;
   }
   .footer-recommend__slide {
     margin-top: 30px;
@@ -1305,7 +1306,7 @@ div.header-btn.bg_btn {
     display: block;
     font-size: 3.2vw;
   }
-  .footer-wrapper__logo01 {
+  .footer-wrapper__logo {
     position: relative;
     right: 0;
     margin-top: 10vw;
@@ -1369,12 +1370,7 @@ div.header-btn.bg_btn {
     color: #fff;
     background-color: #9d7a41;
   }
-  .fixed-btn a.fixed-btn__none {
-    color: #fff;
-    background-color: #999;
-    pointer-events: none;
-  }
-  .fixed-btn a.fixed-btn__mail {
+   .fixed-btn a.fixed-btn__mail {
     color: #fff;
     background-color: #c59b57;
   }
@@ -1478,12 +1474,6 @@ div.header-btn.bg_btn {
     max-width: 90%;
     margin: 70px auto 65px auto;
   }
-/*
-  .caption .txt {
-    font-size: 1rem;
-    line-height: 1.8rem;
-  }
-*/
 }
 
 /************** entry **************/
@@ -1533,6 +1523,7 @@ div.header-btn.bg_btn {
   font-size: 2.8rem;
   color: #000;
   background-color: #fff;
+  line-height:1.2;
 }
 .entry-btn p.entry-btn-p {
   display: flex;
@@ -1544,26 +1535,15 @@ div.header-btn.bg_btn {
   font-size: 2.8rem;
   color: #999;
   background-color: #fff;
+  line-height:1.2;
 }
 .entry-btn--1 a {
   width: 100%;
 }
 
-/*
-.entry-btn--3 a.none {
-  pointer-events: none;
-  margin-right: 15px;
-  opacity: 0.7;
-  color: #999;
-}
-*/
-
-/*
 .entry-btn--3 a {
-  width: 31%;
+    width: 31%;
 }
-*/
-
 .entry-btn--3 p.entry-btn-p {
   width: 31%;
 }
@@ -1641,11 +1621,7 @@ div.header-btn.bg_btn {
     height: 20vw;
     font-size: 5.6vw;
   }
-/*
-  .entry-btn--3 a.none {
-    margin-right: 0;
-  }
-*/
+
   .entry-corona a {
     font-size: 4vw;
   }
@@ -1661,6 +1637,9 @@ div.header-btn.bg_btn {
     font-size: 2.6vw;
   }
 }
+
+
+
 
 .wrap {
   margin: 0 auto;
