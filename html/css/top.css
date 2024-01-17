@@ -7,76 +7,85 @@
 }
 
 /************* バナースライド *************/
+
 .top-banner {
-  display: none;
-  padding-top: 50px;
+    padding-top: 50px;
 }
 
 .banner-slide {
-  margin: 27px -10px 0;
+    margin: 27px -10px 0;
 }
 
 .banner-slide .slick-slide {
-  margin: 0 14px;
-  border: 1px solid #d1c7b6;
-  background: #DDD;
+    margin: 0 14px;
+    border: 1px solid #d1c7b6;
+    background:#DDD;
 }
 
 .banner-slide .slick-slide figure{
-  width: 100%;
-  height: 100%;
+        width: 100%;
+        height: 100%;
 }
 
 .banner-slide .slick-prev {
-  left: -50px;
+    left: -50px;
 }
 
 .banner-slide .slick-next {
-  right: -50px;
+    right: -50px;
 }
 
 @media screen and (max-width: 1400px) {
-  .banner-slide {
-    margin: 27px 25px 0;
-  }
-  .banner-slide .slick-prev {
-    left: -25px;
-  }
-  .banner-slide .slick-next {
-    right: -25px;
-  }
+    .banner-slide {
+        margin: 27px 25px 0;
+    }
+    .banner-slide .slick-prev {
+        left: -25px;
+    }
+    .banner-slide .slick-next {
+        right: -25px;
+    }
 }
+
 @media screen and (max-width: 639px) {
-  .banner-slide .slick-dots li {
-    width: 10px;
-    height: 10px;
-  }
-  .banner-slide .slick-dots li button {
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    border-radius: 50%;
-    background-color: #707070;
-  }
-  .banner-slide .slick-dots li.slick-active button {
-    background-color: rgb(80, 50, 30);
-  }
-  .banner-slide .slick-dots li button:before {
-    display: none;
-  }
-  .banner-slide .slick-slide {
-    margin: 0;
-  }
-  .banner-slide .slick-prev {
-    left: -30px;
-  }
-  .banner-slide .slick-next {
-    right: -30px;
-  }
-  .slick-slide img {
-    margin: auto;
-  }
+    .banner-slide .slick-dots li {
+        width: 10px;
+        height: 10px;
+    }
+
+    .banner-slide .slick-dots li button {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        border-radius: 50%;
+        background-color: #707070;
+    }
+
+    .banner-slide .slick-dots li.slick-active button {
+        background-color: rgba(80, 50, 30, 1);
+    }
+
+    .banner-slide .slick-dots li button:before {
+        display: none;
+    }
+
+
+    .banner-slide .slick-slide {
+        margin: 0;
+    }    
+    .banner-slide .slick-prev {
+        left: -30px;
+    }
+    .banner-slide .slick-next {
+        right: -30px;
+    }
+    .slick-slide img{
+        margin: auto;
+    }
 }
+
+
+
 #top main img {
   max-width: 100%;
 }
