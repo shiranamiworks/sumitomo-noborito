@@ -42,8 +42,7 @@
 	<li class="access"><a href="access.html">アクセス</a></li>
 	<li class="map"><a href="map.html" target="_blank">現地案内図</a></li>
 	<li class="outline"><a href="javascript:outline()">物件概要</a></li>
-	<!--li class="blog"><a href="javascript:blog();">マンション情報ブログ</a></li-->
-	<li class="blog">マンション情報ブログ</li>
+	<li class="blog"><a href="javascript:blog();">マンション情報ブログ</a></li>
 	<li class="faq"><a href="/shuto/ct_noborito/faq.cgi" target="_blank">FAQ</a></li>
       <li class="link sitemap"><a href="sitemap.html"><span class="ja">サイトマップ</span></a></li>
       <script type="text/javascript" src="/bukken_manage/bukken_manage_entry_button.cgi?AREA_CD=shuto&PROP_CD=ct_noborito&LINK=footer"></script>
