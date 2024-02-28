@@ -1,0 +1,538 @@
+@charset "UTF-8";
+/* 
+  css設定 @charsetが消されるsass仕様へのハック用コメントです。削除しないでください。新規作成時も必須！
+ */
+#adtag {
+  opacity: 0;
+}
+
+#public main img {
+  max-width: 100%;
+}
+#public .img {
+  position: relative;
+  line-height: 0;
+}
+#public .img .annotation {
+  bottom: 20px;
+}
+#public main {
+  font-family: "RyuminPro", serif;
+}
+#public sp {
+  display: none;
+}
+#public pc {
+  display: block;
+}
+#public .page-annotation {
+  font-family: "Noto Sans JP", sans-serif;
+}
+#public .main-visual {
+  position: relative;
+  line-height: 0;
+  border: none;
+}
+#public .main-visual .image {
+  position: relative;
+}
+#public .main-visual .page-lead {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  font-size: 54px;
+  width: 90%;
+}
+#public .sections {
+  line-height: 0;
+}
+#public .sections .image {
+  position: relative;
+}
+#public .sections .section-title {
+  font-size: 27px;
+  padding-top: 155px;
+  position: relative;
+  color: #afa471;
+  letter-spacing: 0.2em;
+  margin-bottom: 140px;
+}
+#public .sections .section-title::after {
+  content: "";
+  display: block;
+  width: 45px;
+  height: 170px;
+  background: url(../images/common/intro.jpg) bottom;
+  position: absolute;
+  top: 0;
+  right: 100%;
+  margin-right: 20px;
+}
+#public .sections .inner {
+  margin: 0 auto;
+  width: 70%;
+  max-width: 1100px;
+}
+#public .sections .lead {
+  font-size: 54px;
+  padding-bottom: 60px;
+  line-height: 1.5;
+}
+#public .sections .text {
+  font-size: 22px;
+  line-height: 2.1;
+}
+#public .intro {
+  padding-bottom: 100px;
+}
+#public .intro .texts {
+  width: 60%;
+  margin: auto;
+}
+#public .space {
+  padding-bottom: 100px;
+}
+#public .space .texts {
+  width: 76%;
+  margin: 0 auto 100px;
+}
+#public .landscape {
+  margin-bottom: 100px;
+}
+#public .landscape .tit {
+  font-size: 36px;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  border-left: 15px solid #afa471;
+  padding-left: 10px;
+}
+#public .landscape .tit span {
+  font-size: 27px;
+  color: #afa471;
+}
+#public .landscape .text {
+  margin-bottom: 40px;
+}
+#public .landscape .img01 {
+  width: 60%;
+  margin: 0 auto 60px;
+}
+#public .landscape .points {
+  margin-bottom: 100px;
+}
+#public .landscape .points li {
+  display: inline-block;
+  width: 47%;
+  margin-right: 4%;
+  border-right: 1px dotted;
+  padding-right: 4%;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+#public .landscape .points li:last-child {
+  margin-right: auto;
+  border-right: none;
+  padding-right: 0;
+}
+#public .landscape .points .texts {
+  margin-bottom: 50px;
+}
+#public .landscape .points .texts .txt01 {
+  font-size: 21px;
+  color: #8c835a;
+  line-height: 1.5;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid;
+}
+#public .landscape .points .texts .txt01 span {
+  background: #2a4b46;
+  color: #fff;
+  padding: 8px 12px;
+}
+#public .landscape .points .texts .txt02 {
+  font-size: 17px;
+  line-height: 1.6;
+}
+#public .landscape .points .texts .txt02 span {
+  font-size: 14px;
+}
+#public .landscape .points .texts.last {
+  margin-bottom: 10px;
+}
+#public .landscape .planting {
+  background: #dbd3c5;
+  padding: 30px;
+  box-sizing: border-box;
+}
+#public .landscape .planting li {
+  display: inline-block;
+  width: 21%;
+  vertical-align: top;
+}
+#public .landscape .planting li:first-child {
+  width: 32%;
+  margin-right: 2%;
+}
+#public .landscape .planting .title {
+  font-size: 20px;
+  line-height: 1.2;
+  padding-bottom: 10px;
+  border-bottom: 1px solid;
+  margin-bottom: 16px;
+}
+#public .landscape .planting .info {
+  font-size: 20px;
+  line-height: 1.8;
+}
+#public .landscape .planting .annotation {
+  bottom: 42px;
+}
+#public .landscape .planting .name {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  font-size: 18px;
+  color: #fff;
+  padding: 14px 10px;
+  box-sizing: border-box;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+#public main {
+  padding-bottom: 140px;
+}
+@media screen and (max-width: 1024px) {
+  #public .sections .lead {
+    text-align: left;
+    font-size: 30px;
+    padding-bottom: 40px;
+  }
+  #public .sections .tit {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  #public .sections .tit span {
+    font-size: 18px;
+  }
+  #public .sections .text {
+    font-size: 17px;
+  }
+  #public .sections .img {
+    padding-top: 25px;
+    padding-bottom: 6px;
+    z-index: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  #public sp {
+    display: block;
+  }
+  #public pc {
+    display: none;
+  }
+  #public .main-visual .page-lead {
+    font-size: 30px;
+  }
+  #public .sections .section-title {
+    font-size: 20px;
+    padding-top: 90px;
+    margin-bottom: 60px;
+  }
+  #public .sections .section-title::after {
+    width: 40px;
+    height: 100px;
+    margin-right: 10px;
+  }
+  #public .sections .inner {
+    margin: 0 auto;
+    width: 84%;
+  }
+  #public .intro {
+    padding-bottom: 60px;
+  }
+  #public .intro .texts {
+    width: 100%;
+    margin: auto;
+  }
+  #public .space {
+    padding-bottom: 60px;
+  }
+  #public .space .texts {
+    width: 100%;
+    margin: 0 auto 60px;
+  }
+  #public .landscape {
+    margin-bottom: 60px;
+  }
+  #public .landscape .tit {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  #public .landscape .tit span {
+    font-size: 18px;
+  }
+  #public .landscape .text {
+    margin-bottom: 40px;
+  }
+  #public .landscape .img01 {
+    width: 90%;
+    margin: 0 auto 60px;
+  }
+  #public .landscape .points {
+    margin-bottom: 60px;
+  }
+  #public .landscape .points li {
+    display: block;
+    width: 100%;
+    margin: 0 auto 20px;
+    border-right: none;
+    padding-right: 0;
+  }
+  #public .landscape .points li:last-child {
+    margin-right: auto;
+    border-right: none;
+    padding-right: 0;
+  }
+  #public .landscape .points .texts {
+    margin-bottom: 20px;
+  }
+  #public .landscape .points .texts .txt01 {
+    font-size: 18px;
+  }
+  #public .landscape .points .texts .txt01 span {
+    background: #2a4b46;
+    color: #fff;
+    padding: 4px 8px;
+  }
+  #public .landscape .points .texts .txt02 {
+    font-size: 15px;
+  }
+  #public .landscape .points .texts .txt02 span {
+    font-size: 11px;
+  }
+  #public .landscape .points .texts.last {
+    margin-bottom: 10px;
+  }
+  #public .landscape .planting {
+    padding: 20px;
+  }
+  #public .landscape .planting li {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  #public .landscape .planting li:first-child {
+    width: 100%;
+    margin-right: auto;
+  }
+  #public .landscape .planting .title {
+    margin-bottom: 12px;
+  }
+  #public .landscape .planting .info {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  #public .landscape .planting .name {
+    font-size: 14px;
+  }
+  #public main {
+    padding-bottom: 100px;
+  }
+}
+
+/*
+.footer-contacts {
+  padding: 160px 60px;
+  background: #534D44;
+  text-align: center;
+  color: #fff;
+  a {
+    color: #fff;
+  }
+  .title {
+    font-size: 28px;
+    padding-bottom: 35px;
+  }
+  .links {
+    max-width: 900px;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    text-align: center;
+    li {
+      float: left;
+      width: 49%;
+      margin-right: 2%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 60px;
+      padding: 10px 5px;
+      box-sizing: border-box;
+      background: #fff;
+      a {
+        color: #000;
+        font-size: 16px;
+        text-align: center;
+        width: 100%;
+        line-height: 1.6;
+      }
+      &:last-child {
+        margin-right: auto;
+      }
+    }
+  }//links
+  .about-colona {
+    font-size: 20px;
+    padding: 20px 0 40px;
+    a {
+      display: inline-block;
+      padding-bottom: 7px;
+      border-bottom: 1px solid #fff;
+      position: relative;
+      padding-left: 25px;
+      &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 3px;
+        left: 0;
+        width: 5px;
+        height: 5px;
+        border-right: 2px solid #fff;
+        border-bottom: 2px solid #fff;
+        transform: rotate(-45deg);
+      }
+    }
+  }//.about-colona
+  .about-tel {
+    font-size: 15px;
+    line-height: 1.4;;
+    padding-bottom: 0px;
+  }//.about-tel
+  .tel-link-wrap {
+    padding: 10px 0 15px;
+    a {
+      display: inline-block;
+      padding-left: 70px;
+      position: relative;
+      font-size: 45px;
+      font-weight: normal;
+      &:after {
+        content: "";
+        position: absolute;
+        display: block;
+        top: 50%;
+        left: 0;
+        width: 64.5px;
+        height: 37px;
+        transform: translateY(-50%);
+        background: url(../images/common/icon-free-dial.svg) no-repeat center;
+        background-size: cover;
+      }
+    }
+  }//.tel-link-wrap
+  .mail {
+    font-size: 16px;
+    padding-bottom: 25px;
+    a {
+      display: inline-block;
+      padding-left: 30px;
+      position: relative;
+      font-weight: normal;
+      &:after {
+        content: "";
+        position: absolute;
+        display: block;
+        top: 50%;
+        left: 0;
+        width: 18px;
+        height: 15px;
+        transform: translateY(-50%);
+        background: url(../images/common/icon-mail.svg) no-repeat center;
+        background-size: 100% auto;
+      }
+    }
+  }//.mail
+  .bussiness-hour {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+}//footer-contacts
+
+@media (max-width:$breakpoint_sp) {
+  .footer-contacts {
+    padding: 80px 10px;
+    .title {
+      font-size: 54px;
+      padding-bottom: 35px;
+    }
+    .links {
+      padding-bottom: 30px;
+      li {
+        float: none;
+        width: 84%;
+        margin: 0 auto 20px;
+        display: block;
+        height: auto;
+        padding: 45px 5px;
+        box-sizing: border-box;
+        background: #fff;
+        a {
+          font-size: 36px;
+        }
+      }
+    }//links
+    .about-colona {
+      font-size: 35px;
+      padding: 20px 0 40px;
+      a {
+        padding-bottom: 7px;
+        padding-left: 35px;
+        &::after {
+          top: 12px;
+          left: 0;
+          width: 8px;
+          height: 8px;
+        }
+      }
+    }//.about-colona
+    .about-tel {
+      font-size: 25px;
+    }//.about-tel
+    .tel-link-wrap {
+      padding: 30px 0 15px;
+      a {
+        padding-left: 110px;
+        font-size: 95px;
+        &:after {
+          width: 98.5px;
+          height: 57px;
+          background-size: 100% auto;
+        }
+      }
+    }//.tel-link-wrap
+    .mail {
+      font-size: 32px;
+      padding-bottom: 35px;
+      a {
+        padding-left: 50px;
+        &:after {
+          width: 38px;
+          height: 35px;
+          background-size: 100% auto;
+        }
+      }
+    }//.mail
+    .bussiness-hour {
+      font-size: 27px;
+      margin: 0 auto;
+      width: 94%;
+      line-height: 1.8;
+    }
+  }//footer-contacts
+}*//*# sourceMappingURL=public.css.map */
