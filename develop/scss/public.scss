@@ -154,6 +154,11 @@
             background: #2a4b46;
             color: #fff;
             padding: 8px 12px;
+            &.ml{
+              background: none;
+              color: #8c835a;
+              display: contents;;
+            }
           }
         }
         .txt02 {
@@ -296,6 +301,9 @@
       .img01 {
         width: 90%;
         margin: 0 auto 60px;
+        .annotation{
+          bottom: -10px;;
+        }
       }
       .points {
         margin-bottom: 60px;
@@ -320,8 +328,7 @@
               color: #fff;
               padding: 4px 8px;
               &.ml{
-                background: none;
-                color: #8c835a;
+                display: block;
                 margin-left: 23px;
               }
             }

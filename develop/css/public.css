@@ -155,6 +155,11 @@
   color: #fff;
   padding: 8px 12px;
 }
+#public .landscape .points .texts .txt01 span.ml {
+  background: none;
+  color: #8c835a;
+  display: contents;
+}
 #public .landscape .points .texts .txt02 {
   font-size: 17px;
   line-height: 1.6;
@@ -286,6 +291,9 @@
     width: 90%;
     margin: 0 auto 60px;
   }
+  #public .landscape .img01 .annotation {
+    bottom: -10px;
+  }
   #public .landscape .points {
     margin-bottom: 60px;
   }
@@ -313,8 +321,7 @@
     padding: 4px 8px;
   }
   #public .landscape .points .texts .txt01 span.ml {
-    background: none;
-    color: #8c835a;
+    display: block;
     margin-left: 23px;
   }
   #public .landscape .points .texts .txt02 {
