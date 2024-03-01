@@ -43,6 +43,9 @@
   font-size: 54px;
   width: 90%;
 }
+#concept .main-visual .image img {
+  width: 100%;
+}
 #concept .sections {
   background-color: #B4A064;
   line-height: 0;

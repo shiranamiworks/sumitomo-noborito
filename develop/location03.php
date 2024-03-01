@@ -36,7 +36,7 @@
 
   <header class="main-visual">
     <!--<h2 class="page-lead gothic">Hello Beautiful Future.</h2>-->
-    <div class="image"><img src="./images/location03/mv01.jpg" alt="" class="pc"><img src="./images/location03/mv01-sp.jpg" alt="" class="sp"><p class="annotation white">提供写真：FUGLEN COFFEE ROASTERS（約1,020m／徒歩13分）</p></div>
+    <div class="image"><img src="./images/location03/mv01.jpg" alt="" class="pc"><img src="./images/location03/mv01-sp.jpg" alt="" class="tb"><p class="annotation white">提供写真：FUGLEN COFFEE ROASTERS（約1,020m／徒歩13分）</p></div>
   </header><!-- main-visual -->
 
   <section class="sections intro">
@@ -54,7 +54,7 @@
   <figure class="pc">
     <img src="./images/location03/map.jpg" class="sp-hide" alt="">
   </figure>
-  <figure class="sp">
+  <figure class="tb">
     <img src="./images/location03/map.jpg" class="sp-hide" alt="">
     <img src="./images/location03/map.jpg" class="zoomImg sp" alt=""/>
   </figure>
@@ -79,7 +79,7 @@
     </ul>
     <div class="img">
       <img src="./images/location03/shopping02.jpg" class="pc" alt="">
-      <img src="./images/location03/shopping02-sp.jpg" class="sp" alt="">
+      <img src="./images/location03/shopping02-sp.jpg" class="tb" alt="">
     </div>
     <p class="name">いなげや川崎登戸店<br><span>（約460m／徒歩6分）</span></p>
     <ul class="lis lis01">
@@ -136,7 +136,7 @@
     </ul>
     <div class="img">
       <img src="./images/location03/child02.jpg" class="pc" alt="">
-      <img src="./images/location03/child02-sp.jpg" class="sp" alt="">
+      <img src="./images/location03/child02-sp.jpg" class="tb" alt="">
     </div>
     <p class="name">川崎市多摩区役所<br><span>（約950m／徒歩12分）</span></p>
     <ul class="lis lis01">
@@ -201,7 +201,7 @@
       <div class="img pc">
         <img src="./images/location03/life.jpg" alt="">
       </div>
-      <figure class="sp">
+      <figure class="tb">
         <img src="./images/location03/life.jpg" class="sp-hide" alt="">
         <img src="./images/location03/life.jpg" class="zoomImg sp" alt=""/>
       </figure>

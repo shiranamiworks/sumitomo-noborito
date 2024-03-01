@@ -29,8 +29,8 @@
 
   <header class="main-visual">
     <!-- <h2 class="page-lead gothic">Hello New World.</h2> -->
-   <div class="image"><img src="./images/design/mv01.jpg" alt="" class="pc"><img src="./images/design/mv01-sp.jpg" alt="" class="sp"><p class="annotation white">外観完成予想図①</p></div>
-   <div class="image"><img src="./images/design/mv02.jpg" alt="" class="pc"><img src="./images/design/mv02-sp.jpg" alt="" class="sp"><p class="annotation white">外観完成予想図②</p></div>
+   <div class="image"><img src="./images/design/mv01.jpg" alt="" class="pc"><img src="./images/design/mv01-sp.jpg" alt="" class="tb"><p class="annotation white">外観完成予想図①</p></div>
+   <div class="image"><img src="./images/design/mv02.jpg" alt="" class="pc"><img src="./images/design/mv02-sp.jpg" alt="" class="tb"><p class="annotation white">外観完成予想図②</p></div>
   </header><!-- main-visual -->
 
   <section class="intro sections">
@@ -38,7 +38,7 @@
       <h2 class="section-title">DESIGN</h2>
       <p class="text">伸びやかな水平ラインを基調とした外観に、<br class="pc">ホワイトのラインとグレー系のマテリアルが、<br class="pc">高級感と重厚な佇まいをもたらすデザインです。</p>
     </div>
-    <div class="image"><img src="./images/design/intro.jpg" alt="" class="pc"><img src="./images/design/intro-sp.jpg" alt="" class="sp"><p class="annotation white">外観完成予想図③</p></div>
+    <div class="image"><img src="./images/design/intro.jpg" alt=""><p class="annotation white">外観完成予想図③</p></div>
   </section><!-- intro -->
 
 

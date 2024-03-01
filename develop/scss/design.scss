@@ -78,7 +78,8 @@
       max-width: 1030px;
     }
     .text {
-      max-width: 60%;
+      min-width: 528px;
+      width: 60%;
       font-size: 24px;
       line-height: 2.1;
       color: #000;
@@ -111,7 +112,8 @@
   @media screen and (max-width: 1024px) {
     .sections {
       .text {
-        max-width: 80%;
+        width: 80%;
+        min-width: 224px;
       }
     }
   }

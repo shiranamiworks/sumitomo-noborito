@@ -36,7 +36,7 @@
 
   <header class="main-visual">
     <!--<h2 class="page-lead gothic">Hello Beautiful Future.</h2>-->
-    <div class="image"><img src="./images/location01/mv01.jpg" alt="" class="pc"><img src="./images/location01/mv01-sp.jpg" alt="" class="sp"><p class="annotation white sp">all image photo</p></div>
+    <div class="image"><img src="./images/location01/mv01.jpg" alt="" class="pc"><img src="./images/location01/mv01-sp.jpg" alt="" class="tb"><p class="annotation white pc">all image photo</p></div>
   </header><!-- main-visual -->
 
   <section class="sections intro">
@@ -103,7 +103,7 @@
         <img src="./images/location01/img05.png" alt="">
         <p class="caps">“oŒË“y’n‹æ‰æ®—–‹ÆŠT”O}</p>
       </div>
-      <figure class="img img05 sp">
+      <figure class="img img05 tb">
         <img src="./images/location01/img05.png" class="sp-hide" alt="">
         <img src="./images/location01/img05.png" class="zoomImg sp" alt=""/>
         <p class="caps">“oŒË“y’n‹æ‰æ®—–‹ÆŠT”O}</p>

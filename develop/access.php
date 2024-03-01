@@ -29,7 +29,7 @@
 
   <header class="main-visual">
    <!--<h2 class="page-lead gothic">Hello Connected Comfort.</h2>-->
-   <div class="image"><img src="./images/access/mv01.jpg" alt="" class="pc"><img src="./images/access/mv01-sp.jpg" alt="" class="sp"><p class="annotation white">image photo</p></div>
+   <div class="image"><img src="./images/access/mv01.jpg" alt="" class="pc"><img src="./images/access/mv01-sp.jpg" alt="" class="tb"><p class="annotation white">image photo</p></div>
   </header><!-- main-visual -->
 
   <section class="intro sections">
@@ -41,7 +41,7 @@
       <p class="tit"><span>MULTI ACCESS</span><br>都心近接&2路線<sup>※1</sup>利用で通勤通学に便利。</p>
       <p class="text">快速急行が停車する小田急線「登戸」駅からは都心へのアクセスもスピーディ。「新宿」駅へ3駅直通20分※2、「大手町」駅へは東京メトロ千代田線へ乗り換えて34分※3。毎日の通勤通学もスムーズです。また、JR南武線利用で武蔵小杉、川崎方面へのアクセスも軽快です。</p>
       <div class="img image01 pc"><img src="./images/access/img01.jpg" class="sp-hide" alt=""></div>
-      <div class="img image01 sp"><img src="./images/access/img01.jpg" class="sp-hide" alt=""><img src="./images/access/img01.jpg" class="zoomImg sp" alt=""></div>
+      <div class="img image01 tb"><img src="./images/access/img01.jpg" class="sp-hide" alt=""><img src="./images/access/img01.jpg" class="zoomImg sp" alt=""></div>
     </div>
   </section><!-- intro -->
 

@@ -28,6 +28,9 @@
   font-size: 54px;
   width: 90%;
 }
+.location03 .main-visual .image img {
+  width: 100%;
+}
 .location03 .sections {
   line-height: 1;
 }

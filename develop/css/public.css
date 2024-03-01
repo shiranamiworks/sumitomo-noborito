@@ -90,6 +90,7 @@
 }
 #public .intro .texts {
   width: 60%;
+  min-width: 540px;
   margin: auto;
 }
 #public .space {
@@ -97,6 +98,7 @@
 }
 #public .space .texts {
   width: 76%;
+  min-width: 756px;
   margin: 0 auto 100px;
 }
 #public .landscape {
@@ -256,6 +258,7 @@
   }
   #public .intro .texts {
     width: 100%;
+    min-width: 268px;
     margin: auto;
   }
   #public .space {
@@ -263,6 +266,7 @@
   }
   #public .space .texts {
     width: 100%;
+    min-width: 268px;
     margin: 0 auto 60px;
   }
   #public .landscape {
@@ -307,6 +311,11 @@
     background: #2a4b46;
     color: #fff;
     padding: 4px 8px;
+  }
+  #public .landscape .points .texts .txt01 span.ml {
+    background: none;
+    color: #8c835a;
+    margin-left: 23px;
   }
   #public .landscape .points .texts .txt02 {
     font-size: 15px;

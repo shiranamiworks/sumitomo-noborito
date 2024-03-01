@@ -36,7 +36,7 @@
 
   <header class="main-visual">
     <!--<h2 class="page-lead gothic">Hello Beautiful Future.</h2>-->
-    <div class="image"><img src="./images/location02/mv01.jpg" alt="" class="pc"><img src="./images/location02/mv01-sp.jpg" alt="" class="sp"><p class="annotation white">image photo</p></div>
+    <div class="image"><img src="./images/location02/mv01.jpg" alt="" class="pc"><img src="./images/location02/mv01-sp.jpg" alt="" class="tb"><p class="annotation white">image photo</p></div>
   </header><!-- main-visual -->
 
   <section class="sections intro">
@@ -157,7 +157,7 @@
     <p class="mini">※出典：神奈川県ホームページ内「公園に関するオープンデータ」（2023年6月現在）</p>
     <div class="img">
       <img src="./images/location02/park01.jpg" class="pc" alt="">
-      <img src="./images/location02/park01-sp.jpg" class="sp" alt="">
+      <img src="./images/location02/park01-sp.jpg" class="tb" alt="">
     </div>
     <p class="name">生田緑地<br><span>（約1,830m）</span></p>
     <ul class="lists">

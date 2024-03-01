@@ -32,6 +32,9 @@
   font-size: 54px;
   width: 90%;
 }
+#access .main-visual .image img {
+  width: 100%;
+}
 #access .sections {
   line-height: 0;
 }
