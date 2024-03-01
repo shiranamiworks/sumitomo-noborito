@@ -5,13 +5,13 @@
   "gnav_set" => "public",
   "page_class" => "",
   "url" => "public.html",
-  "title" => "共有空間｜",
-  "keywords" => "共有空間,",
-  "description" => "共有空間ページ。",
+  "title" => "共用空間｜",
+  "keywords" => "共用空間,",
+  "description" => "共用空間ページ。",
   "add_stylesheet" => ["css/public.css"],
   "add_script" =>  [],
   
-  "logo_text" => "共有空間｜"
+  "logo_text" => "共用空間｜"
 );
 ?>
 
@@ -22,7 +22,7 @@
   <div class="breadcrumb sp-hide">
     <ul>
       <li><a href="./index.html">シティテラス登戸｜登戸 マンション｜トップ</a></li>
-      <li><p>共有空間</p></li>
+      <li><p>共用空間</p></li>
     </ul>
   </div>
 	<!--// パンくずリスト -->
