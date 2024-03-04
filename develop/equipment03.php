@@ -23,7 +23,7 @@
     <ul>
       <li><a href="./index.html">シティテラス登戸｜登戸 マンション｜トップ</a></li>
       <li><a href="./equipment03.html">設備・仕様</a></li>
-      <li><p>収納ー</p></li>
+      <li><p>収納</p></li>
     </ul>
   </div>
 	<!--// パンくずリスト -->

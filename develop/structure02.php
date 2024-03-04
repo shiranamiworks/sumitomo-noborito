@@ -40,7 +40,8 @@
       <ul class="lists list01">
         <li>
           <div class="tit-img">
-            <img src="./images/structure02/tit01.png" alt="" class="">
+            <img src="./images/structure02/tit01.png" alt="" class="pc">
+            <img src="./images/structure02/tit01-sp.png" alt="" class="tb">
           </div>
           <p class="lead">エレベーター運転中に、地震管制装置が一定値を超えた地震の初期微動（Ｐ波）・主要動（S波）を感知すると、最寄階に速やかに停止します。また、停電した際には一旦停止後、停電時自動着床装置により、最寄階に自動停止し、さらに、天井の停電灯が点灯してエレベーター内を照らす他、インターホンが使用できるので、外部との連絡も可能です。<br><span>※エレベーター運転中に急速な大きい地震により、主要動（S波）［高］を感知した場合は、その瞬間に直ちに休止し、最寄階への移動や扉が開かない場合がございます。</span></p>
           <div class="image img01">
@@ -103,7 +104,7 @@
             <img src="./images/structure02/tit09.png" alt="" class="">
           </div>
           <p class="lead">万一火災などが発生した場合は、火災感知器が作動。住戸内インターホン親機と玄関前インターホン（子機）より警報が鳴り、室内外に異常をお知らせするとともに、管理事務室を経由して信号が警備会社、住友不動産建物サービス設備管理センターへ自動通報されます。</p>
-          <div class="image sp">
+          <div class="image tb">
             <img src="./images/structure02/img03.jpg" alt="" class="">
             <p class="annotation gothic">（参考写真２）</p>
           </div>
@@ -113,7 +114,7 @@
             <img src="./images/structure02/tit10.png" alt="" class="">
           </div>
           <p class="lead">万一ガス漏れが発生した場合は、ガス漏れ検知器が作動。当該住戸内のインターホン親機と玄関前インターホン（子機）より警報音が鳴り、室内外に異常をお知らせするとともに、管理事務室を経由して信号が警備会社および住友不動産建物サービス設備管理センターへ自動通報されます。</p>
-          <div class="image sp">
+          <div class="image tb">
             <img src="./images/structure02/img04.jpg" alt="" class="">
             <p class="annotation gothic">（参考写真２）</p>
           </div>
@@ -123,7 +124,7 @@
             <img src="./images/structure02/tit11.png" alt="" class="">
           </div>
           <p class="lead">洗面化粧台の三面鏡収納の扉には、地震の揺れによって扉が開いて、収納物が落下しないように、耐震ラッチを設置。住まう方の安全に配慮しています。</p>
-          <div class="image sp">
+          <div class="image tb">
             <img src="./images/structure02/img05.jpg" alt="" class="">
             <p class="annotation gothic">（参考写真１）</p>
           </div>

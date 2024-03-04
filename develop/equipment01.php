@@ -45,7 +45,7 @@
             <img src="./images/equipment01/tit01.png" alt="" class="">
           </div>
           <p class="lead">キッチンのカウンタートップには、美しく、高級感あふれる天然石を採用しました。</p>
-          <div class="image sp">
+          <div class="image tb">
             <img src="./images/equipment01/img01.jpg" alt="" class="">
             <p class="annotation gothic">（参考写真１）</p>
           </div>
@@ -55,7 +55,7 @@
             <img src="./images/equipment01/tit02.png" alt="" class="">
           </div>
           <p class="lead">キッチンはフラットな対面カウンターを採用しました。段差がなく最大約900㎜のワイドな奥行きがあるので、配膳する前のお料理の仮置きも持ち上げることなくスムーズにでき、対面側から一緒にお料理を楽しむこともできます。<br><span>※詳細は図面集をご確認ください。</span></p>
-          <div class="image sp">
+          <div class="image tb">
             <img src="./images/equipment01/img02.jpg" alt="" class="">
             <p class="annotation gothic">（参考写真１）</p>
           </div>
@@ -65,7 +65,7 @@
             <img src="./images/equipment01/tit03.png" alt="" class="">
           </div>
           <p class="lead">水はねや油汚れが付きやすいコンロ前には、メラミン不燃化粧板を採用しました。目地が少なく、汚れも拭き取りやすくなっています。</p>
-          <div class="image sp">
+          <div class="image tb">
             <img src="./images/equipment01/img03.jpg" alt="" class="">
             <p class="annotation gothic">（参考写真１）</p>
           </div>
@@ -97,11 +97,11 @@
             <img src="./images/equipment01/tit04.png" alt="" class="">
           </div>
           <p class="lead">世界中で愛される、ドイツ・ショット社製の耐熱セラミックガラストッププレートを採用。熱や衝撃に強く、汚れがつきにくいので、お手入れも簡単です。</p>
-          <div class="image sp">
+          <div class="image tb">
             <img src="./images/equipment01/img04.jpg" alt="" class="">
             <p class="annotation gothic">（参考写真１）</p>
           </div>
-          <div class="image img-sub sp">
+          <div class="image img-sub tb">
             <img src="./images/equipment01/img04-02.jpg" alt="" class="">
           </div>
         </li>
@@ -110,7 +110,7 @@
             <img src="./images/equipment01/tit05.png" alt="" class="">
           </div>
           <p class="lead">レバー操作ひとつで水量、温度調節可能なシングルレバー水栓を設置。シャワーヘッドを引き出せるので、シンクの掃除などにも便利です。また、浄水カートリッジを内蔵しております。<br><span>※カートリッジ交換費用は別途お客様のご負担となります。</span></p>
-          <div class="image sp">
+          <div class="image tb">
             <img src="./images/equipment01/img05.jpg" alt="" class="">
             <p class="annotation gothic">（参考写真１）</p>
           </div>
@@ -120,7 +120,7 @@
             <img src="./images/equipment01/tit06.png" alt="" class="">
           </div>
           <p class="lead">手間をかけず、効率よく食器類が洗浄でき、節水効果にも優れた食器洗い乾燥機をご用意しました。スライド式なので、楽な姿勢で食器の出し入れができます。</p>
-          <div class="image sp">
+          <div class="image tb">
             <img src="./images/equipment01/img06.jpg" alt="" class="">
             <p class="annotation gothic">（参考写真１）</p>
           </div>
@@ -197,7 +197,7 @@
             <img src="./images/equipment01/tit11.png" alt="" class="">
           </div>
           <p class="lead">お子様の目線に合わせた三面鏡下鏡を備えた三面鏡洗面化粧台を採用しました。三面鏡の裏側にはコンセント付きの収納棚を確保。スキンケア用品やヘアケア用品、洗面台まわりの電気製品などを使いやすくすっきり整理できます。また収納棚は取り外して掃除ができるので清潔に保てます。</p>
-          <div class="image sp">
+          <div class="image tb">
             <img src="./images/equipment01/img09.jpg" alt="" class="">
             <p class="annotation gothic">（参考写真１）</p>
           </div>
@@ -207,7 +207,7 @@
             <img src="./images/equipment01/tit12.png" alt="" class="">
           </div>
           <p class="lead">カウンターとボウルはお手入れのしやすい継ぎ目のない一体成形で、美しい光沢の有機ガラス系新素材仕様。直線的なスクエアフォルムのボウルが、都会的な空間を演出します。</p>
-          <div class="image sp">
+          <div class="image tb">
             <img src="./images/equipment01/img10.jpg" alt="" class="">
             <p class="annotation gothic">（参考写真１）</p>
           </div>
@@ -217,7 +217,7 @@
             <img src="./images/equipment01/tit13.png" alt="" class="">
           </div>
           <p class="lead">洗面化粧台には、ヘッドが引き出せ、洗面ボウルを洗うときなどに便利なシングルレバー水栓を採用しました。</p>
-          <div class="image sp">
+          <div class="image tb">
             <img src="./images/equipment01/img11.jpg" alt="" class="">
             <p class="annotation gothic">（参考写真１）</p>
           </div>
@@ -249,7 +249,7 @@
             <img src="./images/equipment01/tit14.png" alt="" class="">
           </div>
           <p class="lead">洗面化粧台のキャビネットの下部を有効利用し、体重計の収納に便利なヘルスメータースペースを設けています。<br><span>※ヘルスメーターのサイズによっては収納できないものもあります。</span></p>
-          <div class="image sp">
+          <div class="image tb">
             <img src="./images/equipment01/img12.jpg" alt="" class="">
             <p class="annotation gothic">（参考写真１）</p>
           </div>
@@ -353,7 +353,7 @@
             <img src="./images/equipment01/tit20.png" alt="" class="">
           </div>
           <p class="lead">浴槽へのお湯張り、追い焚き、保温までスイッチひとつで自動操作できるオートバスシステムを採用しました。また、キッチンとバスルームに設置したコントローラーで相互通話も可能です。</p>
-          <div class="image sp">
+          <div class="image tb">
             <img src="./images/equipment01/img18.png" alt="" class="">
             <p class="annotation gothic">（概念図）</p>
           </div>
@@ -363,7 +363,7 @@
             <img src="./images/equipment01/tit21.png" alt="" class="">
           </div>
           <p class="lead">専用のフロフタと浴槽保温材で温まったお湯を冷めにくくしました。湯温が長持ちするので追い焚きや足し湯が節約でき経済的です。</p>
-          <div class="image sp">
+          <div class="image tb">
             <img src="./images/equipment01/img19.png" alt="" class="">
             <p class="annotation gothic">（概念図）</p>
           </div>
@@ -373,7 +373,7 @@
             <img src="./images/equipment01/tit22.png" alt="" class="">
           </div>
           <p class="lead">トイレには、コンパクトな手洗いカウンターを設けています。すっきりとしたデザインで見た目にも広さとゆとりを感じることができます。</p>
-          <div class="image sp">
+          <div class="image tb">
             <img src="./images/equipment01/img20.jpg" alt="" class="">
             <p class="annotation gothic">（参考写真１）</p>
           </div>
@@ -412,7 +412,7 @@
 
 
 
-  <p class="page-annotation js-scroll wrap">※掲載の参考写真１は本物件と同等仕様のコンセプトルーム（総合マンションギャラリー秋葉原館）を撮影（2022年8月）したもので、本物件のものではありません。家具・調度品等オプション仕様は販売価格に含まれません。 ※掲載の参考写真2はメーカーカタログ等の参考写真であり、本物件のものではありません。 ※設備・仕様はタイプにより異なります。</p>
+  <p class="page-annotation js-scroll wrap">※掲載の参考写真1は本物件と同等仕様のコンセプトルーム（総合マンションギャラリー秋葉原館）を撮影（2022年8月）したもので、本物件のものではありません。家具・調度品等オプション仕様は販売価格に含まれません。 ※掲載の参考写真2はメーカーカタログ等の参考写真であり、本物件のものではありません。 ※設備・仕様はタイプにより異なります。</p>
 </main>
 
   <div class="equipment-link equipment-link--5">

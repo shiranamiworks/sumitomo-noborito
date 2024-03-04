@@ -38,7 +38,8 @@
     <div class="wrap">
       <h2 class="tit">基本構造</h2>
       <div class="tit-img">
-        <img src="./images/structure01/tit01.png" alt="" class="">
+        <img src="./images/structure01/tit01.png" alt="" class="pc">
+        <img src="./images/structure01/tit01-sp.png" alt="" class="tb">
       </div>
       <ul class="lists list01">
         <li>
@@ -68,7 +69,8 @@
       <ul class="lists list03">
         <li>
           <div class="tit-img">
-            <img src="./images/structure01/tit02.png" alt="" class="">
+            <img src="./images/structure01/tit02.png" alt="" class="pc">
+            <img src="./images/structure01/tit02-sp.png" alt="" class="tb">
           </div>
           <p class="lead">本物件は、外皮の断熱性能などの向上と共に、高効率な設備システムを導入することで、室内環境の質を保ちつつ省エネルギーを実現。</p>
           <ul class="list04">
@@ -84,7 +86,8 @@
         </li>
         <li>
           <div class="tit-img">
-            <img src="./images/structure01/tit03.png" alt="" class="">
+            <img src="./images/structure01/tit03.png" alt="" class="pc">
+            <img src="./images/structure01/tit03-sp.png" alt="" class="tb">
           </div>
           <p class="lead">建物の床下を鉄筋コンクリートで固め、地表近くの地盤で建物を面で支える「直接基礎」を採用しています。地下深くに杭を打ち込み、建物を点で支える杭基礎とは異なり、建物直下で面的に建物を支える、安定した基礎構造です。<br><span>※C棟北側出入口など一部除く。</span></p>
           <div class="image">
@@ -94,7 +97,8 @@
       </ul>
 
       <div class="tit-img">
-        <img src="./images/structure01/tit04.png" alt="" class="">
+        <img src="./images/structure01/tit04.png" alt="" class="pc">
+        <img src="./images/structure01/tit04-sp.png" alt="" class="tb">
       </div>
       <ul class="lists list05">
         <li>
@@ -144,13 +148,15 @@
       <ul class="lists list01 clearfix">
         <li>
           <div class="tit-img">
-            <img src="./images/structure01/tit08.png" alt="" class="">
+            <img src="./images/structure01/tit08.png" alt="" class="pc">
+            <img src="./images/structure01/tit08-sp.png" alt="" class="tb">
           </div>
           <p class="lead">一部住戸には、室外の給気口・排気口に、外部からの騒音に対する防音性能を備えた、防音フードを採用しました。<br><span>※詳細は係員にお尋ねください。</span></p>
         </li>
         <li>
           <div class="tit-img">
-            <img src="./images/structure01/tit09.png" alt="" class="">
+            <img src="./images/structure01/tit09.png" alt="" class="pc">
+            <img src="./images/structure01/tit09-sp.png" alt="" class="tb">
           </div>
           <p class="lead">スプーンの落下などの際に発生する軽量床衝撃音への対策として⊿LL（Ⅰ）-4等級相当（メーカー表示）の遮音性能を備えたフローリングを採用し、生活音の伝わりに配慮しました。<br><span>※遮音性能値（⊿L等級）は、JISで定められた測定方法で測定した値であり、実際の住戸内での遮音性を示すものではありません。</span></p>
           <p class="box">同レベルの音であっても生活する時間帯などにより、音の感じ方には個人差があります。本建物では遮音性に配慮しておりますが、居住者様がお互いに音に対するマナーを守り、快適なマンションライフをお過ごしいただくことが大切となります。</p>
@@ -159,7 +165,8 @@
       <ul class="lists list02 clearfix">
         <li>
           <div class="tit-img">
-            <img src="./images/structure01/tit10.png" alt="" class="">
+            <img src="./images/structure01/tit10.png" alt="" class="pc">
+            <img src="./images/structure01/tit10-sp.png" alt="" class="tb">
           </div>
           <p class="lead">住戸間の戸境壁は、鉄筋コンクリート造とし、厚さ約200㎜を基本としています。これは、JISが定める遮音等級Rr-50以上を確保した仕様で、隣接住戸との遮音性に配慮しています。</p>
           <div class="image img08">
@@ -169,7 +176,8 @@
         </li>
         <li>
           <div class="tit-img">
-            <img src="./images/structure01/tit11.png" alt="" class="">
+            <img src="./images/structure01/tit11.png" alt="" class="pc">
+            <img src="./images/structure01/tit11-sp.png" alt="" class="tb">
           </div>
           <p class="lead">重量床衝撃音対策として、住戸間のコンクリートスラブ厚は約200㎜を確保しています。</p>
           <div class="image img09">
@@ -181,7 +189,8 @@
       <ul class="lists list03 clearfix">
         <li>
           <div class="tit-img">
-            <img src="./images/structure01/tit12.png" alt="" class="">
+            <img src="./images/structure01/tit12.png" alt="" class="pc">
+            <img src="./images/structure01/tit12-sp.png" alt="" class="tb">
           </div>
           <p class="lead">住戸内の間仕切り壁は厚さ約9.5㎜のプラスターボード貼としていますが、居室（リビング・ダイニング・洋室）が直接バスルーム・パウダールーム・トイレ・キッチンと接する場合は、ボード下地材間にグラスウールを充填し、遮音性に配慮しています。<br><span>※一部除く。詳細は係員にお尋ねください。</span></p>
           <div class="image img10">
@@ -190,7 +199,8 @@
         </li>
         <li>
           <div class="tit-img">
-            <img src="./images/structure01/tit13.png" alt="" class="">
+            <img src="./images/structure01/tit13.png" alt="" class="pc">
+            <img src="./images/structure01/tit13-sp.png" alt="" class="tb">
           </div>
           <p class="lead">共用廊下側の窓に、羽板が可動式で角度調節が可能なブラインドタイプのルーバー面格子を採用しました。お好みにより光や風を調節しながら効果的に外からの視線を遮ることができ、プライバシー性と防犯性を高めます。</p>
           <div class="image img11">
@@ -203,7 +213,7 @@
 
 
 
-  <p class="page-annotation js-scroll wrap">※掲載の参考写真１は本物件と同等仕様のコンセプトルーム（総合マンションギャラリー秋葉原館）を撮影（2022年8月）したもので、本物件のものではありません。家具・調度品等オプション仕様は販売価格に含まれません。 ※掲載の参考写真2はメーカーカタログ等の参考写真であり、本物件のものではありません。 ※設備・仕様はタイプにより異なります。</p>
+  <p class="page-annotation js-scroll wrap">※掲載の参考写真1は本物件と同等仕様のコンセプトルーム（総合マンションギャラリー秋葉原館）を撮影（2022年8月）したもので、本物件のものではありません。家具・調度品等オプション仕様は販売価格に含まれません。 ※掲載の参考写真2はメーカーカタログ等の参考写真であり、本物件のものではありません。 ※設備・仕様はタイプにより異なります。</p>
 </main>
 
 <div class="structure-link structure-link--3">
