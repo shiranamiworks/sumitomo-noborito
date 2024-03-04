@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* 
+  css設定 @charsetが消されるsass仕様へのハック用コメントです。削除しないでください。新規作成時も必須！
+ */
+@import "inc/mixin.scss";
+@import "inc/functions.scss";
+@import "inc/param.scss";
+
+.equipment03 {
+  main img {
+    max-width: 100%;
+  }
+  .img {
+    position: relative;
+  }
+  main {
+    font-family: "RyuminPro", serif;
+  }
+  .page-annotation {
+    font-family: "Noto Sans JP", sans-serif;
+  }
+  sup {
+    vertical-align: text-top;
+  }
+  .sections {
+    line-height: 1;
+    .inner {
+      margin: 0 auto;
+      width: 70%;
+      max-width: 1030px;
+    }
+    .image {
+      position: relative;
+    }
+    .annotation {
+      bottom: -20px;
+      font-size: 12px;
+      text-align: right;
+    }
+    .tit {
+      font-size: 22px;
+      letter-spacing: 0.12em;
+      background: #77612c;
+      color: #fff;
+      padding: 6px 0 6px 16px;
+      margin-bottom: 30px;
+    }
+    .tit-img {
+      margin-bottom: 10px;
+    }
+    .lead {
+      font-size: 17px;
+      line-height: 1.6;
+      margin-bottom: 10px;
+      span {
+        font-size: 15px;
+        letter-spacing: 0;
+      }
+    }
+    .text {
+      font-size: 19px;
+      line-height: 1.6;
+    }
+    .caps {
+      font-size: 15px;
+      line-height: 1.2;
+    }
+  } //sections
+  .sec01 {
+    margin-top: 40px;
+    .lists {
+      li {
+        display: inline-block;
+        vertical-align: top;
+        width: 32%;
+        margin-right: 1%;
+      }
+      li:nth-child(3n) {
+        margin-right: auto;
+      }
+    }
+    .list02 {
+      margin-bottom: 60px;
+      li {
+        vertical-align: bottom;
+      }
+    }
+    .list03 {
+      margin-bottom: 60px;
+    }
+  } //sec01
+
+  main {
+    padding-bottom: 50px;
+  }
+
+  @media screen and (max-width: 1300px) {
+  }
+  @media screen and (max-width: 1024px) {
+    .sec01 {
+    } //sec01
+  } //tb
+  @media screen and (max-width: 768px) {
+    .sections {
+      .inner {
+        width: 84%;
+      }
+      .tit {
+        font-size: 18px;
+        margin-bottom: 20px;
+      }
+      .lead {
+        span {
+          font-size: 13px;
+        }
+      }
+      .text {
+        font-size: 17px;
+      }
+      .caps {
+        font-size: 13px;
+      }
+    } //sections
+    .sec01 {
+      margin-top: 40px;
+      .lists {
+        li {
+          display: block;
+          width: 100%;
+          margin-bottom: 40px;
+        }
+        li:last-child {
+          width: 100%;
+        }
+      }
+      .list03 {
+        .img-sub {
+          width: 70%;
+          margin: 0;
+        }
+      }
+      .list05 {
+        padding-bottom: 0;
+        li:last-child {
+          margin-top: 40px;
+        }
+      }
+    } //sec01
+    main {
+      padding-bottom: 50px;
+    }
+  } //sp
+}

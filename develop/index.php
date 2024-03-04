@@ -95,6 +95,24 @@
         </a>
       </li>
       <li>
+        <a href="design.html">
+          <div class="images"><img src="./images/top/img05.jpg" alt=""><p class="annotation">外観完成予想図</p></div>
+          <div class="texts">
+            <p class="text01 gothic">DESIGN</p>
+            <p class="text02 gothic">デザイン</p>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="public.html">
+          <div class="images"><img src="./images/top/img06.jpg" alt=""><p class="annotation">エントランス完成予想図</p></div>
+          <div class="texts">
+            <p class="text01 gothic">PUBLIC</p>
+            <p class="text02 gothic">共用空間</p>
+          </div>
+        </a>
+      </li>
+      <li>
         <a href="#" class="disable">
           <div class="images"><img src="./images/top/img04.jpg" alt="ComingSoon"><p class="annotation"></p></div>
         </a>
