@@ -92,6 +92,9 @@
   width: 50%;
   float: left;
 }
+.equipment02 .sec01 .list02 li:first-child .image .annotation {
+  right: 60%;
+}
 .equipment02 .sec01 .list02 li .text01 {
   width: 45%;
   float: right;
@@ -115,7 +118,7 @@
 }
 .equipment02 .sec01 .list04 li:first-child .image.img-sub {
   width: 30%;
-  margin: 0;
+  margin-left: 5%;
 }
 .equipment02 .sec01 .list05 {
   padding-bottom: 40px;
@@ -152,6 +155,7 @@
 }
 .equipment02 .sec01 .list08 li:first-child .image.img-sub {
   width: 50%;
+  margin-left: 5%;
 }
 .equipment02 .sec01 .list08 li:first-child .image.img-sub .annotation {
   bottom: -30px;

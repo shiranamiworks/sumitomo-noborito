@@ -49,7 +49,7 @@
           <p class="text01 tb">※1 FT4215ARSAW6Qの場合（スタンダードの一例）※2 FT4220・FT4222シリーズの場合（エコジョーズの一例）※1※2はJIS S 2109で定める測定方法により算定 ただし※1～2ともご使用状況により熱効率は異なります。※3 試算条件：ガス使用量は季節に応じて変化するため、家庭用の平均的な月別使用量比率に従って年間ガス使用量を各月に割り付けたうえで試算。居間の暖房はガス温水床暖房と電気エアコンを併用、居間以外の暖房及び冷房は電気エアコン使用、浴室暖房乾燥機使用（衣類乾燥週2回/年、浴室暖房週7回/冬期）。機器の運転状況等により削減量は異なります。機器の運転状況により熱源機の熱効率は変動するため、熱効率を一定にしたうえで試算。CO2排出係数はガス2.29kg-CO2/?（東京ガスデータ）</p>
           <div class="image tb">
             <img src="./images/equipment02/img01.png" alt="" class="">
-            <p class="annotation gothic">（参考写真１）</p>
+            <p class="annotation gothic">（参考写真2）</p>
           </div>
         </li>
         <li>
@@ -59,7 +59,7 @@
           <p class="lead">キッチンとバスルームの給湯リモコンには「エコ運転機能」を搭載。画面メニューから「エコ」をタッチするだけで給湯量が自動調整でき、省エネ・節約に効果的です。また、TES熱源機（エコジョーズ）で使用した一日のガス・お湯の量、使用料金の目安、CO2の排出量を表示する「エネルック機能」も付いています。※「エコ運転機能」を利用して2ヶ所以上でお湯を使うと湯細りする可能性があります。</p>
           <div class="image tb">
             <img src="./images/equipment02/img02.png" alt="" class="">
-            <p class="annotation gothic">（参考写真１）</p>
+            <p class="annotation gothic">（参考写真２）</p>
           </div>
         </li>
       </ul>
@@ -67,14 +67,14 @@
         <li class="double">
           <div class="image">
             <img src="./images/equipment02/img01.png" alt="" class="">
-            <p class="annotation gothic">（参考写真2）</p>
+            <p class="annotation gothic">（参考写真２）</p>
           </div>
           <p class="text01">※1 FT4215ARSAW6Qの場合（スタンダードの一例）※2 FT4220・FT4222シリーズの場合（エコジョーズの一例）※1※2はJIS S 2109で定める測定方法により算定 ただし※1～2ともご使用状況により熱効率は異なります。※3 試算条件：ガス使用量は季節に応じて変化するため、家庭用の平均的な月別使用量比率に従って年間ガス使用量を各月に割り付けたうえで試算。居間の暖房はガス温水床暖房と電気エアコンを併用、居間以外の暖房及び冷房は電気エアコン使用、浴室暖房乾燥機使用（衣類乾燥週2回/年、浴室暖房週7回/冬期）。機器の運転状況等により削減量は異なります。機器の運転状況により熱源機の熱効率は変動するため、熱効率を一定にしたうえで試算。CO2排出係数はガス2.29kg-CO2/㎡（東京ガスデータ）</p>
         </li>
         <li>
           <div class="image">
             <img src="./images/equipment02/img02.png" alt="" class="">
-            <p class="annotation gothic">（参考写真2）</p>
+            <p class="annotation gothic">（参考写真２）</p>
           </div>
         </li>
       </ul>
@@ -90,7 +90,7 @@
           </div>
           <div class="image img-sub tb">
             <img src="./images/equipment02/img03-02.jpg" alt="" class="">
-            <p class="annotation gothic">（参考写真2）</p>
+            <p class="annotation gothic">（参考写真２）</p>
           </div>
         </li>
         <li>
@@ -100,7 +100,7 @@
           <p class="lead">自然エネルギーを有効に活用した太陽光発電システムを屋上に設置。マンションの共用部で使用する電力の一部を賄う事ができます。</p>
           <div class="image tb">
             <img src="./images/equipment02/img04.jpg" alt="" class="">
-            <p class="annotation gothic">（参考写真2）</p>
+            <p class="annotation gothic">（参考写真２）</p>
           </div>
         </li>
       </ul>
@@ -111,7 +111,7 @@
           </div>
           <div class="image img-sub">
             <img src="./images/equipment02/img03-02.jpg" alt="" class="">
-            <p class="annotation gothic">（参考写真2）</p>
+            <p class="annotation gothic">（参考写真２）</p>
           </div>
         </li>
         <li>
@@ -130,7 +130,7 @@
           <p class="lead">システムキッチンの足元近くまでスライド式の収納を設置し、収納量を確保しました。</p>
           <div class="image">
             <img src="./images/equipment02/img05.jpg" alt="" class="">
-            <p class="annotation gothic">（参考写真2）</p>
+            <p class="annotation gothic">（参考写真２）</p>
           </div>
           <div class="image img-sub">
             <img src="./images/equipment02/img05-02.jpg" alt="" class="">
@@ -147,7 +147,7 @@
           <div class="tit-img">
             <img src="./images/equipment02/tit07.png" alt="" class="">
           </div>
-          <p class="lead">窓を閉めたままでも常に換気ができる、24時間常時小風量換気システムを採用しています。各室の自然給気口から外気を取り入れ、ドア下を経由して、バスルーム、パウダールーム、トイレの換気口から室内の空気を排出します。</p>
+          <p class="lead">シャワーヘッドに付いたボタンを押すだけで、吐水・止水を繰り返すことができます。シャンプーのときや赤ちゃんの入浴、お掃除の際にも大変便利です。また、スプレー式（節水）のシャワーヘッドなので従来品と比較すると最大約48%〈(株)LIXIL比〉節水効果もあります。</p>
         </li>
       </ul>
       <ul class="lists list06 clearfix">
@@ -162,7 +162,7 @@
           </div>
           <div class="image tb">
             <img src="./images/equipment02/img08-01.jpg" alt="" class="">
-            <img src="./images/equipment02/img08-02.jpg" alt="" class="">
+            <img src="./images/equipment02/img08-02.jpg" alt="" class="">)
             <img src="./images/equipment02/img08-03.jpg" alt="" class="">
           </div>
         </li>
@@ -170,7 +170,7 @@
           <div class="tit-img">
             <img src="./images/equipment02/tit09.png" alt="" class="">
           </div>
-          <p class="lead">住戸の一部の開口部には省エネ効果に優れたLow-Eガラスを採用。ガラスの表面にコーティングされた日射熱の反射性を高める特殊金属膜（Low-E膜）と断熱性を高める空気層により、冷暖房両方の負荷を軽減します。<span>※詳細は係員にお尋ねください。</span></p>
+          <p class="lead">住戸の一部の開口部には省エネ効果に優れたLow-Eガラスを採用。ガラスの表面にコーティングされた日射熱の反射性を高める特殊金属膜（Low-E膜）と断熱性を高める空気層により、冷暖房両方の負荷を軽減します。<br><span>※詳細は係員にお尋ねください。</span></p>
           <div class="image tb">
             <img src="./images/equipment02/img09.jpg" alt="" class="">
             <p class="annotation gothic">（概念図）</p>
@@ -190,7 +190,7 @@
           <div class="tit-img">
             <img src="./images/equipment02/tit11.png" alt="" class="">
           </div>
-          <p class="lead">外壁のコンクリート厚は、約150㎜?約250㎜を確保し、室内側には断熱材を吹き付けて、省エネにも配慮しています。</p>
+          <p class="lead">外壁のコンクリート厚は、約150㎜&#x301c;約250㎜を確保し、室内側には断熱材を吹き付けて、省エネにも配慮しています。</p>
           <div class="image tb">
             <img src="./images/equipment02/img11.jpg" alt="" class="">
             <p class="annotation gothic">（概念図）</p>
@@ -223,7 +223,7 @@
             <img src="./images/equipment02/tit12.png" alt=""  class="pc">
             <img src="./images/equipment02/tit12-sp.png" alt="" class="sp">
           </div>
-          <p class="lead">システムキッチンの足元近くまでスライド式の収納を設置し、収納量を確保しました。</p>
+          <p class="lead">キッチン・パウダールームなどの水栓で湯水を使用する際、必要以上の流量で湯水を使用すると、水の消費量だけでなく、給湯のためのエネルギー消費量も増大します。水と湯水の境目にある切替ポイントでスマートにエコを意識し、効率的に無駄な湯水を省くことのできる節湯水栓を採用しています。</p>
           <div class="image">
             <img src="./images/equipment02/img12.jpg" alt="" class="">
           </div>
@@ -261,8 +261,8 @@
 </main>
 
   <div class="equipment-link equipment-link--5">
-    <a href="equipment01.html" class="current"><p>キッチン・サニタリー</p></a>
-    <a href="equipment02.html"><p>健康・エコ・省エネ</p></a>
+    <a href="equipment01.html"><p>キッチン・サニタリー</p></a>
+    <a href="equipment02.html" class="current"><p>健康・エコ・省エネ</p></a>
     <a href="equipment03.html"><p>収納</p></a>
     <a href="equipment04.html"><p>マルチメディア</p></a>
     <a href="equipment05.html"><p>快適提案</p></a>
