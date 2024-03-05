@@ -259,7 +259,7 @@
             <img src="./images/equipment01/tit15.png" alt="" class="">
           </div>
           <p class="lead">パウダールームには、タオルや肌着類などの収納に便利なリネン庫をご用意。脱衣時や入浴後など、必要なものをすぐに取り出すことができます。</p>
-          <div class="image img13 sp">
+          <div class="image img13 tb">
             <img src="./images/equipment01/img13.jpg" alt="" class="">
             <p class="annotation gothic">（参考写真１）</p>
           </div>
@@ -301,7 +301,7 @@
             <img src="./images/equipment01/tit17.png" alt="" class="">
           </div>
           <p class="lead">乾燥機能で雨の日でも洗濯物を乾かすことができ、換気によりカビの発生も抑制できる東京ガス のＴＥＳ浴室暖房乾燥機を採用しました。</p>
-          <div class="image sp">
+          <div class="image tb">
             <img src="./images/equipment01/img15.jpg" alt="" class="">
             <p class="annotation gothic">（参考写真１）</p>
           </div>
@@ -311,7 +311,7 @@
             <img src="./images/equipment01/tit18.png" alt="" class="">
           </div>
           <p class="lead">指でワンプッシュするだけで簡単に排水することができるプッシュ式の排水栓を採用しました。</p>
-          <div class="image sp">
+          <div class="image tb">
             <img src="./images/equipment01/img16.jpg" alt="" class="">
             <p class="annotation gothic">（参考写真１）</p>
           </div>
@@ -321,7 +321,7 @@
             <img src="./images/equipment01/tit19.png" alt="" class="">
           </div>
           <p class="lead">音楽プレイヤーをキッチンリモコンに接続すると、バスルーム内で音楽や音声プログラムを楽しむことができます。好きな曲がBGMとしてバスルームリモコンから流れ、一日の疲れを癒してくれます。</p>
-          <div class="image img17 sp">
+          <div class="image img17 tb">
             <img src="./images/equipment01/img17.png" alt="" class="">
             <p class="annotation gothic">（参考写真２）</p>
           </div>

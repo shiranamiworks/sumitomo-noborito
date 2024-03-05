@@ -1,0 +1,388 @@
+@charset "utf-8";
+/* 
+  css設定 @charsetが消されるsass仕様へのハック用コメントです。削除しないでください。新規作成時も必須！
+ */
+@import "inc/mixin.scss";
+@import "inc/functions.scss";
+@import "inc/param.scss";
+
+.equipment05 {
+  main img {
+    max-width: 100%;
+  }
+  .img {
+    position: relative;
+  }
+  main {
+    font-family: "RyuminPro", serif;
+  }
+  .page-annotation {
+    font-family: "Noto Sans JP", sans-serif;
+  }
+  sup {
+    vertical-align: text-top;
+  }
+  .sections {
+    line-height: 1;
+    .inner {
+      margin: 0 auto;
+      width: 70%;
+      max-width: 1030px;
+    }
+    .image {
+      position: relative;
+    }
+    .annotation {
+      bottom: -20px;
+      font-size: 12px;
+      text-align: right;
+    }
+    .tit {
+      font-size: 22px;
+      letter-spacing: 0.12em;
+      background: #77612c;
+      color: #fff;
+      padding: 6px 0 6px 16px;
+      margin-bottom: 30px;
+    }
+    .tit-img {
+      margin-bottom: 10px;
+    }
+    .lead {
+      font-size: 17px;
+      line-height: 1.6;
+      margin-bottom: 10px;
+      span {
+        font-size: 15px;
+        letter-spacing: 0;
+      }
+    }
+    .text {
+      font-size: 19px;
+      line-height: 1.6;
+    }
+    .caps {
+      font-size: 15px;
+      line-height: 1.2;
+    }
+  } //sections
+  .sec01 {
+    margin-top: 40px;
+    .lists {
+      li {
+        display: inline-block;
+        vertical-align: top;
+        width: 32%;
+        margin-right: 1%;
+      }
+      li:last-child {
+        margin-right: auto;
+      }
+    }
+    .list02 {
+      margin-top: 0;
+      margin-bottom: 60px;
+      li {
+        vertical-align: bottom;
+      }
+    }
+    .list03 {
+      margin-bottom: 10px;
+    }
+    .list04 {
+      margin-bottom: 40px;
+      li:last-child .image {
+        width: 40%;
+        margin: 0;
+        display: inline-block;
+        &.img-sub{
+          width: 55%;
+        }
+      }
+    }
+    .list05 {
+      padding-bottom: 40px;
+      li:nth-child(3) {
+        margin-right: auto;
+      }
+      li:last-child {
+        margin-top: 60px;
+      }
+    }
+  } //sec01
+
+
+  .sec02 {
+    margin-bottom: 60px;
+    .lists {
+      li {
+        display: inline-block;
+        vertical-align: top;
+        width: 32%;
+        margin-right: 1%;
+        &.double{
+          width: 66%;;
+        }
+      }
+      li:last-child {
+        margin-right: auto;
+      }
+    }
+    .list01 {
+      padding-bottom: 60px;
+      li:first-child {
+        .image{
+          width: 48%;
+          display: inline-block;
+          margin-right: 2%;
+          &.sub-img{
+            margin-right: auto;
+          }
+        }
+      }
+    }
+    .list02 {
+      padding-bottom: 60px;
+      li:nth-child(2){
+        margin-right: auto;
+        .lead.sub{
+          font-size: 13px;
+          width: 36%;
+          float: left;
+        }
+        .image{
+          width: 60%;
+          float: right;
+        }
+      }
+    }
+  } //sec02
+
+
+  .sec03{
+    margin-bottom: 60px;
+    .lists {
+      li {
+        vertical-align: top;
+        width: 100%;
+        margin-bottom: 60px;
+        .image{
+          width: 48%;
+          float: right;
+        }
+        .lead{
+          width: 48%;
+          float: left;
+          margin-bottom: 60px;
+        }
+        &:first-child .lead{
+          width: 100%;
+        }
+      }
+    }
+  } //sec03
+
+
+  .sec04 {
+    margin-top: 40px;
+    .lists {
+      li {
+        display: inline-block;
+        vertical-align: top;
+        width: 32%;
+        margin-right: 1%;
+        &.full{
+          width: 100%;
+          margin-bottom: 60px;
+        }
+      }
+      li:last-child {
+        margin-right: auto;
+      }
+    }
+    .list02 {
+      margin-top: -80px;
+      li {
+        vertical-align: middle;
+      }
+    }
+    .list03 {
+      .image{
+        display: inline-block;
+        width: 48%;
+        vertical-align: top;
+        &.ml{
+          margin-left: 2%;
+        }
+        .annotation{
+          bottom: -45px;
+          text-align: left;
+        }
+      }
+      li:last-child{
+        .image{
+          width: 100%;
+        }
+      }
+    }
+  } //sec04
+
+
+  .sec05 {
+    margin-top: 40px;
+    .lists {
+      li {
+        display: inline-block;
+        vertical-align: top;
+        width: 32%;
+        margin-right: 1%;
+        margin-bottom: 60px;
+      }
+      li:last-child {
+        margin-right: auto;
+      }
+      }
+   } //sec05
+
+  main {
+    padding-bottom: 50px;
+  }
+
+  @media screen and (max-width: 1300px) {
+  }
+  @media screen and (max-width: 1024px) {
+    .sec01 {
+    } //sec01
+  } //tb
+  @media screen and (max-width: 768px) {
+    .sections {
+      .inner {
+        width: 84%;
+      }
+      .tit {
+        font-size: 18px;
+        margin-bottom: 20px;
+      }
+      .lead {
+        span {
+          font-size: 13px;
+        }
+      }
+      .text {
+        font-size: 17px;
+      }
+      .caps {
+        font-size: 13px;
+      }
+    } //sections
+    .sec01 {
+      margin-top: 40px;
+      .lists {
+        li {
+          display: block;
+          width: 100%;
+          margin-bottom: 40px;
+        }
+        li:last-child {
+          width: 100%;
+        }
+      }
+      .list03 {
+        li:nth-child(2) .image{
+          width: 48%;
+          display: inline-block;
+          margin: auto;
+        }
+      }
+      .list05 {
+        padding-bottom: 0;
+        li:last-child {
+          margin-top: 40px;
+        }
+      }
+    } //sec01
+    .sec02 {
+      margin-bottom: 20px;
+      .lists {
+        li {
+          display: block;
+          width: 100%;
+          margin-bottom: 40px;
+          &.double{
+            width: 100%;
+            .image{
+              width: 100%;
+              margin-bottom: 20px;
+            }
+          }
+        }
+        li:last-child {
+          width: 100%;
+          margin-bottom: 0;
+        }
+      }
+      .list02 li:nth-child(2) .lead.sub{
+        width: 100%;
+      }
+      .list03 {
+        .img13 {
+          width: 50%;
+          margin: auto;
+        }
+      }
+    } //sec02
+
+    .sec03{
+      .lists li{
+        .lead,.image{
+          width: 100%;
+          margin-bottom: 0;
+          .annotation{
+            bottom: -40px;
+          }
+        }
+        &:first-child .lead{
+          margin-bottom: 60px;
+        }
+        &:nth-child(2) .image{
+          margin-bottom: 60px;
+        }
+      } 
+    }//sec03
+
+    .sec04{
+      .lists li{
+        width: 100%;
+        margin-bottom: 60px;
+        &:first-child .annotation{
+          bottom: -35px;
+          span{
+            text-align: left;
+          }
+        }
+      } 
+      .list03{
+        .image{
+          width: 100%;
+          &.ml{
+            margin-bottom: 60px;
+          }
+        }
+        li:first-child .annotation{
+          bottom: -55px;
+        }
+      }
+    }//sec04
+
+    .sec05{
+      .lists li{
+          width: 100%;
+          margin-bottom: 60px;
+        }
+    }//sec05
+
+    main {
+      padding-bottom: 50px;
+    }
+  } //sp
+}
