@@ -169,6 +169,12 @@
         .image{
           width: 48%;
           float: right;
+          .annotation{
+            bottom: -25px;
+            &.bt{
+              bottom: 10px;
+            }
+          }
         }
         .lead{
           width: 48%;
@@ -201,9 +207,14 @@
       }
     }
     .list02 {
-      margin-top: -80px;
       li {
         vertical-align: middle;
+        &:first-child .annotation{
+          bottom: -40px;
+        }
+        &:nth-child(2) .annotation{
+          bottom: 20px;
+        }
       }
     }
     .list03 {
@@ -238,8 +249,11 @@
         margin-right: 1%;
         margin-bottom: 60px;
       }
-      li:last-child {
+      li:nth-child(3) {
         margin-right: auto;
+      }
+      li:nth-child(4) .image {
+        width: 50%;
       }
       }
    } //sec05

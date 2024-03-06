@@ -127,7 +127,7 @@
             <img src="./images/equipment02/tit05.png" alt=""  class="pc">
             <img src="./images/equipment02/tit05-sp.png" alt="" class="sp">
           </div>
-          <p class="lead">システムキッチンの足元近くまでスライド式の収納を設置し、収納量を確保しました。</p>
+          <p class="lead">リビング・ダイニング・隣接洋室には、東京ガスのTES温水床暖房を採用。温水を利用して足元から心地よく室内を暖め、理想的といわれる『頭寒足熱』を実現する暖房システムです。</p>
           <div class="image">
             <img src="./images/equipment02/img05.jpg" alt="" class="">
             <p class="annotation gothic">（参考写真２）</p>
@@ -162,7 +162,7 @@
           </div>
           <div class="image tb">
             <img src="./images/equipment02/img08-01.jpg" alt="" class="">
-            <img src="./images/equipment02/img08-02.jpg" alt="" class="">)
+            <img src="./images/equipment02/img08-02.jpg" alt="" class="">
             <img src="./images/equipment02/img08-03.jpg" alt="" class="">
           </div>
         </li>
@@ -225,10 +225,10 @@
           </div>
           <p class="lead">キッチン・パウダールームなどの水栓で湯水を使用する際、必要以上の流量で湯水を使用すると、水の消費量だけでなく、給湯のためのエネルギー消費量も増大します。水と湯水の境目にある切替ポイントでスマートにエコを意識し、効率的に無駄な湯水を省くことのできる節湯水栓を採用しています。</p>
           <div class="image">
-            <img src="./images/equipment02/img12.jpg" alt="" class="">
+            <img src="./images/equipment02/img12.png" alt="" class="">
           </div>
           <div class="image img-sub">
-            <img src="./images/equipment02/img12-02.jpg" alt="" class="">
+            <img src="./images/equipment02/img12-02.png" alt="" class="">
             <p class="annotation"><span class="gothic">（概念図）</span><br>※【条件】給水圧：0.1MPa 給湯圧：0.1MPa レバー中央（水）位置での値</p>
             
           </div>

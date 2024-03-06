@@ -224,6 +224,9 @@
           margin-bottom: 40px;
           &.double{
             width: 100%;
+            .lead{
+              margin-bottom: 30px;
+            }
           }
         }
       }
@@ -280,10 +283,13 @@
     .sec01 .list08 {
       li:first-child{
         .image{
-          width: 100%;
-          margin-bottom: 20px;
+          display: block;
+          width: 70%;
+          margin: 0 auto 20px;
           &.img-sub{
             width: 100%;
+            margin-left: 0;
+            margin-bottom: 60px;
           }
         }
       }

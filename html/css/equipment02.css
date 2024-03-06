@@ -198,6 +198,9 @@
   .equipment02 .sec01 .lists li.double {
     width: 100%;
   }
+  .equipment02 .sec01 .lists li.double .lead {
+    margin-bottom: 30px;
+  }
   .equipment02 .sec01 .list01 .text01 {
     margin-bottom: 20px;
   }
@@ -238,10 +241,13 @@
     margin: auto;
   }
   .equipment02 .sec01 .list08 li:first-child .image {
-    width: 100%;
-    margin-bottom: 20px;
+    display: block;
+    width: 70%;
+    margin: 0 auto 20px;
   }
   .equipment02 .sec01 .list08 li:first-child .image.img-sub {
     width: 100%;
+    margin-left: 0;
+    margin-bottom: 60px;
   }
 }/*# sourceMappingURL=equipment02.css.map */

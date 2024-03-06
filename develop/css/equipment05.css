@@ -156,6 +156,12 @@
   width: 48%;
   float: right;
 }
+.equipment05 .sec03 .lists li .image .annotation {
+  bottom: -25px;
+}
+.equipment05 .sec03 .lists li .image .annotation.bt {
+  bottom: 10px;
+}
 .equipment05 .sec03 .lists li .lead {
   width: 48%;
   float: left;
@@ -180,11 +186,14 @@
 .equipment05 .sec04 .lists li:last-child {
   margin-right: auto;
 }
-.equipment05 .sec04 .list02 {
-  margin-top: -80px;
-}
 .equipment05 .sec04 .list02 li {
   vertical-align: middle;
+}
+.equipment05 .sec04 .list02 li:first-child .annotation {
+  bottom: -40px;
+}
+.equipment05 .sec04 .list02 li:nth-child(2) .annotation {
+  bottom: 20px;
 }
 .equipment05 .sec04 .list03 .image {
   display: inline-block;
@@ -211,8 +220,11 @@
   margin-right: 1%;
   margin-bottom: 60px;
 }
-.equipment05 .sec05 .lists li:last-child {
+.equipment05 .sec05 .lists li:nth-child(3) {
   margin-right: auto;
+}
+.equipment05 .sec05 .lists li:nth-child(4) .image {
+  width: 50%;
 }
 .equipment05 main {
   padding-bottom: 50px;
