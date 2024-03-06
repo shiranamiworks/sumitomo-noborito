@@ -111,6 +111,7 @@
   vertical-align: top;
   width: 32%;
   margin-right: 1%;
+  margin-bottom: 60px;
 }
 .equipment05 .sec02 .lists li.double {
   width: 66%;
@@ -281,7 +282,7 @@
   }
   .equipment05 .sec02 .lists li.double .image {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
   .equipment05 .sec02 .lists li:last-child {
     width: 100%;
