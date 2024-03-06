@@ -30,12 +30,10 @@
 	<li class="private">室内空間</li>
 	<!--li class="plan"><a href="/tokai/higashibetsuin/list.html" target="_blank">間取り</a></li-->
 	<li class="plan">間取り</li>
-	<!--li class="equipment"><span>設備・仕様<br />
-	（ <a href="equipment_01.html">キッチン</a> ／ <a href="equipment_02.html">サニタリー</a> ／ <a href="equipment_03.html">健康・エコ・省エネ</a> ／ <a href="equipment_04.html">収納・快適仕様</a> ／ <a href="equipment_05.html">ユニバーサルデザイン・マルチメディア</a> ）</span></li-->
-	<li class="equipment">設備・仕様</li>
-	<!--li class="structure"><span>構造・防災
-	（ <a href="structure_01.html">基本構造</a> ／ <a href="structure_02.html">セキュリティ</a> ／ <a href="structure_03.html">防災対策</a> ）</span></li-->
-	<li class="structure">構造・防災</li>
+	<li class="equipment"><span>設備・仕様<br />
+	（ <a href="equipment01.html">キッチン・サニタリー</a> ／ <a href="equipment02.html">健康・エコ・省エネ</a> ／ <a href="equipment03.html">収納</a> ／ <a href="equipment04.html">マルチメディア</a> ／ <a href="equipment05.html">快適提案</a> ）</span></li>
+	<li class="structure"><span>構造・防災<br />
+	（ <a href="structure01.html">基本構造</a> ／ <a href="structure02.html">防災対策</a> ／ <a href="structure03.html">セキュリティ</a> ）</span></li>
 	<li class="location"><span>ロケーション<br />（ <span><a href="./location01.html">土地区画整理事業で生まれ変わる街</a></span> / <span><a href="./location02.html">水と緑の自然を身近に。</a></span> / <span><a href="./location03.html">「登戸」駅周辺の優れた利便性</a></span> ）</span></li>
 	<li class="access"><a href="access.html">アクセス</a></li>
 	<li class="map"><a href="map.html" target="_blank">現地案内図</a></li>
