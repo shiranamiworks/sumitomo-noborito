@@ -122,8 +122,8 @@ $folder_name = $site_setting["area"]."/".$site_setting["prop"]."/";
               <a href="<?= $page_settings["directory_pos"]  ?>equipment01.html">キッチン・サニタリー</a>
               <a href="<?= $page_settings["directory_pos"]  ?>equipment02.html">健康・エコ・省エネ</a>
               <a href="<?= $page_settings["directory_pos"]  ?>equipment03.html">収納</a>
-              <a href="<?= $page_settings["directory_pos"]  ?>equipment02.html">マルチメディア</a>
-              <a href="<?= $page_settings["directory_pos"]  ?>equipment03.html" class="finish">快適提案</a>
+              <a href="<?= $page_settings["directory_pos"]  ?>equipment04.html">マルチメディア</a>
+              <a href="<?= $page_settings["directory_pos"]  ?>equipment05.html" class="finish">快適提案</a>
             </div>
           </li>
           <li class="has-child">
