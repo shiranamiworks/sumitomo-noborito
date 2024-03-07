@@ -43,7 +43,7 @@
         <li class="double">
           <div class="tit-img">
             <img src="./images/equipment02/tit01.png" alt="" class="pc">
-            <img src="./images/equipment02/tit01-sp.png" alt="" class="sp">
+            <img src="./images/equipment02/tit01-sp.png" alt="" class="tb">
           </div>
           <p class="lead">東京ガスの高効率ガス給湯器「エコジョーズ」を採用。キッチン、バスルーム、パウダールームへのスムーズな給湯はもちろん、床暖房や浴室暖房乾燥機までをトータルにサポートします。また、この熱源システムは、従来無駄に捨てられていた排気熱、潜熱を効率よく回収してお湯を沸かす省エネ仕様となっており、従来の給湯器に比べて環境に優しく、年間ランニングコストの面においても優れた経済性を発揮します。</p>
           <p class="text01 tb">※1 FT4215ARSAW6Qの場合（スタンダードの一例）※2 FT4220・FT4222シリーズの場合（エコジョーズの一例）※1※2はJIS S 2109で定める測定方法により算定 ただし※1～2ともご使用状況により熱効率は異なります。※3 試算条件：ガス使用量は季節に応じて変化するため、家庭用の平均的な月別使用量比率に従って年間ガス使用量を各月に割り付けたうえで試算。居間の暖房はガス温水床暖房と電気エアコンを併用、居間以外の暖房及び冷房は電気エアコン使用、浴室暖房乾燥機使用（衣類乾燥週2回/年、浴室暖房週7回/冬期）。機器の運転状況等により削減量は異なります。機器の運転状況により熱源機の熱効率は変動するため、熱効率を一定にしたうえで試算。CO2排出係数はガス2.29kg-CO2/?（東京ガスデータ）</p>
@@ -82,7 +82,7 @@
         <li  class="double">
           <div class="tit-img">
             <img src="./images/equipment02/tit03.png" alt=""  class="pc">
-            <img src="./images/equipment02/tit03-sp.png" alt="" class="sp">
+            <img src="./images/equipment02/tit03-sp.png" alt="" class="tb">
           </div>
           <p class="lead">生ゴミを、キッチンですばやく粉砕処理できるシステムです。各住戸のディスポーザーで破砕された生ゴミは専用の排水処理装置で浄化してから、排水するので、環境への負荷も軽減することができます。<br><span>※一部処理できないものもあります。</span></p>
           <div class="image tb">
@@ -125,7 +125,7 @@
         <li class="double">
           <div class="tit-img">
             <img src="./images/equipment02/tit05.png" alt=""  class="pc">
-            <img src="./images/equipment02/tit05-sp.png" alt="" class="sp">
+            <img src="./images/equipment02/tit05-sp.png" alt="" class="tb">
           </div>
           <p class="lead">リビング・ダイニング・隣接洋室には、東京ガスのTES温水床暖房を採用。温水を利用して足元から心地よく室内を暖め、理想的といわれる『頭寒足熱』を実現する暖房システムです。</p>
           <div class="image">
@@ -154,7 +154,7 @@
         <li class="full">
           <div class="tit-img">
             <img src="./images/equipment02/tit08.png" alt=""  class="pc">
-            <img src="./images/equipment02/tit08-sp.png" alt="" class="sp">
+            <img src="./images/equipment02/tit08-sp.png" alt="" class="tb">
           </div>
           <p class="lead">一般のドライサウナと比べ、低温・高湿度で息苦しくなくリラックスして楽しめます。気分をリフレッシュしたいとき、お肌をやさしくいたわりたいとき、ミストサウナ入浴で素敵なバスタイムを。さらに、衣類のリフレッシュや浴室のカビ抑制により、家事の負担を軽減します。</p>
           <div class="image pc">
@@ -221,7 +221,7 @@
         <li class="double">
           <div class="tit-img">
             <img src="./images/equipment02/tit12.png" alt=""  class="pc">
-            <img src="./images/equipment02/tit12-sp.png" alt="" class="sp">
+            <img src="./images/equipment02/tit12-sp.png" alt="" class="tb">
           </div>
           <p class="lead">キッチン・パウダールームなどの水栓で湯水を使用する際、必要以上の流量で湯水を使用すると、水の消費量だけでなく、給湯のためのエネルギー消費量も増大します。水と湯水の境目にある切替ポイントでスマートにエコを意識し、効率的に無駄な湯水を省くことのできる節湯水栓を採用しています。</p>
           <div class="image">
