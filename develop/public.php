@@ -29,7 +29,7 @@
 
   <header class="main-visual">
     <!-- <h2 class="page-lead gothic">Hello New World.</h2> -->
-   <div class="image"><img src="./images/public/mv01.jpg" alt="" class="pc"><img src="./images/public/mv01-sp.jpg" alt="" class="sp"><p class="annotation white">エントランス完成予想図</p></div>
+   <div class="image"><img src="./images/public/mv01.jpg" alt="" class="pc"><img src="./images/public/mv01-sp.jpg" alt="" class="tb"><p class="annotation white">エントランス完成予想図</p></div>
   </header><!-- main-visual -->
 
   <section class="intro sections">
