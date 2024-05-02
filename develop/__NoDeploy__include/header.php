@@ -159,7 +159,7 @@ $folder_name = $site_setting["area"]."/".$site_setting["prop"]."/";
             <li><a href="javascript:blog();">マンション情報ブログ</a></li>
           </ul>
           <div class="header-sns">
-            <a href="<?=$site_setting["twitter_link"] ?>" target="_blank"><img src="./images/common/icn_twitter.png" alt="Twitter"></a>
+            <a href="<?=$site_setting["twitter_link"] ?>" target="_blank"><img src="./images/common/icn_x.png" alt="x"></a>
             <a href="<?=$site_setting["insta_link"] ?>" target="_blank"><img src="./images/common/icn_instagram.png" alt="Instagram"></a>
           </div>
           <!-- header-sns -->
@@ -188,7 +188,7 @@ $folder_name = $site_setting["area"]."/".$site_setting["prop"]."/";
       </ul>
     </nav>
     <div class="sp-menu-sns d-flex justify-content-center align-items-center">
-      <a href="<?=$site_setting["twitter_link"] ?>" target="_blank"><img src="<?= $page_settings["directory_pos"]  ?>images/common/icn_twitter.png" alt="Twitter"></a>
+      <a href="<?=$site_setting["twitter_link"] ?>" target="_blank"><img src="<?= $page_settings["directory_pos"]  ?>images/common/icn_x.png" alt="x"></a>
       <a href="<?=$site_setting["insta_link"] ?>" target="_blank"><img src="<?= $page_settings["directory_pos"]  ?>images/common/icn_instagram.png" alt="Instagram"></a>
     </div>
   </div><!--//sp-menu -->
