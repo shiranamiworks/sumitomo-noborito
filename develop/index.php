@@ -113,8 +113,12 @@
         </a>
       </li>
       <li>
-        <a href="#" class="disable">
-          <div class="images"><img src="./images/top/img04.jpg" alt="ComingSoon"><p class="annotation"></p></div>
+      <a href="list.php" target="_blank">
+          <div class="images"><img src="./images/top/img07.jpg" alt=""><p class="annotation">image photo</p></div>
+          <div class="texts">
+            <p class="text01 gothic">PLAN</p>
+            <p class="text02 gothic">‹¤—p‹óŠÔ</p>
+          </div>
         </a>
       </li>
     </ul>
