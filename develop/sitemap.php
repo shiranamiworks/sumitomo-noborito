@@ -28,7 +28,7 @@
 	<!--li class="private"><span>室内空間
 	（ <a href="private_01.html"></a> ／ <a href="private_02.html"></a> ）</span></li-->
 	<li class="private">室内空間</li>
-	<li class="plan"><a href="list.php" target="_blank">間取り</a></li>
+	<li class="plan"><a href="https://www.sumitomo-rd-mansion.jp/shuto/ct_noborito/list.php" target="_blank">間取り</a></li>
 	<li class="equipment"><span>設備・仕様<br />
 	（ <a href="equipment01.html">キッチン・サニタリー</a> ／ <a href="equipment02.html">健康・エコ・省エネ</a> ／ <a href="equipment03.html">収納</a> ／ <a href="equipment04.html">マルチメディア</a> ／ <a href="equipment05.html">快適提案</a> ）</span></li>
 	<li class="structure"><span>構造・防災<br />

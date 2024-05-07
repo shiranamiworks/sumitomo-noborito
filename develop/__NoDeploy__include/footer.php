@@ -19,7 +19,7 @@
         <li class="design"><a href="<?= $page_settings["directory_pos"]  ?>design.html">デザイン</a></li>
         <li class="public"><a href="<?= $page_settings["directory_pos"]  ?>public.html">共&#12132;空間</a></li>
         <li class="private">室内空間</li>
-        <li class="roomplan"><a href="<?= $page_settings["directory_pos"]  ?>list.php" target="_blank">間取り</a></li>
+        <li class="roomplan"><a href="https://www.sumitomo-rd-mansion.jp/shuto/ct_noborito/list.php" target="_blank">間取り</a></li>
         <li class="equipment"><a href="<?= $page_settings["directory_pos"]  ?>equipment01.html">設備・仕様</a></li>
         <li class="structure"><a href="<?= $page_settings["directory_pos"]  ?>structure01.html">構造・防災</a></li>
         <li class="location"><a href="<?= $page_settings["directory_pos"]  ?>location01.html">ロケーション</a></li>
