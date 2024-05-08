@@ -113,7 +113,7 @@
         </a>
       </li>
       <li>
-      <a href="list.php" target="_blank">
+      <a href="https://www.sumitomo-rd-mansion.jp/shuto/ct_noborito/list.php" target="_blank">
           <div class="images"><img src="./images/top/img07.jpg" alt=""><p class="annotation">image photo</p></div>
           <div class="texts">
             <p class="text01 gothic">PLAN</p>
