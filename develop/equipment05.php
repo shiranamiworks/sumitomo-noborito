@@ -211,7 +211,7 @@
           <div class="tit-img">
             <img src="./images/equipment05/tit12.png" alt="" class="">
           </div>
-          <p class="lead">ルーフバルコニー、テラスのお掃除などにご利用いただける、防水コンセントを備えました。</p>
+          <p class="lead">ルーフバルコニー、テラスのお掃除などにご利用いただける、防水コンセントを備えました。<br><span>※一部住戸を除く。</span></p>
         </li>
         <li>
           <div class="tit-img">
