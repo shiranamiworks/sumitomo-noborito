@@ -27,8 +27,57 @@
 	<!--// パンくずリスト -->
 
 <header class="main-visual">
-    <div class="image"><img src="./images/top/mv01.jpg" alt="" class="pc"><img src="./images/top/mv01-sp.jpg" alt="" class="sp"><p class="annotation white">外観完成予想図</p></div>
-  </header><!-- main-visual -->
+<div class="mvSlider">
+			<div class="mvSlider-cell cell-1">
+				<div class="mvSlider-inner">
+					<div class="mv-visual pc" style="background-image: url('images/top/mv01.jpg')"></div>
+          <div class="mv-visual tb" style="background-image: url('images/top/mv01-sp.jpg')"></div>
+					<div class="mv-copy"><img src="images/top/mv01-text.png" alt="景観に際立つ、誇らしき象徴。"></div>
+					<div class="mv-note noteRight"><p class="white">外観完成予想図</p></div>
+				</div>
+			</div>
+			<div class="mvSlider-cell cell-2">
+				<div class="mvSlider-inner">
+						<div class="mv-visual pc" style="background-image: url('images/top/mv02.jpg')"></div>
+            <div class="mv-visual tb" style="background-image: url('images/top/mv02-sp.jpg')"></div>
+					<div class="mv-copy"><img src="images/top/mv02-text.png" alt="優雅な光が誘う、こころが還る場所。"></div>
+					<div class="mv-note noteRight"><p class="white">エントランス完成予想図</p></div>
+				</div>
+			</div>
+			<div class="mvSlider-cell cell-3">
+				<div class="mvSlider-inner">
+					<div class="mv-visual pc" style="background-image: url('images/top/mv03.jpg')"></div>
+          <div class="mv-visual tb" style="background-image: url('images/top/mv03-sp.jpg')"></div>
+					<div class="mv-copy"><img src="images/top/mv03-text.svg" alt="上質な落ち着きを宿す迎賓の大空間。"></div>
+					<div class="mv-note noteRight"><p class="white">エントランスホール・ラウンジ完成予想図</p></div>
+				</div>
+			</div>
+			<div class="mvSlider-cell cell-4">
+				<div class="mvSlider-inner">
+         <div class="mv-visual pc" style="background-image: url('images/top/mv04.jpg')"></div>
+         <div class="mv-visual tb" style="background-image: url('images/top/mv04-sp.jpg')"></div>
+					<div class="mv-copy"><img src="images/top/mv04-text.svg" alt="緑の潤いを感じるラウンジ。"></div>
+					<div class="mv-note noteRight"><p class=" white">ラウンジ完成予想図</p></div>
+				</div>
+			</div>
+		</div>
+		<div class="mvCarten"></div>
+  <!-- <div class="top-mv__slide pc">
+    <figure><img src="./images/top/mv01.jpg" alt="" class="w_100 pc"><p class="annotation white">外観完成予想図</p></figure>
+    <figure><img src="./images/top/mv02.jpg" alt="" class="w_100 pc"><p class="annotation white">外観完成予想図</p></figure>
+    <figure><img src="./images/top/mv03.jpg" alt="" class="w_100 pc"><p class="annotation white">外観完成予想図）</p><p class="annotation white top">東別院（約340m／徒歩5分）</p><p class="annotation white left top">東別院参道（約320ｍ／徒歩4分）</p><p class="annotation white left">下茶屋公園（約550m／徒歩7分）</p></figure>
+    <figure><img src="./images/top/mv04.jpg" alt="" class="w_100 pc"><p class="annotation white">外観完成予想図</p></figure>
+  </div>
+  <div class="top-mv__slide sp tb">
+    <figure><img src="./images/top/mv01-sp.jpg" alt="" class="w_100 sp tb"><p class="annotation white">外観完成予想図</p></figure>
+    <figure><img src="./images/top/mv02-sp.jpg" alt="" class="w_100 sp tb"><p class="annotation white">外観完成予想図</p></figure>
+    <figure><img src="./images/top/mv03-sp.jpg" alt="" class="w_100 pc"><p class="annotation white">外観完成予想図</p>><p class="annotation white top">東別院&nbsp<br>（約340m／徒歩5分）</p><p class="annotation white left top">東別院参道（約320ｍ／徒歩4分）</p><p class="annotation white left">下茶屋公園<br>（約550m／徒歩7分）</p></figure>
+    <figure><img src="./images/top/mv04-sp.jpg" alt="" class="w_100 pc"><p class="annotation white">外観完成予想図</p></figure>
+  </div> -->
+  <!--//top-mv -->
+</header><!-- main-visual -->
+
+
 
   <div class="apeal">
     <div class="wrap"><img src="./images/top/apeal.svg" alt="厳しい建築制限によって守られる住環境 第一種低層住居専用地域 全143邸のスケールで描く環境創造プロジェクト 総敷地面積10,000㎡超"></div>

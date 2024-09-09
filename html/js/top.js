@@ -83,3 +83,58 @@ jQuery(document).ready(function($) {
 
 
 })
+
+
+$(document).ready(function(){
+	let mvSlider = $(".mvSlider");
+	let preSlideNum = 0;
+	mvSlider.on("init",function(){
+		mvSlider.delay(500).queue(function(){ 
+			$(".mvCarten").addClass("fadeOut");
+			$(".mvSlider-cell.cell-1").addClass("motion");
+			mvSlider.slick("slickPlay");
+		});
+	}).slick({
+		arrows:false,
+		dots:true,
+		autoplay:false,
+		pauseOnHover:false,
+		pauseOnFocus:false,
+		pauseOnDotsHover:false,
+		speed:1000,
+		autoplaySpeed:6000,
+		fade:true,
+		swipe:false
+	}).on("beforeChange",function(event,slick,currentSlide,nextSlide,){
+		let targetSlide;
+		let targetMotion;
+		if(nextSlide === 0){
+			targetMotion = 1;
+		}else if(nextSlide === 1){
+			targetMotion = 2;
+		}else if(nextSlide === 2){
+			targetMotion = 3;
+		}else if(nextSlide === 3){
+			targetMotion = 4;
+		}
+		targetSlide = $(".mvSlider-cell.cell-" + (targetMotion));
+		targetSlide.addClass("motion");
+		preSlideNum = currentSlide;
+		
+	}).on("afterChange",function(event,slick,currentSlide){
+		let preSlide;
+		let targetMotion;
+		if(preSlideNum === 0){
+			targetMotion = 1;
+		}else if(preSlideNum === 1){
+			targetMotion = 2;
+		}else if(preSlideNum === 2){
+			targetMotion = 3;
+		}else if(preSlideNum === 3){
+			targetMotion = 4;
+		}
+		preSlide = $(".mvSlider-cell.cell-" + (targetMotion));
+		preSlide.removeClass("motion");
+		
+	});
+});
