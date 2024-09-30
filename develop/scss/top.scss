@@ -369,7 +369,7 @@
     }
     .points {
       background-color: #f1e9dc;
-      padding: 25px 0 27px;
+      padding: 0 0 27px;
       text-align: center;
       .wrap {
         margin: 0 auto;
@@ -554,18 +554,18 @@
           width: calc(685 / 1600 * 100%);
           margin: 0;}
       .main-visual .mvSlider .mvSlider-cell.cell-2 .mv-copy {
-          width: calc(560 / 1600 * 100%);}
+          width: calc(1200 / 1600 * 100%);}
       .main-visual .mvSlider .mvSlider-cell.cell-3 .mv-copy {
           width: calc(840 / 1600 * 100%);
-          img{
-            filter: drop-shadow(0 0 2px rgba(255,255,255,1));
-          }
+          // img{
+          //   filter: drop-shadow(0 0 1px rgba(255,255,255,1)) drop-shadow(0 0 2px rgba(255,255,255,1)) drop-shadow(0 0 3px rgba(255,255,255,1));
+          // }
         }
       .main-visual .mvSlider .mvSlider-cell.cell-4 .mv-copy {
           width: calc(650 / 1600 * 100%);
-          img{
-            filter: drop-shadow(0 0 2px rgba(255,255,255,1));
-          }
+          // img{
+          //   filter: drop-shadow(0 0 1px rgba(255,255,255,1)) drop-shadow(0 0 2px rgba(255,255,255,1)) drop-shadow(0 0 3px rgba(255,255,255,1));
+          // }
         }
       .main-visual .mvSlider .mvSlider-cell .mv-note {
         position: absolute;
@@ -596,14 +596,11 @@
       .main-visual .mvSlider .mvSlider-cell.cell-4 .mv-visual {
         width: 100%;
       }
-      .main-visual .mvSlider .mvSlider-cell.cell-2 .mv-copy,
-      .main-visual .mvSlider .mvSlider-cell.cell-3 .mv-copy,
-      .main-visual .mvSlider .mvSlider-cell.mvSlider-cell.motion.cell-4 .mv-copy{
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,-50%);
+      .main-visual .mvSlider .mvSlider-cell.cell-2 .mv-copy{
+        bottom: 5%;
+        top: auto;
+        left: 25%;
       }
-
       .main-visual .mvSlider .mvSlider-cell.motion .mv-copy {
         animation: mvMotion-copy 1s cubic-bezier(0.34, 0.79, 0.58, 1) 3s forwards; }
       .main-visual .mvSlider .mvSlider-cell.motion.cell-1 .mv-visual {
@@ -668,7 +665,12 @@
           }
         }
         .main-visual .mvSlider .mvSlider-cell.cell-2 .mv-copy{
+          top: 7%;
+          left: 7%;
           width: calc(374 / 640 *100%);
+          img{
+            filter: drop-shadow(0 0 1px rgba(0,0,0,1)) drop-shadow(0 0 2px rgba(0,0,0,1)) drop-shadow(0 0 3px rgba(0,0,0,1));
+          }
         }
         .main-visual .mvSlider .mvSlider-cell.cell-3 .mv-copy{
           width: calc(530 / 640 *100%);

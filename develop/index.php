@@ -38,9 +38,10 @@
 			</div>
 			<div class="mvSlider-cell cell-2">
 				<div class="mvSlider-inner">
-						<div class="mv-visual pc" style="background-image: url('images/top/mv02.jpg')"></div>
-            <div class="mv-visual tb" style="background-image: url('images/top/mv02-sp.jpg')"></div>
-					<div class="mv-copy"><img src="images/top/mv02-text.png" alt="優雅な光が誘う、こころが還る場所。"></div>
+					<div class="mv-visual pc" style="background-image: url('images/top/mv02.jpg')"></div>
+          <div class="mv-visual tb" style="background-image: url('images/top/mv02-sp.jpg')"></div>
+					<div class="mv-copy pc"><img src="images/top/mv02-text.png" alt="優雅な光が誘う、こころが還る場所。" ></div>
+          <div class="mv-copy tb"><img src="images/top/mv02-text-sp.svg" alt="優雅な光が誘う、こころが還る場所。"></div>
 					<div class="mv-note noteRight"><p class="white">エントランス完成予想図</p></div>
 				</div>
 			</div>
@@ -48,7 +49,7 @@
 				<div class="mvSlider-inner">
 					<div class="mv-visual pc" style="background-image: url('images/top/mv03.jpg')"></div>
           <div class="mv-visual tb" style="background-image: url('images/top/mv03-sp.jpg')"></div>
-					<div class="mv-copy"><img src="images/top/mv03-text.svg" alt="上質な落ち着きを宿す迎賓の大空間。"></div>
+					<div class="mv-copy"><img src="images/top/mv03-text.png" alt="上質な落ち着きを宿す迎賓の大空間。"></div>
 					<div class="mv-note noteRight"><p class="white">エントランスホール・ラウンジ完成予想図</p></div>
 				</div>
 			</div>
@@ -56,7 +57,7 @@
 				<div class="mvSlider-inner">
          <div class="mv-visual pc" style="background-image: url('images/top/mv04.jpg')"></div>
          <div class="mv-visual tb" style="background-image: url('images/top/mv04-sp.jpg')"></div>
-					<div class="mv-copy"><img src="images/top/mv04-text.svg" alt="緑の潤いを感じるラウンジ。"></div>
+					<div class="mv-copy"><img src="images/top/mv04-text.png" alt="緑の潤いを感じるラウンジ。"></div>
 					<div class="mv-note noteRight"><p class=" white">ラウンジ完成予想図</p></div>
 				</div>
 			</div>
