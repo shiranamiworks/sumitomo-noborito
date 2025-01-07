@@ -8,7 +8,7 @@
         <a href="tel:<?= $site_setting["tel_link"]?>" class="entry-tel__num"><span class="f-en">0120-767-675</span></a><br>
         <a href="mailto:ct-noborito@j.sumitomo-rd.co.jp" class="disabled">ct-noborito@j.sumitomo-rd.co.jp</a>
       </div>
-      <p class="entry-info">営業時間／平日11：00&#x301c;19：00　土・日・祝日10：00&#x301c;18：00　<br class="sp">定休日 / 水曜日 ※年末年始は休業</p>
+      <p class="entry-info">営業時間／10：00&#x301c;18：00　<br class="sp">定休日 / 火曜日・水曜日 ※年末年始は休業</p>
     </div>
   </div>
   <nav class="footer-menu">
